@@ -1,0 +1,37 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* CUSTOM */
+
+body { 
+ 	color: #333; 
+ 	text-align: justify;
+	background-color: #f4f4f4; 
+	font-size: 12px;
+}
+
+p, td, th, li { font-size: 14px; }
+div.footer { font-size: 10px; }
+
+a { color: #069; }
+a:hover, a:focus { color: #069; }
+
+.markdown-body blockquote {
+	background-color: #d6dedf; 
+	color: #333;
+	padding: 10px;
+	border-left: 0.25em solid #333;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.markdown-body img[align=right] { margin-left: 20px; }
+
+
+
+
+
