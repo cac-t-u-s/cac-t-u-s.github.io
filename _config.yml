@@ -1,0 +1,11 @@
+
+plugins_dir:
+  - jekyll-mentions
+
+title: <img src="https://cac-t-u-s.github.io/om-sharp/images/icon2.png" height="80px" align="right"> om#
+description: Visual Programming | Computer-Aided Music Compositon
+
+show_downloads: false
+
+owner_url: https://github.com/j-bresson
+owner_name: j-bresson
