@@ -12,21 +12,20 @@ The visual language is based on [Common Lisp](http://www.gigamonkeys.com/book/in
 
 ------
 
+
 ### Download
 
-OM# is available on [macOS, Windows, and Linux](https://github.com/cac-t-u-s/om-sharp/releases/latest)
+&rarr; OM# is available on [macOS, Windows, and Linux](https://github.com/cac-t-u-s/om-sharp/releases/latest)
 
 
 ------
 
-### Documentation
-
-> &rarr;  **[Doc Pages](./pages/index)**
-
+> ### [Documentation](./pages/index)
 
 
 ------
 
+<img src="https://cac-t-u-s.github.io/om-sharp/images/icon2.png" height="80px" align="right"> 
 
 ### What's new ?
 

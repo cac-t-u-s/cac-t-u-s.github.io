@@ -1,7 +1,5 @@
 
 
-<img src="images/cactus.png" width="200">
-
-* **[&rarr; to OM# pages](om-sharp/)**
+<img src="images/cactus.png" width="90"> **[&rarr; to OM#](om-sharp/)**
 
 
