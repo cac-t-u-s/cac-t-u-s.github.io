@@ -1,3 +1,6 @@
+---
+layout: docpage
+---
 
 # External libraries
 

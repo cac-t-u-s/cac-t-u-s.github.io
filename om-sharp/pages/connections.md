@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # Connections
 
 > The main procedure to set the value of a function or object box input is to connect it to another box's output.

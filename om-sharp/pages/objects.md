@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # Object Box
 
 _Object_, or _"Class" Boxes_ are allow to generate and process data structures in OM# visual programs. 

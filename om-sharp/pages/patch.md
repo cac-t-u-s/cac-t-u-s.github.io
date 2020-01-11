@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # Patch editor \| Basics of visual programming
  
 > This page describes the main features and manipulations allowing to create, confirgurate and connect boxes in visual programs. See the other sections of this documentation for details on [evaluation/execution of the visual programs](eval), and other advanced visual programming features. 

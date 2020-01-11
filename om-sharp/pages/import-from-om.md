@@ -1,3 +1,6 @@
+---
+layout: docpage
+---
 
 # Importing patches from OpenMusic 
 

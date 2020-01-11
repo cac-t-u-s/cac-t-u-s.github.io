@@ -1,4 +1,6 @@
-
+---
+layout: docpage
+---
 
 # Preferences
 

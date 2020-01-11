@@ -1,8 +1,10 @@
+---
+layout: docpage
+---
 
-
-[— Back to the main project page](..)
-
-> **OM#** is a computer-assisted composition environment derived from [OpenMusic](http://repmus.ircam.fr/openmusic/): a visual programming language dedicated to musical structure generation and processing.
+> **OM#** is a computer-assisted composition environment derived from [OpenMusic](http://repmus.ircam.fr/openmusic/): a visual programming language dedicated to musical structure generation and processing.    
+>
+> [&rarr; Back to the main project page](..)
 
 ## Environment
 

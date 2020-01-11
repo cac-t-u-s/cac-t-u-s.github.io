@@ -1,5 +1,6 @@
-
-
+---
+layout: default
+---
 
 **OM#** (om-sharp) is a computer-assisted composition environment derived from [OpenMusic](http://repmus.ircam.fr/openmusic/): a visual programming language dedicated to musical structure generation and processing.     
 The visual language is based on [Common Lisp](http://www.gigamonkeys.com/book/introduction-why-lisp.html), and allows to create programs that are interpreted in this language. Visual programs are made by assembling and connecting icons representing Lisp functions and data structures, built-in control structures (e.g. loops), and other program constructs. The visual language can therefore be used for general-purpose programming, and reuse any existing Common Lisp code.  A set of in-built tools and external libraries make it a powerful environment for music composition: various classes implementing musical structures are provided, associated with graphical editors including common music notation, MIDI, OSC, 2D/3D curves, and audio buffers.
@@ -23,7 +24,7 @@ OM# is available on [macOS, Windows, and Linux](https://github.com/cac-t-u-s/om-
 
 ### Documentation
 
-> &rarr;  **[User Documentation Pages](./pages/index)** [in progress]
+> &rarr;  **[Doc Pages](./pages/index)**
 
 
 

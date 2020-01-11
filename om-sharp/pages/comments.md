@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # Comments
 
 > Comments are not involved in patch evaluations but can be helpful to document your programs !

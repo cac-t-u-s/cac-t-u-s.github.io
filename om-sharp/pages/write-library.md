@@ -1,3 +1,6 @@
+---
+layout: docpage
+---
 
 # How to make an external library ?
 

@@ -1,3 +1,6 @@
+---
+layout: docpage
+---
 
 # Session window
 

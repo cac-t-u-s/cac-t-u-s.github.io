@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # Value Box
 
 <img src="./images/value-box.png" align="right">

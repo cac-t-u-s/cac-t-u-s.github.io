@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # Document management
 
 The main documents handled in OM# are **[patches](patch)** (visual programs). Other documents include [maquettes](maquette), and [Lisp-functions](lisp).

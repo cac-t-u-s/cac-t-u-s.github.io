@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # Box inputs
 
 Box inputs allow to enter arguments/attribute/parameters to OM# boxes.

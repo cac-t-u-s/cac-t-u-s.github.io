@@ -1,3 +1,6 @@
+---
+layout: docpage
+---
 
 # Recap' of basic shortcuts
 

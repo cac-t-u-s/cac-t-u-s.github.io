@@ -1,3 +1,6 @@
+---
+layout: docpage
+---
 
 # MIDI-TRACK
 

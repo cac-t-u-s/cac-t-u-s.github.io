@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # Inspector view \| Inspect/edit box attributes
 
 > The inspector view can be open at any time inside a patch editor window, using the menu "Edit/Show Inspector", the corresponding shortcut <kbd>Ctrl/⌘</kbd>+<kbd>I</kbd>, or the <img src="./images/patch-button-i.png" class="embedded"> button at the right of the editor window.

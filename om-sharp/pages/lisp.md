@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # Lisp Programming in OM#
 
 > OM# is a Lisp environment, that is, it embeds the whole Common Lisp language and interpreter. Visual programs created in OM# are just compiled into Lisp functions before to execute, and can therefore seamlessly call and interact with pure Lisp program components.

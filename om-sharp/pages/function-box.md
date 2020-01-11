@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # Function Box
 
 _Function Boxes_ are the main type of boxes in OM# visual programs. 

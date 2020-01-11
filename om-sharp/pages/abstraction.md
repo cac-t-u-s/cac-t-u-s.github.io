@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # Abstractions
 
 > Abstraction is a fundamental concept in computer programming, which can have different meanings and facets. In our case, making an abstraction consists in using parts of visual programs as functions (or _procedures_, _sub-routines_, etc.) in order to single out a specific behaviour or sequence of operations, which can be labeled with a name and eventually used/re-used in a larger-scale program. 

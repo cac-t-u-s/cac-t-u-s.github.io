@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # 3D-Viewer
 
 **3D-VIEWER** is an object allowing for the visualization and editing of a set of 3D-objects.

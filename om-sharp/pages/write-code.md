@@ -1,3 +1,6 @@
+---
+layout: docpage
+---
 
 # Writing classes and functions
 

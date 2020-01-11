@@ -1,3 +1,7 @@
+---
+layout: docpage
+---
+
 # Evaluation
 
 **Evaluation is the essential mecanism of program execution in OM.**
