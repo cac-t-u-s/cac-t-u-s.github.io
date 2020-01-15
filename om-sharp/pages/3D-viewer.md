@@ -35,7 +35,7 @@ The editor GUI allow to configure the rotation axes according to the <kbd>shift<
 Click-drag or double-click on the _center-x_ and _center-y_ frames to set the center of the rotation.
 
 Rotation short-cuts:
-- <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> : move the center of rotation in the x/y plane
+- <kbd>&larr;</kbd> <kbd>&rarr;</kbd> <kbd>&uarr;</kbd> <kbd>&darr;</kbd> : move the center of rotation in the x/y plane
 - <kbd>O</kbd> : Reinitialize rotations
 - <kbd>shift</kbd> + <kbd>O</kbd> : Reinitialize rotation center
 
