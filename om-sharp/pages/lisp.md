@@ -54,7 +54,7 @@ This command will take you the Lisp source of the visual program component (if i
 
 ### Using "Lisp-functions"
 
-_Sometime a few lines of code are easier/more efficient to write than a visual program !_
+Sometime a few lines of code are more efficient and easier to write than a visual program !
 
 **Lisp-functions** are specific kinds of OM# documents or internal abstractions, representing a single functions written as a Lisp "lambda expression".
 
