@@ -18,7 +18,7 @@ The state and settings of the working environment are controlled from the "Sessi
 - [Listener](listener)
 - [Writing / loading Lisp code](lisp)
 - [External libraries](libraries)
-- [Getting Help]
+- [Help](help)
 
 
 ## Visual Programming
