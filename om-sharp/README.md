@@ -33,7 +33,7 @@ OM# includes a brand-new generation of tools and features in your computer-assis
 
 - New [patching interfaces and environment](pages/patch) with easier box inspection / display control / automatic alignment / connections / etc.
 - [No workspace](pages/doc-management) to set-up: open your documents and simply organize them in your usual file-system. 
-- Interactive visualization of [Lisp code](pages/lisp#extracting-the-equivalent-lisp-code-from-a-patch) corresponding to visual programs.
+- Interactive visualization of [Lisp code](pages/lisp#getting-the-equivalent-lisp-code-of-a-patch) corresponding to visual programs.
 - A native implementation of the [reactive mode](pages/reactive) for visual program execution.
 - New [loops](pages/loop). Embed iterative processes in standard patches. Use a collection of new collectors and memory utilities. 
 - A new set of [interface components](pages/interface-boxes): list-selection, switch, button, slider, ... / Lock your patch for faster interaction.

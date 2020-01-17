@@ -189,7 +189,7 @@ These inlets can be used to connect _default values_, which will be used for int
 > The default values (that is, anything connected above **input** boxes) are not taken into account in the compilation of the patch, nor "outside" in the evaluation of the abstraction boxes referring to the patch.
 
 
-> The [Lisp-equivalent "lambda" expression of the edited patch can be displayed](lisp#extracting-the-equivalent-lisp-code-from-a-patch) on the patch side panel as long as at least one **ouput** box is present, and will be computed (just like during the patch compilation) from this or these output box(es). Input boxes are considered as the _arguments_ of the expression.     
+> The [Lisp-equivalent "lambda" expression of the edited patch can be displayed](lisp#getting-the-equivalent-lisp-code-of-a-patch) on the patch side panel as long as at least one **ouput** box is present, and will be computed (just like during the patch compilation) from this or these output box(es). Input boxes are considered as the _arguments_ of the expression.     
 <img src="images/abstraction-lisp-code.png"> 
 
 
