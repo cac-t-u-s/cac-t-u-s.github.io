@@ -15,6 +15,8 @@ Any function, in-built or defined in the environment, can be reified as a functi
 
 - OM#-specific functions are also Lisp functions, defined with special macros `defmethod*` / `defmethod!` (see [Writing code for OM#](write-code)). They present additional features such as icons, documentation, etc. 
 
+In order to create an object box, select the corresponding _class_ from the "Boxes/Add Box" menu or in the "Packages" of the [Session window](session#the-packages-library-tab), or just type the class name in a new entry filed (double-click or type <kbd>N</kbd> on the main [patch editor view](patch).
+
 ### Inputs
 
 The function ["lambda-lists"](http://www.lispworks.com/documentation/HyperSpec/Body/03_da.htm) determines the different inputs of a function boxes, and **the type of data that it accepted for each input**.
