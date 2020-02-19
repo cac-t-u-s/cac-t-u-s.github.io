@@ -8,7 +8,7 @@ layout: docpage
 
 ## Environment
 
-Contrary to OpenMusic, OM# does not require setting up and maintaining a **workspace**. All documents can be just be opened, copied and shared independently.   
+OM# does not require setting up and maintaining a **workspace**. All documents can be just be opened, copied and shared independently.   
 
 The state and settings of the working environment are controlled from the "Session window" and the "Preference" window.
 
@@ -36,16 +36,16 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 
 
 - [Patch editor \| Basics of visual programming](patch)
-- [Inspector view \| Inspect/edit box attributes](inspector)
-- [Evaluation](eval)
-- [Connections](connections)
-- [Simple Values](value-box)
-- [Functions](function-box)
-- [Objects and editors](objects)
+- [Boxes](box)
+  - [Value Box](value-box)
+  - [Function Box](function-box)
+  - [Objects Box](objects)
 - [Box inputs](box-inputs)
+- [Connections](connections)
+- [Evaluation](eval)
 - [Abstractions](abstraction)
 - [Box State and Evaluation modes](eval-modes)
-- [Eval-Once Mode](eval-once)
+- [Eval-Once](eval-once)
 - [Lambda-functions](lambda) 
 - [Lisp-functions]
 - [Control / special boxes]	
@@ -56,6 +56,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Global variables]
 - [Memory] 
 - [Comments](comments)
+- [Inspect and edit attributes](inspector)
 
 > - [Recap' of basic shortcuts](basic-commands)
 

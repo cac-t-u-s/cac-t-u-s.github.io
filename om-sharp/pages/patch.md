@@ -2,12 +2,34 @@
 layout: docpage
 ---
 
-# Patch editor \| Basics of visual programming
+# Patch editor: Basics of visual programming
  
-> This page describes the main features and manipulations allowing to create, confirgurate and connect boxes in visual programs. See the other sections of this documentation for details on [evaluation/execution of the visual programs](eval), and other advanced visual programming features. 
+_This page describes the main features and manipulations allowing to create, confirgurate and connect boxes in visual programs. It points to the other sections of this documentation for details on every specific features._
 
-Everything starts in the **patch editor**. Use the "File" menu to create a new patch, or open an existing patch, and display it in the patch editor window.
+------
 
+
+<img src="./images/file-menu.png" align="right"> 
+> Everything starts in the **patch editor**. Use the "File" menu to create a new patch, or open an existing patch, and display it in the patch editor window.
+
+The different options in the "File" menu are:
+
+- "New" to open a new patch ( <kbd>Ctrl/⌘</kbd>+<kbd>N</kbd> ) or other type of OM# document,
+- "Open" / <kbd>Ctrl/⌘</kbd>+<kbd>O</kbd> allows you to choose an existing document to open,
+- "Open Recent..." to retrieve most-recently opened documents,
+- "Open Folder..." ( <kbd>Ctrl/⌘</kbd>+<kbd>shift</kbd>+<kbd>O</kbd> ) open all the OM#-compatible files that are inside a given directory.
+
+> &rarr; See [More on Document Mnagement](doc-management)
+
+The "new" patch is an empty white page, ready for you to fill-in. 
+You will have to add [boxes](#boxes) and [connect](#connections) them, in order to create visual programs.
+
+<img src="./images/new-patch.png"> 
+
+> The patch editor has an optional **side panel** on the right, which opens with the buttons <img src="./images/patch-button-listener.png" class="embedded"> <img src="./images/patch-button-i.png" class="embedded"> <img src="./images/patch-button-lisp.png" class="embedded"> on the right-border of the window (or corresponding commands and short-cuts in the "Edit" menu), in order to display:
+> - The [Listener output](listener)
+> - The [contents Inspector](inspector)
+> - The [patch-to-Lisp conversions](lisp)  
 
 ------
 
@@ -32,36 +54,20 @@ In the temporary text-input field, type a [simple value](value-box), or the name
 
 
 > **Any Lisp function can be used** in a patch editor. 
-However, only a subset of specific/documented functions declared in OM packages are visible in the function library and in the auto-completion lists.  
+However, only a subset of specific/documented functions declared in OM packages are visible in the function library.  
 
 
-<img src="./images/completion.png" align="right" left-margin="30px">
-####	Auto-completion
-
-- After typing the first letters of the object name, use the <kbd>↓</kbd> (down-arrow) key to activate **auto-completion** with all registered object names. Use <kbd>↓</kbd> and <kbd>↑</kbd> to navigate in the list, <kbd>ENTER</kbd> to validate your choice or <kbd>Esc</kbd> to exit.
-
-
-> ### Documentation: 
-> Use the menu "Help/Help Function & Class Reference" or the the <kbd>Ctrl/⌘</kbd>+<kbd>D</kbd> shortcut to open an auto-generated HTML reference documentation page of a box.
-
-
-The boxes have a number of "active" areas, changing their appearance or the mouse cursor when dragged over:
-
-- Resize areas at the right and bottom borders (when the box is resizable)
-
-<img src="./images/om+-hint.png" align="right"> 
-- Inputs and outputs (displaying tooltips: name, value and short documentation) 
-
-- Add/remove input buttons (when available) — see below.
-
-> <img src="./images/input-set-value.png" align="right"> 
-Box **inputs** allow to enter arguments/attribute/parameters to OM# boxes. 
+<img src="./images/input-set-value.png" align="right"> 
+**Box inputs** allow to enter arguments/attribute/parameters to OM# boxes. 
 Their value can be set "by hand" by just clicking on the input and typing a simple value, or through connections to other boxes (see below).
->
-> <img src="./images/list-box-optional.png" align="right"> 
-> Boxes with a small <kbd>+</kbd> icon at the upper-right corner have hidden [optional or keyword inputs](box-inputs). When such inputs are visible, they can be removed with the other small <kbd>-</kbd> button.
->
-> => See [this page dedicated to box inputs](box-inputs).
+
+**Documentation:** 
+Use the menu "Help/Help Function & Class Reference" or the the <kbd>Ctrl/⌘</kbd>+<kbd>D</kbd> shortcut to open an auto-generated HTML reference documentation page of a box.
+
+
+> &rarr; See [this page dedicated to box boxes](box).
+
+
 
 ------
 
@@ -74,20 +80,12 @@ If the connection is allowed (for instance, cycles are not permitted and inconsi
 
 Existing connections can be selected with the mouse, re-routed (e.g. for readability) with "mouse drag", re-connected somewhere else, or deleted (using the <kbd>backspace</kbd> key).
 
-> => See the [dedicated page about Connections](connections). 
+> &rarr; See the [dedicated page about Connections](connections). 
 
 
 ------
 
 ## Edits
-
-> ### Lock 
-> The icons  <img src="./images/lock-icon.png" width="50px"> at the top of the patch window, or the menu "Edit/Edit lock" [ <kbd>Ctrl/⌘</kbd> + <kbd>E</kbd> ] allow you **lock/unlock** the patch editor.
-In the lock mode:
-- The patch can not be edited (most commands described in this page are disabled)
-- Boxes can be [evaluated](eval)
-- The [interface box](interface-boxes) and [value boxes](value-box) are reactive to simple mouse-clicks.
-
 
 > ### Undo/Redo
 >
@@ -96,14 +94,14 @@ In the lock mode:
 
 ### Move
 
-Boxes can be dragged on the patch editor, and/or from one editor window to another.
+Patch contents (boxes and connections) can be dragged on the patch editor, and/or from one editor window to another.
 
 Alternatively, the arrow keys <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> also move selected boxes.     
 <kbd>shift</kbd> + <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> performs faster moves.
 
 ### Delete
 
-Deleted selected boxes using the <kbd>backspace</kbd> key.
+Deleted selected contents using the <kbd>backspace</kbd> key.
 
 
 ### Copy-Cut-Paste
@@ -122,22 +120,25 @@ The "Edit/Select all..." menu command / <kbd>Ctrl/⌘</kbd>+<kbd>A</kbd> selects
 
 - The "Edit/Align Boxes" menu command, or <kbd>shift</kbd>+<kbd>A</kbd> key-combination,  automatically adjust the box layout to align positions of neighbour boxes and inputs vs. outputs. 
 
-### Initialize
-
-- The <kbd>I</kbd> keyboard shortcut reinitializes the box state (mostly, its size) to the default configuration.
-
-- <kbd>shift</kbd> + <kbd>I</kbd> reinitializes the box value – this will be useful essentially for object boxes (see [Object boxes](objects)).
+> &rarr; See other commands in the [Boxes](box) section.
 
 
 ------
 
-## Patch-editor side panel
+## Evaluation
 
-> The patch editor has a _side panel_ on the right, which opens with the buttons <img src="./images/patch-button-listener.png" class="embedded"> <img src="./images/patch-button-i.png" class="embedded"> <img src="./images/patch-button-lisp.png" class="embedded"> on the right-border of the window, or the corresponding commands and short-cuts in the "Edit" menu, in order to display:
+A patch is executed locally by the [evaluation](eval) request / <kbd>V</kbd> of a box, which computes the value of this box and of all required, upstream connected boxes.
 
-- The [Listener output](listener)
-- The [contents Inspector](inspector)
-- The [patch-to-Lisp conversions](lisp)  
+------
+
+## Lock 
+The icons  <img src="./images/lock-icon.png" width="50px"> at the top of the patch window, or the menu "Edit/Edit lock" [ <kbd>Ctrl/⌘</kbd> + <kbd>E</kbd> ] allow you **lock/unlock** the patch editor.
+In the lock mode:
+- The patch can not be edited (most commands described in this page are disabled)
+- Boxes can be [evaluated](eval)
+- The [interface box](interface-boxes) and [value boxes](value-box) are reactive to simple mouse-clicks.
+
+
 
 
 
