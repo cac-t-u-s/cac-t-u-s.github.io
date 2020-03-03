@@ -44,10 +44,12 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Connections](connections)
 - [Evaluation](eval)
 - [Abstractions](abstraction)
+  - [Patch Box](patch-box)
+  - [Lisp-Function Box](lispfun-box)
+  - [Maquette Box](maquette-box)
 - [Box State and Evaluation modes](eval-modes)
 - [Eval-Once](eval-once)
 - [Lambda-functions](lambda) 
-- [Lisp-functions]
 - [Control / special boxes]	
 - [Loops / iterative processes]	
 - [Recursion]	
