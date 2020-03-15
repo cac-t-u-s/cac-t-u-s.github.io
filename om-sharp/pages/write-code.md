@@ -45,15 +45,24 @@ The [OpenMusic developer resources](https://openmusic-project.github.io/openmusi
 The `defmethod!`-specific attributes in these definitions are:
 
 
-- `:icon` defines an icon Id for the function (the icon must be in the "icon" folder of OM#, or of the external library)
-- `:initvals` a list with a default value for each input.
-- `:indoc` a list with a documentation string for each input.
+- `:icon` : an icon Id for the function (the icon must be in the "icon" folder of OM#, or of the external library)
 - `:numouts` tells how many outputs the function has
-- `:doc` documentation of the function
+- `:initvals` : a list with a default value for each input.
 - `:menuins` defines a pop-up menu definition list attached to some given input number(s)
+- `:doc` documentation of the function
+- `:indoc` : a list with a documentation string for each input.
+- `:outdoc` : a list with a documentation string for each output.    
+    
 
 
-
-
+> **Note:** `:intvals` applies to the _visible_ inputs in the order of definition. In cas of [_optional_ or _keyword_ inputs](box-inputs), it is recommended that the default value specified in `:intvals` be the same as the one defined for the arguments in the function definition. Otherwise, the input woudl have a different default value depending whether it is visible or not.
+>
+> Example: 
+> ```cl
+(defmethod! my-fun (arg1 arg2 &optional (arg3 999)) 
+   :initvals (list 0 0 999) 
+   ...
+ )
+```
 
 
