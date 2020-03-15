@@ -10,26 +10,26 @@ From there you can control your general working environment.
 > Open/bring the Session Window to front at any time using the "Windows" menu of the  <kbd>Ctrl/⌘</kbd> + <kbd>shift</kbd> + <kbd>W</kbd> short-cut.
 
 
-The Session Window has 4 different tabs:
+**The Session Window has 4 different tabs:**
 
 ### The **Listener** tab
 
-This tab opens by default at starting a new session. This is where you will see all system outputs, warnings (and errors!).   
-Note that it is also possible to open the Listener as a separate window, using the "Open as separate window" button at the bottom, using the Windows menu and short-cut. The separate Listener window offers a number of additional options, for instance if you you like to _input_ Lisp commands to the system. See [Listener](listener) for more details.
+This tab opens by default at starting a new session. This is where you will see all system outputs, warnings, and errors.   
+Note that it is also possible to open the Listener as a separate window, using the "Open as separate window" button at the bottom, or using the Windows menu and short-cut. The separate Listener window offers a number of additional options, for instance if you would like to _input_ Lisp commands to the system. See [Listener](listener) for more details.
 
 
 <img src="./images/session-listener.png">
 
 ### The **Documents** tab 
 
-Lists all open documents (mostly, patches/visual programs), displaying their pathname (if any), last modification date, etc. 
+This tab lists all open documents (mostly, patches/visual programs), displaying their pathname (if any), last modification date, etc. 
 **Double-clicking on an item opens the document, or brings its window to the front.**
 
 <img src="./images/session-documents.png">
 
 
 Documents displayed in red have no pathname (either don't have one, or point to a non-exiting file), and need to be saved/re-saved. 
-See [Document Management](doc-management) for more dtails. 
+See [Document Management](doc-management) for more details. 
 
 > Note that only _open_ documents are listed. When a document window is closed (and if it is not used inside another document) it is removed from the list. 
 Closed documents may remain in the list if they are still used somewhere, inside other documents (see [Abstraction](abstraction)). 
