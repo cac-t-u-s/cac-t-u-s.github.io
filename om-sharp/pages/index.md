@@ -2,7 +2,7 @@
 layout: docpage
 ---
 
-> **OM#** is a computer-assisted composition environment derived from [OpenMusic](http://repmus.ircam.fr/openmusic/): a visual programming language dedicated to musical structure generation and processing.    
+> **OM#** is a visual programming language dedicated to musical structure generation and processing.    
 >
 > [&rarr; Back to the main project page](..)
 
@@ -10,7 +10,7 @@ layout: docpage
 
 OM# does not require setting up and maintaining a **workspace**. All documents can be just be opened, copied and shared independently.   
 
-The state and settings of the working environment are controlled from the "Session window" and the "Preference" window.
+The state and settings of the working environment are controlled from the "Session" and "Preferences" windows.
 
 - [Session window](session)
 - [Preferences](preferences)
@@ -28,7 +28,7 @@ A **patch** is a visual program: the graphical equivalent to a Lisp expression (
 
 Boxes can represent either **Lisp functions**, other **embedded or external visual programs** (sub-patches), **simple values** or **object constructors**.    
 
-A patch can also include inputs and outputs (to receive arguments or return values when it is embedded in another patch), textual comments, and specific _active_ components (e.g. buttons, sliders etc.) used to set values as arguments of other boxes.
+A patch can also include inputs and outputs (to receive arguments or return values when it is embedded in another patch), textual comments, and specific _active_ components (e.g. buttons, sliders, etc.) used to set values and arguments for other boxes.
 
 
 > Use <kbd>Ctrl/⌘</kbd>+<kbd>N</kbd> to open a new patch window. See [Document management](doc-management) for more info on opening/saving/managing patches.
