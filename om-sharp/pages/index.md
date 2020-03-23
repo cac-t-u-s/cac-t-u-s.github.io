@@ -35,28 +35,34 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 
 
 
-- [Patch editor \| Basics of visual programming](patch)
+- [Patch Editor \| Basics of Visual Programming](patch)
 - [Boxes](box)
   - [Value Box](value-box)
   - [Function Box](function-box)
   - [Objects Box](objects)
-- [Box inputs](box-inputs)
+- [Box Inputs](box-inputs)
 - [Connections](connections)
 - [Evaluation](eval)
 - [Abstractions](abstraction)
   - [Patch Box](patch-box)
   - [Lisp-Function Box](lispfun-box)
-  - [Maquette Box](maquette-box)
-- [Box State and Evaluation modes](eval-modes)
+  - [Maquette Box]
+- [Box State and Evaluation Modes](eval-modes)
 - [Eval-Once](eval-once)
-- [Lambda-functions](lambda) 
-- [Control boxes]	
-- [Loops]	
+- [Lambda-Functions](lambda)
+- [Control Boxes](control)
+  - [Imperative style: `seq`](seq)
+  - [Basic iteration: `repeat-n`](repeat-n)
+  - [Logical Operators: `and`/`or`](logic)
+  - [Conditional: `if`](omif)
+  - [Multiple connections: `hub`](hub)
+  - [Splitting list contents: `split`](split)
+- [Memory]
+- [Loop]	
 - [Recursion]	
 - [Reactive processes]
 - [Interface boxes]
 - [Global variables]
-- [Memory] 
 - [Comments](comments)
 - [Inspect and edit attributes](inspector)
 
