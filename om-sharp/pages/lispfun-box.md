@@ -10,7 +10,7 @@ Like a patch-abstraction, they can be [internal](abstraction#internal-abstractio
 Lisp functions can be created with the _File/New/_ menu.    
 They are saved as **.olsp** files which can be used as _[global](abstraction#global-abstraction)_ abstractions.
 
-_[Internal](abstraction#internal-abstraction)_ Lisp functions can be created from the _Box/Add Box..._ menu or typing **"lisp"** in the same text field you would use to type a function or class name (displayed with double-click or using the <kbd>N</kbd> keyboard shortcut).  
+_[Internal](abstraction#internal-abstraction)_ Lisp functions can be created from the _Box/Add Box..._ menu or typing **`lisp`** in the same text field you would use to type a function or class name (displayed with double-click or using the <kbd>N</kbd> keyboard shortcut).  
 
 
 ## Lambda expression

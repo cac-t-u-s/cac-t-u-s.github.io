@@ -68,7 +68,7 @@ Box properties can be modified from the [inspector view](inspector).
 ----
 ### Value
 
-A box has a value, that is updated at each [evaluation](eval) / <kbd>V</kbd>.
+A box has a value, that is updated at each [evaluation](eval) \| <kbd>V</kbd>.
 
 The value can be reinitialized to its default state (when relevant) with the <kbd>shift</kbd> + <kbd>I</kbd> key.
 

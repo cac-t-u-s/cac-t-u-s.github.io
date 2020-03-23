@@ -6,7 +6,7 @@ layout: docpage
 
 **OM# external libraries are folders containing Lisp code** to be loaded dynamically in the environment.
 
-> See [External libraries](libraries)
+> **See also:** [External libraries](libraries)
 
 The few following rules make for the library to smoothly integrate and run in the environment: 
 

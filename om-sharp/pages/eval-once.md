@@ -37,7 +37,7 @@ It has an impact on computational cost (and time!), by avoiding multiple, unnece
 
 ### Eval-Once and the REPEAT-N box
  
-**REPEAT-N** is a special box which simulates _N_ successive calls to a box.    
+[`REPEAT-N`](repeat-n) is a special box which simulates _N_ successive calls to a box.    
 It's optional input `scope` affects the behavior of boxes that are connected to it, and in the **eval-once** state.
 * If `scope` = `:local` each iteration end reinitializes the "eval-once context", and boxes are evaluated again at the first time of the next iteration.
 * If `scope` = `:global` the "eval-once context" lasts during the whole patch execution (just like a normal function).

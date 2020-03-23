@@ -2,7 +2,7 @@
 layout: docpage
 ---
 
-# MIDI-TRACK
+# `MIDI-TRACK`
 
 The class MIDI-TRACK is a container for MIDI events. It contains a sequence of objects of type **MIDI-NOTE** or **MIDIEVENT**. 
 

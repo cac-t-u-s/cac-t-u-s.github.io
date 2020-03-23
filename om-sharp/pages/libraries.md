@@ -7,7 +7,7 @@ layout: docpage
 > **External libraries** are packages, or pieces of Lisp code that can be loaded dynamically in an OM# session.
 
 Libraries must be located in specific folders where OM# can find them !     
-=> Set one or several locations in the **Libraries** tab of the [Preferences](preferences) window:
+&rarr; Set one or several locations in the **Libraries** tab of the [Preferences](preferences) window:
 
 <img src="./images/lib-preferences.png">
 

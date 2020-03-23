@@ -9,7 +9,7 @@ layout: docpage
 Patches can be created with the _File/New/_ menu or the <kbd>Ctrl/⌘</kbd> + <kbd>N</kbd> shortcut.    
 They are saved as **.opat** files which can be used as _[global](abstraction#global-abstraction)_ abstractions.
 
-_[Internal](abstraction#internal-abstraction)_ patch abstractions can be created from the _Box/Add Box..._ menu or typing **"patch"**, or **"p"** in the same text field you would use to type a function or class name (displayed with double-click or using the <kbd>N</kbd> keyboard shortcut).    
+_[Internal](abstraction#internal-abstraction)_ patch abstractions can be created from the _Box/Add Box..._ menu or typing **`patch`**, or **`p`** in the same text field you would use to type a function or class name (displayed with double-click or using the <kbd>N</kbd> keyboard shortcut).    
 
 <img src="images/new-internal-patch.png"> 
 
@@ -24,7 +24,7 @@ _[Internal](abstraction#internal-abstraction)_ patch abstractions can be created
 
 In order to include an input or output in a patch, you can use one of the following options:
 
-1. Type **"in"** or **"out"** in the same text field you would use to type a function or class name (displayed with double-click or using the <kbd>N</kbd> keyboard shortcut).    
+1. Type **`in`** or **`out** in the same text field you would use to type a function or class name (displayed with double-click or using the <kbd>N</kbd> keyboard shortcut).    
 <img src="images/create-input.png">    
 <img src="images/create-output.png">    
 2. Use the menus "Boxes/Add Box/Input" / "Boxes/Add Box/Output", then click somewhere in the container patch to create the new input or output box.
