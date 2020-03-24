@@ -34,7 +34,6 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 > Use <kbd>Ctrl/⌘</kbd>+<kbd>N</kbd> to open a new patch window. See [Document management](doc-management) for more info on opening/saving/managing patches.
 
 
-
 - [Patch Editor \| Basics of Visual Programming](patch)
 - [Boxes](box)
   - [Value Box](value-box)
@@ -46,7 +45,6 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Abstractions](abstraction)
   - [Patch Box](patch-box)
   - [Lisp-Function Box](lispfun-box)
-  - [Maquette Box]
 - [Box State and Evaluation Modes](eval-modes)
 - [Eval-Once](eval-once)
 - [Lambda-Functions](lambda)
@@ -54,7 +52,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
   - [Imperative style: `seq`](seq)
   - [Basic iteration: `repeat-n`](repeat-n)
   - [Logical Operators: `and`/`or`](logic)
-  - [Conditional: `if`](omif)
+  - [Conditional: `if`](if)
   - [Multiple connections: `hub`](hub)
   - [Splitting list contents: `split`](split)
 - [Memory]
@@ -62,43 +60,57 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Recursion]	
 - [Reactive processes]
 - [Interface boxes]
+- [Collections, Storage and Data Structures]
 - [Global variables]
+- [File IO]
 - [Comments](comments)
 - [Inspect and edit attributes](inspector)
 
 > - [Recap' of basic shortcuts](basic-commands)
 
 
-## Main objects and editors
+## Basic Package: Main Objects and Editors
 
 - BPF / BPC
 - 2D-ARRAY / CLASS-ARRAY
-- COLLECTION
 - TEXTBUFFER
 - DATA-STREAM
+- 3DC
+- [3D-VIEWER](3D-viewer)
+
+## MIDI
+
 - [MIDI-TRACK](midi-track)
+
+## OSC 
+
+
+## Score
+
 - NOTE
 - CHORD
 - CHORD-SEQ
 - VOICE
 - MULTI-SEQ / POLY
+
+## Math
+
 - N-CERCLE
+
+## Audio
+
 - SOUND
+
+## SDIF
+
 - SDIFFILE
-- 3DC
-- [3D-VIEWER](3D-viewer)
 
-## General
-
-- Files
-- MIDI
-- Audio
-- OSC
-- SDIF 
 
 ## Sequencer
 
 - General presentation
+- Maquette Box
+
 
 ## Other (How-to's)
 
