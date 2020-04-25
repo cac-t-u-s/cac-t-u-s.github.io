@@ -25,10 +25,15 @@ The basic syntax is :
    return-value)
 ```
 
+In the Lisp function editor the usual syntax of Common Lisp applies.    
+Lines starting with `;` are comments (ingnored).
+
 `arg1`, `arg2`, ... are the "arguments" or parameters of the function. 
 They will correspond to the inputs of the abstraction box.
 The `return-value` will be read from the box output (Lisp-function boxes can have only one output).
 
+
+<img src="images/lisp-function-box.png"> 
 
 
 
