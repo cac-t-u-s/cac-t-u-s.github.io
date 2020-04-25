@@ -23,7 +23,8 @@ _**list** outputs a single "value": the list (0 8). **list-elements** outputs tw
 Alternatively: 
 
 - <kbd>Ctrl/⌘</kbd> + click on a box output to evaluate the box and print the value of this particular output.
-- <kbd>Ctrl/⌘</kbd> + <kbd>shift</kbd> + click on a box output to evaluate the box materialize the output as a new box.
+- <kbd>Ctrl/⌘</kbd> + <kbd>shift</kbd> + click on a box output to evaluate the box and materialize the output as a new box.
+- <kbd>Ctrl/⌘</kbd> + <kbd>shift</kbd> + <kbd>alt/option</kbd> + click on a box output to materialize the output as a new box and connect it to the output.
 
 > **Note:**  <kbd>shift</kbd> + <kbd>I</kbd> reinitializes the box value – this is useful essentially for [object boxes](objects).
 
