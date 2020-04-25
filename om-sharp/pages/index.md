@@ -20,6 +20,9 @@ The state and settings of the working environment are controlled from the "Sessi
 - [External libraries](libraries)
 - [Help](help)
 
+> [How to import OpenMusic patches](import-from-om)
+
+
 
 ## Visual Programming
 
@@ -69,7 +72,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 > - [Recap' of basic shortcuts](basic-commands)
 
 
-## Basic Package: Main Objects and Editors
+## Objects and Editors from the Basic Package
 
 - BPF / BPC
 - 2D-ARRAY / CLASS-ARRAY
@@ -93,7 +96,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - VOICE
 - MULTI-SEQ / POLY
 
-## Math
+## Music Theory
 
 - N-CERCLE
 
@@ -112,10 +115,9 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - Maquette Box
 
 
-## Other (How-to's)
+## Programming
 
 - [How to write classes and functions](write-code)
 - [How to create/adapt an external library](write-library)
-- [How to import OpenMusic patches](import-from-om)
 
 
