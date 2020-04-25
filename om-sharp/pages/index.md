@@ -49,7 +49,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Eval-Once](eval-once)
 - [Lambda-Functions](lambda)
 - [Control Boxes](control)
-  - [Imperative style: `seq`](seq)
+  - [Sequencing oprerations: `seq`](seq)
   - [Basic iteration: `repeat-n`](repeat-n)
   - [Logical Operators: `and`/`or`](logic)
   - [Conditional: `if`](if)

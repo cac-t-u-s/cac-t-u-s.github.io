@@ -8,7 +8,7 @@ The operators in the "Kernel/Control" package allow to control how data is proce
 
 List of main "Control" boxes: 
 
-  - [Imperative style: `seq`](seq)
+  - [Sequencing operations: `seq`](seq)
   - [Basic iteration: `repeat-n`](repeat-n)
   - [Logical Operators: `and`/`or`](logic)
   - [Conditional: `if`](if)

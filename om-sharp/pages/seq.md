@@ -2,7 +2,7 @@
 layout: docpage
 ---
 
-# Imperative style: `seq`
+# Sequencing oprerations: `seq`
 
 The `seq` box simply eveluates all its outputs in a specific order (from left to right) and returns results on corresponding ouputs.  
 
