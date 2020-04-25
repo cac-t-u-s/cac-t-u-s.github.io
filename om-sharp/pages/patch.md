@@ -29,7 +29,7 @@ You will have to add [boxes](#boxes) and [connect](#connections) them, in order 
 > The patch editor has an optional **side panel** on the right, which opens with the buttons <img src="./images/patch-button-listener.png" class="embedded"> <img src="./images/patch-button-i.png" class="embedded"> <img src="./images/patch-button-lisp.png" class="embedded"> on the right-border of the window (or corresponding commands and short-cuts in the "Edit" menu), in order to display:
 > - The [Listener output](listener)
 > - The [contents Inspector](inspector)
-> - The [patch-to-Lisp conversions](lisp)  
+> - The [patch-to-Lisp conversions](lisp#getting-the-equivalent-lisp-code-of-a-patch)  
 
 ------
 
