@@ -50,8 +50,8 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Box State and Evaluation modes](eval-modes)
 - [Eval-Once](eval-once)
 - [Lambda-functions](lambda) 
-- [Control / special boxes]	
-- [Loops / iterative processes]	
+- [Control boxes]	
+- [Loops]	
 - [Recursion]	
 - [Reactive processes]
 - [Interface boxes]
