@@ -18,6 +18,7 @@ The state and settings of the working environment are controlled from the "Sessi
 - [Listener](listener)
 - [Writing / loading Lisp code](lisp)
 - [External libraries](libraries)
+- [Getting Help]
 
 
 ## Visual Programming
@@ -43,8 +44,9 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Box types: Objects and editors](objects)
 - [Box inputs](box-inputs)
 - [Abstractions](abstraction)
-- [Evaluation modes]
-- [Lambda-functions] 
+- [Box State and Evaluation modes](eval-modes)
+- [Eval-Once Mode](eval-once)
+- [Lambda-functions](lambda) 
 - [Lisp-functions]
 - [Control / special boxes]	
 - [Loops / iterative processes]	
