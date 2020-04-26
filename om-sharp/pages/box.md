@@ -76,5 +76,5 @@ The value can be reinitialized to its default state (when relevant) with the <kb
 ----
 ### Documentation
 
-Use the menu "Help/Help Function & Class Reference" or the the <kbd>Ctrl/⌘</kbd>+<kbd>D</kbd> shortcut to open an auto-generated HTML reference documentation page of a box.
+Use the "[Help](help)" menu items "Function & Class Reference" \| <kbd>Ctrl/⌘</kbd>+<kbd>D</kbd> to open an auto-generated HTML reference documentation page, or "Print Documentation" \| <kbd>D</kbd> to print the basic documentation of a box in the [Listener](listener).
 
