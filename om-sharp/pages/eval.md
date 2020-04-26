@@ -5,7 +5,7 @@ layout: docpage
 # Evaluation
 
 **Evaluation is the essential mecanism of program execution in OM.**
-Evaluating a box means requesting it to compute a value by applying a finction to it's inputs. When the inputs are connected, the evaluation propagates to upstream connected boxes, until all requested values allow the computation of the box.
+Evaluating a box means requesting it to compute a value by applying a function to it's inputs. When the inputs are connected, the evaluation propagates to upstream connected boxes, until all requested values allow the computation of the box.
 
 Use the <kbd>V</kbd> shortcut to evaluate the slected box(es) in the patch.
 
