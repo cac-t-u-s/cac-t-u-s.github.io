@@ -30,10 +30,9 @@ The attributes preceded by a check-box on the left, refer to attributes that are
 ## Execution
 
 **Execution** is the second important section of the box attribute inspector. It refers to the behaviour of the box during program executions (see [Evaluation](eval)).
-
 The main attributes in this section are described in [Evaluation modes](eval-modes) and [Reactive processes](reactive).
 
-The _lock-state_ and _reactive_ attributes also respond to editor keyboard shorcuts <kbd>B</kbd> / <kbd>1</kbd> (for _lock-state_ "locked" or "eval-once") and <kbd>R</kbd> (for _reactive_).
+The **lock-state** and **reactive** attributes also respond to editor keyboard shorcuts <kbd>B</kbd> / <kbd>1</kbd> (for _lock-state_ "locked" or "eval-once") and <kbd>R</kbd> (for _reactive_).
 
 ------
 
