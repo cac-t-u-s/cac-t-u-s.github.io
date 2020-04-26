@@ -4,8 +4,8 @@ layout: docpage
 
 # Function Box
 
-_Function Boxes_ are the main type of boxes in OM# visual programs. 
-Any Lisp function, in-built or defined in the environment, can be used as a function box in an OM#.
+_Function Boxes_ are the main type of boxes in OM# visual programs. They _refer_ to Common Lisp functions.
+Any function, in-built or defined in the environment, can be reified as a function box.
 
 <img src="./images/box-lisp-fun.png" align="right">
 
