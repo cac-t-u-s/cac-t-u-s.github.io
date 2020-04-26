@@ -4,6 +4,10 @@ layout: docpage
 
 # Lisp Programming in OM#
 
+_Sometime a few lines of code are more efficient and easier to write than a visual program !_
+OM# includes a whole Lisp programming interface, and there exist several ways to edit and input/execute Lisp programs and commands in the environment.
+
+
 > OM# is a Lisp environment, that is, it embeds the whole Common Lisp language and interpreter. Visual programs created in OM# are just compiled into Lisp functions before to execute, and can therefore seamlessly call and interact with pure Lisp program components.
 
 > <img src="./images/lisp-in-patch.png" align="right"> 
@@ -11,9 +15,6 @@ layout: docpage
 
 
 > See [how to write functions and classes for OM#](write-code).
-
-
-OM# also includes a whole Lisp programming interface, and there exist several ways to edit and input/execute Lisp programs and commands in the environment:
 
 
 ------
@@ -54,11 +55,9 @@ This command will take you the Lisp source of the visual program component (if i
 
 ### Using "Lisp-functions"
 
-Sometime a few lines of code are more efficient and easier to write than a visual program !
-
 **Lisp-functions** are specific kinds of OM# documents or internal abstractions, representing a single functions written as a Lisp "lambda expression".
 
-> => See [Lisp Functions](lispfun).
+> => See [Lisp Functions](lispfun-box).
 
 ### Getting the equivalent Lisp code of a patch
 
