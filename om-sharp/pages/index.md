@@ -58,13 +58,13 @@ A patch can also include inputs and outputs (to receive arguments or return valu
   - [Conditional: `if`](if)
   - [Multiple connections: `hub`](hub)
   - [Splitting list contents: `split`](split)
-- [Memory]
-- [Loop]	
+- [Memory](memory)
+- [Global variables]
+- [Loop](loop)
 - [Recursion]	
+- [Collections, Storage and Data Structures]
 - [Reactive processes]
 - [Interface boxes]
-- [Collections, Storage and Data Structures]
-- [Global variables]
 - [File IO]
 - [Comments](comments)
 - [Inspect and edit attributes](inspector)
