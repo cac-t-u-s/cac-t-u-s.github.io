@@ -4,7 +4,9 @@ layout: docpage
 
 # Patch Box
 
-> Patch boxes are the principal ways of manipulating [abstractions](abstraction) in OM#.
+Patch boxes are the principal way of manipulating [abstractions](abstraction) in OM#.
+
+> **See also:** [Patching in OM#](patch)
 
 Patches can be created with the _File/New/_ menu or the <kbd>Ctrl/⌘</kbd> + <kbd>N</kbd> shortcut.    
 They are saved as **.opat** files which can be used as _[global](abstraction#global-abstraction)_ abstractions.
