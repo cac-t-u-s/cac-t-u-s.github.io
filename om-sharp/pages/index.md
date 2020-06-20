@@ -60,7 +60,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
   - [Multiple connections: `hub`](hub)
   - [Splitting list contents: `split`](split)
 - [Memory](memory)
-- [Global variables]
+- [Global variables](global-variable)
 - [Loop](loop)
 - [Recursion]	
 - [Collections, Storage and Data Structures]
