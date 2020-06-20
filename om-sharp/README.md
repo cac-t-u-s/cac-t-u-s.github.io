@@ -136,6 +136,7 @@ External libraries are packages containing additional pieces of code that can be
   <li> <a href="https://github.com/openmusic-project/OMRC" target="_blank">OMRC</a></li>
   <li> <a href="https://github.com/openmusic-project/omchroma" target="_blank">OMChroma</a></li>
   <li> <a href="https://github.com/openmusic-project/omai" target="_blank">OMAI</a></li>
+  <li> <a href="https://github.com/charlesneimog/OM-JI" target="_blank">OM-JI</a></li>
 </ul>
 </td>
 
@@ -158,7 +159,7 @@ External libraries are packages containing additional pieces of code that can be
 
 ### Publications
 
-This project has been used as a support for research and production in a number of recent projects.
+OM# has been used as a support for research and production in a number of recent projects.
 See related papers below:
 
   * [OM-AI: A Toolkit to Support AI-Based Computer-Assisted Composition Workflows in OpenMusic](https://hal.archives-ouvertes.fr/hal-02126847). Anders Vinjar, Jean Bresson. Sound and Music Computing conference (SMC'19), Málaga, Spain, 2019.
