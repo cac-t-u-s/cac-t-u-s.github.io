@@ -4,7 +4,7 @@ The visual language is based on [Common Lisp](http://www.gigamonkeys.com/book/in
 
 
 ------
-<img src="https://cac-t-u-s.github.io/om-sharp/images/icon2.png" height="80px" align="right"> 
+<img src="./images/icon2.png" height="80px" align="right"> 
 
 ### Download
 
