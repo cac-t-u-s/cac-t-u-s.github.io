@@ -20,8 +20,7 @@ The state and settings of the working environment are controlled from the "Sessi
 - [External libraries](libraries)
 - [Help](help)
 
-> [How to import OpenMusic patches](import-from-om)
-
+> **[How to import OpenMusic patches](import-from-om)**
 
 
 ## Visual Programming
@@ -34,7 +33,9 @@ Boxes can represent either **Lisp functions**, other **embedded or external visu
 A patch can also include inputs and outputs (to receive arguments or return values when it is embedded in another patch), textual comments, and specific _active_ components (e.g. buttons, sliders, etc.) used to set values and arguments for other boxes.
 
 
-> Use <kbd>Ctrl/⌘</kbd>+<kbd>N</kbd> to open a new patch window. See [Document management](doc-management) for more info on opening/saving/managing patches.
+> Use <kbd>Ctrl/⌘</kbd>+<kbd>N</kbd> to open a new patch window. See **[Document management](doc-management)** for more info on opening/saving/managing patches.
+
+> **[Recap' of basic shortcuts](basic-commands)**
 
 
 - [Patch Editor \| Basics of Visual Programming](patch)
@@ -68,8 +69,6 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [File IO]
 - [Comments](comments)
 - [Inspect and edit attributes](inspector)
-
-> - [Recap' of basic shortcuts](basic-commands)
 
 
 ## Objects and Editors from the Basic Package
