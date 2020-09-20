@@ -43,6 +43,21 @@ In addition to standard text-editing commands, the OM# Lisp-buffer editor offers
 - "Find Definition" / <kbd>Ctrl/⌘</kbd>+<kbd>.</kbd> takes you to the definition of the symbol (function/variable/class name) currently under the text-edit cursor (if this definition can be found), opening a new Lisp-buffer window for it if necessary.
 
 ------
+## Load your Lisp files
+
+OM# can load Lisp files on startup, allowing you to quickly fix or extend the environment, or experiment with your own tools and functions.
+
+Two main locations are possible:
+
+- **The "Init" folder in the OM# application folder (or in the .app package on macOS):** 
+The Lisp files in this folder are loaded before starting up the OM# session and environment. These should be essentially fixes to the compiled environment.
+
+- **Your own folder, as defined in the General preferences:**     
+The Lisp files in this folder are loaded at stqrtion the session.
+
+<img src="./images/user-code-folder-preference.png">
+
+------
 ## Lisp in OM# patches
 
 ### "Find Definition" in Visual Programs
