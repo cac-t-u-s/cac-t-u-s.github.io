@@ -10,7 +10,7 @@ Currently-supported 3D objects are: **3D-LINES**, **3D-CUBE** and **3D-SPHERE**.
 
 The main editing consists in 3D-rotations along different combinations of axes.
 
-> **Note:** for the simple visualization of 3D trajectories, the **[3DC](3dc)** object (eventually in a **[COLLECTION](collection)** object) might be easier to use.
+> **Note:** for the simple visualization of 3D trajectories, the **[3DC](3dc)** object (eventually in a **[COLLECTION](store-collect#collection)** object) might be easier to use.
 
 
 <center>

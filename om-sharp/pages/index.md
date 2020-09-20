@@ -63,7 +63,8 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Global variables](global-variable)
 - [Loop](loop)
 - [Recursion](recursion)
-- [Collections, Storage and Data Structures]
+- [Store and Collect](store-collect)
+- [Slot Accessors]
 - [Reactive processes]
 - [Interface boxes]
 - [File IO]
