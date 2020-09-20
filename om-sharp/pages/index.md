@@ -64,7 +64,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Loop](loop)
 - [Recursion](recursion)
 - [Store and Collect](store-collect)
-- [Slot Accessors]
+- [Slot Accessors](slots)
 - [Reactive processes]
 - [Interface boxes]
 - [File IO]
@@ -113,6 +113,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 
 - General presentation
 - Maquette Box
+- Meta-programming
 
 
 ## Programming
