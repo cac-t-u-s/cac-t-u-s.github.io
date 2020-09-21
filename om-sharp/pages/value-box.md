@@ -67,11 +67,15 @@ Common Lisp symbols are interened in [packages](https://www.cs.cmu.edu/Groups/AI
 
 ## Edit the Value
 
-Double-cick the box to edit its contents. It is allowed to change the type of the value box contenst (for instance converting 4 into "4").
+Double-cick the box to edit its contents. 
+Note that the value can change type depending on the contents (for instance the _number_ 4 ccan be turned into into the _string_ "4").
 
-- When the value is a number, it is possible to increase/decrease this value using <kbd>Ctrl/⌘</kbd> + click/drag on the box (or <kbd>Ctrl/⌘</kbd> + <kbd>shift</kbd> + click/drag for a greater edit-step).
 
-- When the patch is [locked](patch#lock) this procedure works without the <kbd>Ctrl/⌘</kbd> key.
+
+> #### Drag-edit numbers
+> When the value is a number, it is possible to increase/decrease this value using <kbd>Ctrl/⌘</kbd> + click/drag on the box (or <kbd>Ctrl/⌘</kbd> + <kbd>shift</kbd> + click/drag for a greater edit-step).
+>
+> When the patch is [locked](patch#lock) this procedure works without the <kbd>Ctrl/⌘</kbd> key.
 
 ------ 
 
