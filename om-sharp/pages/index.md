@@ -65,7 +65,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Recursion](recursion)
 - [Store and Collect](store-collect)
 - [Slot Accessors](slots)
-- [Reactive processes]
+- [Reactive processes](reactive)
 - [Interface boxes]
 - [File IO]
 - [Comments](comments)
