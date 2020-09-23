@@ -20,5 +20,6 @@ _To open/close the inspector, use_ <kbd>Ctrl/⌘</kbd>+<kbd>I</kbd>.
 - <kbd>shift</kbd>+<kbd>E</kbd> = [Encapsluate](abstraction#encapsulation) selection as a new box
 - <kbd>shift</kbd>+<kbd>U</kbd> = [Un-encapsulate](abstraction#encapsulation) subpatch in its container patch
 - <kbd>shift</kbd>+<kbd>A</kbd> = Align selected boxes
+- <kbd>shift</kbd>+<kbd>L</kbd> = Create LIST with selected boxes
 
 
