@@ -4,7 +4,7 @@ layout: docpage
 
 # Document management
 
-The main documents handled in OM# are **[patches](patch)** (visual programs). Other documents include [maquettes](maquette), and [Lisp-functions](lisp).
+The main documents handled in OM# are **[patches](patch)** (visual programs). Other documents include [sequencers](sequencer), and [Lisp-functions](lisp).
 
 Documents are essentially managed as in standard desktop applications, as files that you can freely store and organise on the computer hard drive(s).
 An internal document manager handles a list of open documents and their mutual dependencies.
@@ -28,7 +28,7 @@ Closed documents may remain in the list if they are still used somewhere, inside
 The main file extensions used in OM# are:
 
 - **.opat**: [patches](patch) (visual programs) 
-- **.omaq**: [maquettes](maquette) (sequenced arrangements/programs)
+- **.oseq**: [sequencers](sequencer) (sequenced arrangements/programs)
 - **.olsp**: [Lisp-functions](lisp) (in the OM# format)
 
 <img src="./images/doc-files.png">
@@ -48,11 +48,11 @@ The "File" menu contains the main standard commands and short-cuts for opening, 
 
 - "Save" / <kbd>Ctrl/⌘</kbd>+<kbd>S</kbd> saves the current document.
 
-> **Note:** If the current editor is not of a **persistent** document (i.e. if it is an _internal_ patch/function/maquette), then the "Save" command applies to its container document.
+> **Note:** If the current editor is not of a **persistent** document (i.e. if it is an _internal_ patch/function/sequencer), then the "Save" command applies to its container document.
 
 - "Save as..." / <kbd>Ctrl/⌘</kbd>+<kbd>shift</kbd>+<kbd>S</kbd> saves the current document as a new file (makes a duplicate).
 
-> **Note:** If the current editor is not of a **persistent** document (i.e. if it is an _internal_ patch/function/maquette), then the "Save as..." command will save this internal patch as a new persistent document.
+> **Note:** If the current editor is not of a **persistent** document (i.e. if it is an _internal_ patch/function/sequencer), then the "Save as..." command will save this internal patch as a new persistent document.
 
 - "Revert (Last Saved)" reloads the document from disk. This is useful when the document has been edited outside the environment (for instance, as text — see below), or to discard a series of recent un-saved edits. 
 

@@ -107,7 +107,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 ## Sequencer
 
 - General presentation
-- Maquette Box
+- Sequencer Box
 - Meta-programming
 
 ## Programming
