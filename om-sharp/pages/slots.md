@@ -2,7 +2,7 @@
 layout: docpage
 ---
 
-# Slots accessors
+# Slots Accessors
 
 Functional programming tends to avoid side-effects: functions shouldn't to modify the state of the program anywhere outside of their own scope.
 For this reason in general, data and objects are copied when they are passed to functions that are likely to modify them.
