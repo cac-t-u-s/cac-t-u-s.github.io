@@ -39,37 +39,37 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 
 
 - [Patch Editor \| Basics of Visual Programming](patch)
+- [Inspect and Edit Attributes](inspector)
 - [Boxes](box)
   - [Value Box](value-box)
   - [Function Box](function-box)
-  - [Objects Box](objects)
+  - [Object Box](objects)
+  - [Interface Boxes](interface-boxes)
 - [Box Inputs](box-inputs)
 - [Connections](connections)
+- [Comments](comments)
 - [Evaluation](eval)
+  - [Box State and Evaluation Modes](eval-modes)
+  - [Eval-Once](eval-once)
+- [Control Boxes](control)
+  - [Sequencing Oprerations: `seq`](seq)
+  - [Basic Iteration: `repeat-n`](repeat-n)
+  - [Logical Operators: `and`/`or`](logic)
+  - [Conditional: `if`](if)
+  - [Multiple Connections: `hub`](hub)
+  - [Splitting List Contents: `split`](split)
 - [Abstractions](abstraction)
   - [Patch Box](patch-box)
   - [Lisp-Function Box](lispfun-box)
-- [Box State and Evaluation Modes](eval-modes)
-- [Eval-Once](eval-once)
 - [Lambda-Functions](lambda)
-- [Control Boxes](control)
-  - [Sequencing oprerations: `seq`](seq)
-  - [Basic iteration: `repeat-n`](repeat-n)
-  - [Logical Operators: `and`/`or`](logic)
-  - [Conditional: `if`](if)
-  - [Multiple connections: `hub`](hub)
-  - [Splitting list contents: `split`](split)
 - [Memory](memory)
-- [Global variables](global-variable)
+- [Global Variables](global-variable)
 - [Loop](loop)
 - [Recursion](recursion)
 - [Store and Collect](store-collect)
 - [Slot Accessors](slots)
-- [Reactive processes](reactive)
-- [Interface boxes]
+- [Reactive Processes](reactive)
 - [File IO]
-- [Comments](comments)
-- [Inspect and edit attributes](inspector)
 
 
 ## Objects and Editors from the Basic Package
@@ -87,7 +87,6 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 
 ## OSC 
 
-
 ## Score
 
 - NOTE
@@ -95,9 +94,6 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - CHORD-SEQ
 - VOICE
 - MULTI-SEQ / POLY
-
-## Music Theory
-
 - N-CERCLE
 
 ## Audio
@@ -108,13 +104,11 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 
 - SDIFFILE
 
-
 ## Sequencer
 
 - General presentation
 - Maquette Box
 - Meta-programming
-
 
 ## Programming
 
