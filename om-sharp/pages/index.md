@@ -69,7 +69,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Store and Collect](store-collect)
 - [Slot Accessors](slots)
 - [Reactive Processes](reactive)
-- [File IO]
+- [Reading/Writing Files](file-io)
 
 
 ## Objects and Editors from the Basic Package
