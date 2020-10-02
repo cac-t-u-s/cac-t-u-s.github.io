@@ -88,6 +88,8 @@ When a class has numerous slots/attributes and/or when all of them are not funda
 _– `decimals` is an optional additional argument of the BPF contructor._
 
 
+## Box attributes inputs/outputs
+
 > &rarr; In addition to the contructor argumentsm this menu can also conatain **"box attributes"**, which will allow to set/or transfer some general visualization or editing parameters of the editor through the box inputs/output.  
 
 <img src="images/obj-box-key-list.png">
