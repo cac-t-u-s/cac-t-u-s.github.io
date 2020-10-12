@@ -14,14 +14,14 @@ Common Lisp pathnames are printed with the prefix `#P`  (e.g. #P"/dirA/dirB/file
 The basic common lisp functions and notions used for manipulating pathnames are:
 
 - `make-pathname`: creates a pathname from a file name, extension, and a list of directories given respectively to the keyword arguments `:name`, `:type`, `:directory` (and more). E.g. `(make-pathname :directory '(:absolute "dira" "dirb") :name "file" :type "ext")`. See also `om-make-pathname` in the note below.
-- `pathname-name`, `pathname-type`, `pathname-directory` aloow accessing the respective parts (name, extension, list of directories) of the pathname.
+- `pathname-name`, `pathname-type`, `pathname-directory` allow accessing the respective parts (name, extension, list of directories) of the pathname.
 - `pathname` converts a string in the equivalent pathname.
-- `namestring`converts a pathname in the equivalent string.
-- `merge-pathnames` facilitates creating pathnames by extending or modfifying existing pathnames (see [a detailed description](http://www.lispworks.com/documentation/lw50/CLHS/Body/f_merge_.htm)). 
+- `namestring` converts a pathname to the equivalent string.
+- `merge-pathnames` facilitates creating pathnames by extending or modifying existing pathnames (see [a detailed description](http://www.lispworks.com/documentation/lw50/CLHS/Body/f_merge_.htm)). 
 - `probe-file` tests if a file exists at this pathname.
-- `directory` lists the files and directories contained in a given diorectory. See also `om-directory` in the note below.
+- `directory` lists the files and directories contained in a given directory. See also `om-directory` in the note below.
 
-> **Note:** OM# provides a number of additional facilities designed as higer-level functions on top of the Common Lisp pathnames. `om-make-pathname` and `om-directory` are for instance recommended for use in OM# patches, instead of  `make-pathname` and `directory`.
+> **Note:** OM# provides a number of additional facilities designed as higher-level functions on top of the Common Lisp pathnames. `om-make-pathname` and `om-directory` are for instance recommended for use in OM# patches, instead of  `make-pathname` and `directory`.
 
 ## Input and Output Files in OM#
 
@@ -33,7 +33,7 @@ The "Files and Folders" preference tab in OM# [preferences](preferences) provide
 <img src="images/file-preferences.png"> 
 
 > #### Generating Pathnames to the Default Folders
-> The functions `infile`, `outfile`, `tmpfile` all take a simple file name (and optionally and type and list of directrories) and generate a full pathname with it, using the location of the default input, output or temporary files defined in the "Files and Folders" preferences. 
+> The functions `infile`, `outfile`, `tmpfile` all take a simple file name (and optionally type and list of directories) and generate a full pathname with it, using the location of the default input, output or temporary files defined in the "Files and Folders" preferences. 
 >
 > <img src="images/file-in-out.png"> 
 
@@ -55,10 +55,10 @@ The "Files and Folders" preference tab in OM# [preferences](preferences) provide
 
 ## Advanced Control over File Reading/Writing Operations
 
-In order to perform more advanced file iput/output operations, it is possible to open (and close!) file "streams" in OM# visual programs. A _file stream_ is a temporary accessor allowing to push or read data from a given location on the disk. A typical use case is the iterative processing or generation of data in a [loop](loop).
+In order to perform more advanced file input/output operations, it is possible to open (and close!) file "streams" in OM# visual programs. A _file stream_ is a temporary accessor allowing to push or read data from a given location on the disk. A typical use case is the iterative processing or generation of data in a [loop](loop).
 
 The  `open-file-stream` opens and returns a "stream" to a file (designated using a pathname), which can be used to incrementally read or write text data, using the functions `file-read-line` , `file-write-line` (or simply, `file-write`), all requiring the stream as one or their arguments. 
-The stream should finally be colsed using `close-file-stream`, so the file is freed and available for further opertaions. See also the `file-stream` help-patch.
+The stream should finally be closed using `close-file-stream`, so the file is freed and available for further operations. See also the `file-stream` help-patch.
 
 <img src="images/file-stream.png"> 
 

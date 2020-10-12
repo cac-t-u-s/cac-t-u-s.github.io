@@ -24,7 +24,7 @@ Modify the view point by using the mouse "click-and-drag".
 Viewpoint short-cuts:
 - <kbd>+</kbd> : Zoom in
 - <kbd>-</kbd> : Zoom out
-- <kbd>esc</kbd> : Reinitialize viewpoint
+- <kbd>Esc</kbd> : Reinitialize viewpoint
 - <kbd>c</kbd> : Change background color
 
 ## Rotation

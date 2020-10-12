@@ -5,8 +5,8 @@ layout: docpage
 # Logical Operators: `and`/`or`
 
 
-> `and` and `or` are _logical operators_ generally used to test wether _all_ or _any_ of a given number of conditions are met.    
-They are typically used as tests for [contitional / `if`](if) statements.
+> `and` and `or` are _logical operators_ generally used to test whether _all_ or _any_ of a given number of conditions are met.    
+They are typically used as tests for [conditional / `if`](if) statements.
 
 
 The boxes can be added any number of [optional inputs](box-inputs#optional-inputs), which be evaluated left-to-right until a decision can be made:    

@@ -4,7 +4,7 @@ layout: docpage
 
 # Patch editor: Basics of visual programming
  
-_This page describes the main features and manipulations allowing to create, confirgurate and connect boxes in visual programs. It points to the other sections of this documentation for details on every specific features._
+_This page describes the main features and manipulations allowing to create, configure and connect boxes in visual programs. It points to the other sections of this documentation for details on every specific features._
 
 ------
 
@@ -108,9 +108,9 @@ Deleted selected contents using the <kbd>backspace</kbd> key.
 
 - The "Edit" menu provides the standard Copy / Cut / Paste commands.
 
-- Boxes can also be copied and pasted using the standard OS-specific drag&drop combinations: <kbd>alt</kbd> + _drag&drop_ on macOS, <kbd>ctrl</kbd> + _drag&drop_ on Windows/Linux.
+- Boxes can also be copied and pasted using the standard OS-specific drag&drop combinations: <kbd>alt</kbd> + _drag&drop_ on macOS, <kbd>Ctrl</kbd> + _drag&drop_ on Windows/Linux.
 
-All these operations can be perfomed on the same editor window, or from one editor window to another.
+All these operations can be performed on the same editor window, or from one editor window to another.
 
 ### Select All
 

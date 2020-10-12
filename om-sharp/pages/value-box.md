@@ -49,10 +49,10 @@ A _[symbol](https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node27.html#SECTION00
 In Common Lisp the evaluation of a symbol returns its value (e.g. if the value of the symbol `x` is 5, `x` _evaluates_ to `5`). In order to prevent this the language includes a _quote mechanism_ : `'x` evaluates to the symbol `x`, not to its value. 
 
 <img src="./images/value-box-symbol.png" align="right">
-**=> Use this quote mechanisme to enter a symbol as value in a value box.**
+**=> Use this quote mechanism to enter a symbol as value in a value box.**
 
 
-Common Lisp symbols are interened in [packages](https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node35.html#SECTION00680000000000000000) which must sometimes be explicitely stated along with the same. For convenience symbols used for their name (e.g. different options for the input of a function) are sometimes used with the special "keyword" package. In this case, the symbol is prefixed with a colon (e.g. `:abc`) and doesn't require a quote.
+Common Lisp symbols are interned in [packages](https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node35.html#SECTION00680000000000000000) which must sometimes be explicitly stated along with the same. For convenience symbols used for their name (e.g. different options for the input of a function) are sometimes used with the special "keyword" package. In this case, the symbol is prefixed with a colon (e.g. `:abc`) and doesn't require a quote.
 <img src="./images/value-box-key.png" align="right">
 
 <br>
@@ -67,8 +67,8 @@ Common Lisp symbols are interened in [packages](https://www.cs.cmu.edu/Groups/AI
 
 ## Edit the Value
 
-Double-cick the box to edit its contents. 
-Note that the value can change type depending on the contents (for instance the _number_ 4 ccan be turned into into the _string_ "4").
+Double-click the box to edit its contents. 
+Note that the value can change type depending on the contents (for instance the _number_ 4 can be turned into into the _string_ "4").
 
 
 
@@ -88,7 +88,7 @@ The value-box then becomes a convenient way to store and display intermediate re
 
 <img src="./images/value-box-input.png">
 
-> **Note:** If the value-box has several inputs, the interbnal value becomes a list collecting these values:     
+> **Note:** If the value-box has several inputs, the internal value becomes a list collecting these values:     
 <img src="./images/value-box-multi-inputs.png">
 
 ------
