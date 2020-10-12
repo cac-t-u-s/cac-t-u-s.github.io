@@ -19,7 +19,7 @@ The different options in the "File" menu are:
 - "Open Recent..." to retrieve most-recently opened documents,
 - "Open Folder..." ( <kbd>Ctrl/⌘</kbd>+<kbd>shift</kbd>+<kbd>O</kbd> ) open all the OM#-compatible files that are inside a given directory.
 
-> &rarr; See [More on Document Mnagement](doc-management)
+> &rarr; See [More on Document Management](doc-management)
 
 The "new" patch is an empty white page, ready for you to fill-in. 
 You will have to add [boxes](#boxes) and [connect](#connections) them, in order to create visual programs.

@@ -60,9 +60,9 @@ OM# is a free software distributed under the GPLv3 license.
 
 As a Common Lisp program, OM# can be considered just as an extension of Lisp including the specific built-in features of the application. 
 The application is developed with the latest [LispWorks](http://www.lispworks.com/) compiler (7.1.2), which provides multi-platform support and graphical/GUI toolkits in Common Lisp. 
-A limited "Personnal" edition of LispWorks 7 is now available: its limited heap size requires compiling sources in several successive runs, and it is not possible to create new OM# executables with it, however, it allows to load and run/use/edit the program from the sources.
+A limited "Personal" edition of LispWorks 7 is now available: its limited heap size requires compiling sources in several successive runs, and it is not possible to create new OM# executables with it, however, it allows to load and run/use/edit the program from the sources.
 
-Alternatively, the OM# executable also includes a Lisp interpreter which can load and evaluate modifications and extensiuons of the program sources.
+Alternatively, the OM# executable also includes a Lisp interpreter which can load and evaluate modifications and extensions of the program sources.
 
 
 ------
@@ -81,9 +81,9 @@ Report any problems in porting or converting libraries or patches on the discuss
 ### Help | Bug reports | Community
 
 **See the new [`om-sharp-users`](https://github.com/cac-t-u-s/om-sharp-users) repository.**     
-&rarr; Use the [Issue Tracker](https://github.com/cac-t-u-s/om-sharp-users/issues) to report problems, suggest features or enghancement, or just discuss about the project !
+&rarr; Use the [Issue Tracker](https://github.com/cac-t-u-s/om-sharp-users/issues) to report problems, suggest features or enhancements, or just discuss about the project !
 
-A [discussion group](https://discussion.forum.ircam.fr/c/om-sharp) is qlso hosted on Ircam Forumnet.     
+A [discussion group](https://discussion.forum.ircam.fr/c/om-sharp) is also hosted on Ircam Forumnet.     
 &rarr; Create an account in order to post questions and replies.    
 Subscribe to group notifications using _Watching_ / _Tracking_ and other options.
 
@@ -183,7 +183,7 @@ OM# was also used as a support for research and production in a number of recent
 
   * [OM-AI: A Toolkit to Support AI-Based Computer-Assisted Composition Workflows in OpenMusic](https://hal.archives-ouvertes.fr/hal-02126847). Anders Vinjar, Jean Bresson. Sound and Music Computing conference (SMC'19), Málaga, Spain, 2019.
   * [Musical Gesture Recognition Using Machine Learning and Audio Descriptors](https://hal.archives-ouvertes.fr/hal-01839050). Paul Best, Jean Bresson, Diemo Schwarz. International Conference on Content-Based Multimedia Indexing (CBMI'18), La Rochelle, France, 2018.
-  * [From Motion to Musical Gesture: Experiments with Machine Learning in Computer-Aided Composition](https://hal.archives-ouvertes.fr/hal-01815988/document). Jean Bresson, Paul Best, Diemo Schwarz, Alireza Farhang. Workshop on Musical Metacreation (MUME2018), Internationa Conference on Computational Creativity (ICCC’18), Salamanca, Spain, 2018.
+  * [From Motion to Musical Gesture: Experiments with Machine Learning in Computer-Aided Composition](https://hal.archives-ouvertes.fr/hal-01815988/document). Jean Bresson, Paul Best, Diemo Schwarz, Alireza Farhang. Workshop on Musical Metacreation (MUME2018), International Conference on Computational Creativity (ICCC’18), Salamanca, Spain, 2018.
   * [Symbolist: An Open Authoring Environment for End-user Symbolic Notation](https://hal.archives-ouvertes.fr/hal-01804933/document). Rama Gottfried, Jean Bresson. International Conference on Technologies for Music Notation and Representation (TENOR'18), Montreal, Canada, 2018. 
   * [Landschaften – Visualization, Control and Processing of Sounds in 3D Spaces](https://hal.archives-ouvertes.fr/hal-01567629/document). Savannah Agger, Jean Bresson, Thibaut Carpentier. International Computer Music Conference (ICMC’17), Shanghai, China, 2017.
   * [Interactive-Compositional Authoring of Sound Spatialization](https://hal.inria.fr/hal-01467080/document). Jérémie Garcia, Thibaut Carpentier, Jean Bresson. Journal of New Music Research, 46(1), 2017.
