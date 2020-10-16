@@ -11,7 +11,7 @@ Two other containers are proposed for larger list of values or objects
 ------
 ## `STORE`
 
-Store is a simple container object, whose unique slot is `value`. 
+`STORE` is a simple container object, whose unique slot is `value`. 
 Just use `value` to set or read the data.
 
 <img src="./images/store.png"> 
