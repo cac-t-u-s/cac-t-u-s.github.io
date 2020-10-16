@@ -79,7 +79,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - TEXTBUFFER
 - DATA-STREAM
 - 3DC
-- [3D-VIEWER](3D-viewer)
+- [3D objects and 3D-MODEL](3d-model)
 
 ## MIDI
 
