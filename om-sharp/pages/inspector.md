@@ -36,5 +36,5 @@ The **lock-state** and **reactive** attributes also respond to editor keyboard s
 
 ------
 
-> **Note:** Some boxes also have additional inspector sections, such as **Structure** (for musical objects), **Scheduling** (for patch-boxes), or **Abstraction** (also for patch-boxes). See the sections [Abstraction](abstraction), [Maquette](maquette), and other pages of this manual for more details on the corresponding attributes.
+> **Note:** Some boxes also have additional inspector sections, such as **Structure** (for musical objects), **Scheduling** (for patch-boxes), or **Abstraction** (also for patch-boxes). See the sections [Abstraction](abstraction), [Sequencer](sequencer), and other pages of this manual for more details on the corresponding attributes.
 

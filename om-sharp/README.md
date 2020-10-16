@@ -35,7 +35,7 @@ The visual language is based on [Common Lisp](http://www.gigamonkeys.com/book/in
 - A native implementation of the [reactive mode](pages/reactive) for visual program execution.
 - New [loops](pages/loop). Embed iterative processes in standard patches. Use a collection of new collectors and memory utilities. 
 - A new set of [interface components](pages/interface-boxes): list-selection, switch, button, slider, ... / Lock your patch for faster interaction.
-- A redesigned [sequencer](pages/maquette) interface including dual program/tracks-based visualization, meta-programming tools, and reactive execution modes.
+- A redesigned [sequencer](pages/sequencer) interface including dual program/tracks-based visualization, meta-programming tools, and reactive execution modes.
 - Human-readable, easily [editable text format](pages/doc-management#file-format) for patches and other documents. Possibility to read and edit patches as text.
 - New **score editors**, BPF/BPC editors, etc. Nicer display. Easier edit. 
 - **Collection** : a versatile container handling the storage, visualization and editing of collection of objects.

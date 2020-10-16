@@ -10,14 +10,14 @@ Abstraction allows to structure a program by establishing levels of complexity, 
 It quickly becomes an essential part of writing consistent programs in any language.
 
 **In OM# (and similar visual programming languages), abstractions are generally [patches](patch-box) embedded inside other higher-level patches.**
-They also include [maquettes](maquette-box), or [Lisp functions](lispfun-box) boxes.
+They also include [sequencers](sequencer-box), or [Lisp functions](lispfun-box) boxes.
 
 Abstractions can be either **[global](#global-abstraction)** or **[internal](#internal-abstraction)**.
 
 > ### See Also...
 > - [Patch Box](patch-box)
 > - [Lisp-Function Box](lispfun-box)
-> - [Maquette Box](maquette-box)
+> - [Sequencer Box](sequencer-box)
 
 
 ------
