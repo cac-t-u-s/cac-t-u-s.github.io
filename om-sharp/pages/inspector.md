@@ -23,6 +23,9 @@ The **Appearance** section includes all attributes referring to the display and 
 
 The attributes preceded by a check-box on the left, refer to attributes that are also available at a general level in the application [Preferences](preferences) (section **Appearance** – see below): when the box is unchecked, the corresponding attribute of the box takes the general value as specified in the global preferences. When the box is checked, the box takes its own value for the attribute.
 
+> The "Boxes/Consolidate appearance" menu command (or <kbd>SHIFT</kbd>+<kbd>S</kbd>) consolidates the appearance of all selected boxes, comments and connections. This means that their appearance value are then fixed and not dependent to the preferences anymore. This might be a wise step before publishing or sharing patches with other users.
+
+
 <img src="./images/preferences-appearance.png"> 
 
 
