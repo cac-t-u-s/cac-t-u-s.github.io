@@ -53,7 +53,7 @@ Two main locations are possible:
 The Lisp files in this folder are loaded before starting up the OM# session and environment. These should be essentially fixes to the compiled environment.
 
 - **Your own folder, as defined in the General preferences:**     
-The Lisp files in this folder are loaded at stqrtion the session.
+The Lisp files in this folder are loaded at starting the session.
 
 <img src="./images/user-code-folder-preference.png">
 
