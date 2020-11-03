@@ -10,7 +10,7 @@ It is useful as a hub to limit disconnecting/reconnecting oprations.
 
 Add/remove ouputs using the `+`/ `-` buttons.
 
-<img src="./images/hub.png"> 
+<img src="hub_img/hub.png"> 
 
 
 > **See also:** [`switch`](switch)

@@ -8,7 +8,7 @@ The "Preferences and Settings" windows allows you to set some global parameters 
 
 It is available at any time from the "Windows" menu, or with the <kbd>Ctrl/⌘</kbd> + <kbd>,</kbd> shortcut.
 
-<img src="./images/preferences.png">
+<img src="preferences_img/preferences.png">
 
 Preferences are organised in "sections", which correspond to the different tabs of the window: General, Appearance, Libraries, Files and Folders, Score, MIDI, Audio, Libraries, Externals. The different sections and parameters will de detailed in relevant sections of this documentation.
 

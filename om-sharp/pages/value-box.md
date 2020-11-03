@@ -4,7 +4,7 @@ layout: docpage
 
 # Value Box
 
-<img src="./images/value-box.png" align="right">
+<img src="value-box_img/value-box.png" align="right">
 
 The "value box" is the simplest element in OM# visual programs.
 It just contains / display a value, which can be of one of the following Common Lisp types:
@@ -17,7 +17,7 @@ It just contains / display a value, which can be of one of the following Common 
 
 Type <kbd>N</kbd> or double click anywhere on the patch editor background to display a temporary text-input field ; then type/paste the value and press <kbd>ENTER</kbd>.
 
-<img src="./images/value-box-new.png">
+<img src="value-box_img/value-box-new.png">
 
 ------
 
@@ -26,7 +26,7 @@ Type <kbd>N</kbd> or double click anywhere on the patch editor background to dis
 > _Note that the type of the value can be crucial in the correct evaluation of your programs._    
 For instance, "4" and 4 are very different kind of data (`"4"` is a _string_, 4 is a _number_) and 
  `(om+ "4" 1)` is not a correct expression to evaluate :     
-<img src="./images/type-error.png">
+<img src="value-box_img/type-error.png">
 
 _This section contains links top the online edition of [Common Lisp the Language, 2nd Edition](https://www.cs.cmu.edu/Groups/AI/html/cltl/m_cltl2.html), by Guy L. Steele._
 
@@ -48,12 +48,12 @@ A _[symbol](https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node27.html#SECTION00
 
 In Common Lisp the evaluation of a symbol returns its value (e.g. if the value of the symbol `x` is 5, `x` _evaluates_ to `5`). In order to prevent this the language includes a _quote mechanism_ : `'x` evaluates to the symbol `x`, not to its value. 
 
-<img src="./images/value-box-symbol.png" align="right">
+<img src="value-box_img/value-box-symbol.png" align="right">
 **=> Use this quote mechanism to enter a symbol as value in a value box.**
 
 
 Common Lisp symbols are interned in [packages](https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node35.html#SECTION00680000000000000000) which must sometimes be explicitly stated along with the same. For convenience symbols used for their name (e.g. different options for the input of a function) are sometimes used with the special "keyword" package. In this case, the symbol is prefixed with a colon (e.g. `:abc`) and doesn't require a quote.
-<img src="./images/value-box-key.png" align="right">
+<img src="value-box_img/value-box-key.png" align="right">
 
 <br>
 
@@ -86,10 +86,10 @@ The value box has one output which can be connected anywhere to supply value in 
 It also has a free number of [additional/optional inputs](box-inputs), which allows the value to come from other part of this same visual program.
 The value-box then becomes a convenient way to store and display intermediate results in a visual program:
 
-<img src="./images/value-box-input.png">
+<img src="value-box_img/value-box-input.png">
 
 > **Note:** If the value-box has several inputs, the internal value becomes a list collecting these values:     
-<img src="./images/value-box-multi-inputs.png">
+<img src="value-box_img/value-box-multi-inputs.png">
 
 ------
 
@@ -99,7 +99,7 @@ The value-box then becomes a convenient way to store and display intermediate re
 Value boxes are created automatically:
 
 - By popping-up the current value of a box [input](box-inputs) with <kbd>shift</kbd> + click.     
-<img src="./images/value-box-pop-up.png">
+<img src="value-box_img/value-box-pop-up.png">
 
 - By popping-out the result of a box [evaluation](eval) with <kbd>Ctrl/⌘</kbd> + <kbd>shift</kbd> + click (when this result is of a simple data type).     
-<img src="./images/value-box-pop-out.png">
+<img src="value-box_img/value-box-pop-out.png">

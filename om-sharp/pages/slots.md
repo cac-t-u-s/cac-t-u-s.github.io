@@ -15,10 +15,10 @@ Sometimes copy are costlly (in space/memory and time). The "slot accessors" desc
 `slots` is a general box allowing to display all the read/write accessors on the object connected to its first input.     
 To create a `slots` box for a given class object, type the class name followed by "slots":
 
-<img src="./images/slots-create.png"> 
+<img src="slots_img/slots-create.png"> 
 
 
-<img src="./images/slots-example.png"> 
+<img src="slots_img/slots-example.png"> 
 
 > **Note:** setting the slots generates a side-effect, by modifying the object connected to the `slots` box input. This side effect is not taken into accound as a "regular" edit, and therefore, this modification might not be visible in the editor of the input object, until the view is manually refreshed. 
 
@@ -27,7 +27,7 @@ To create a `slots` box for a given class object, type the class name followed b
 
 A subpatch using the data from an input object doesn't necessarily need to make a copy of it:
 
-<img src="./images/slots-in-subpatch.png"> 
+<img src="slots_img/slots-in-subpatch.png"> 
 
 
 Note that this is mostly an optimization.
@@ -44,7 +44,7 @@ This is notably useful when creating advanced processes with the OM _maquette_ (
 OM# provides a number of boxes for this purpose, which will be detailed in a [dedicated section of this manual](meta-programming), such as `mybox`: a direct access to the box in which the visual program is executed.
 In this case, the contents of `mybox` can only be set with the slot accessors of the class `OMBox`.
 
-<img src="./images/slots-write-meta.png"> 
+<img src="slots_img/slots-write-meta.png"> 
 
 
 

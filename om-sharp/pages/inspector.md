@@ -4,11 +4,11 @@ layout: docpage
 
 # Inspect and edit attributes
 
-> The inspector view can be open at any time inside a patch editor window, using the menu "Edit/Show Inspector", the corresponding shortcut <kbd>Ctrl/⌘</kbd>+<kbd>I</kbd>, or the <img src="./images/patch-button-i.png" class="embedded"> button at the right of the editor window.
+> The inspector view can be open at any time inside a patch editor window, using the menu "Edit/Show Inspector", the corresponding shortcut <kbd>Ctrl/⌘</kbd>+<kbd>I</kbd>, or the <img src="inspector_img/patch-button-i.png" class="embedded"> button at the right of the editor window.
 
 The inspector lists a number of attributes corresponding to selected object(s), followed by a short documentation text when available.
 
-<img src="./images/inspector.png"> 
+<img src="inspector_img/inspector.png"> 
 
 > The properties of selected patch [connections](connections) and [comments](comments) can also be edited using the inspector view.
 
@@ -26,7 +26,7 @@ The attributes preceded by a check-box on the left, refer to attributes that are
 > The "Boxes/Consolidate appearance" menu command (or <kbd>SHIFT</kbd>+<kbd>S</kbd>) consolidates the appearance of all selected boxes, comments and connections. This means that their appearance value are then fixed and not dependent to the preferences anymore. This might be a wise step before publishing or sharing patches with other users.
 
 
-<img src="./images/preferences-appearance.png"> 
+<img src="inspector_img/preferences-appearance.png"> 
 
 
 ------

@@ -18,20 +18,20 @@ Each interface box has different characteristics taht can be set either trought 
 The `slider` box provides a convenient way to pick a value withing a given range. 
 Minimum value, maximum value, increment and number of decimals, as well as the orientation of the slider (`:vertical` or `:horizontal`) can be set from the inspector panel or using the optional "box attribute" inputs of the `slider` box. 
 
-<img src="images/slider.png">
+<img src="interface-boxes_img/slider.png">
 
 The current value can also be set using the **value** input.
 
-<img src="images/slider-set-value.png">
+<img src="interface-boxes_img/slider-set-value.png">
 
 
 > #### Number box
-> <img src="images/value-box.png" align="right">
+> <img src="interface-boxes_img/value-box.png" align="right">
 > A simple valie box containing a number (integer or flat) is automatically turned into an interactive number box, whose value can be changed by dragging up or down with the mouse (and either <kbd>Ctrl/⌘</kbd>, or patch [locked](patch#lock)).
 > Each value change triggers downstream reactive updates.
 >
 > #### Note box
-> <img src="images/note-box.png" align="right">
+> <img src="interface-boxes_img/note-box.png" align="right">
 > The `NOTE` object box is also considered an interface box, as its value can be set and modified using a simple click and/or dragging up and down with the mouse (and either <kbd>Ctrl/⌘</kbd>, or patch [locked](patch#lock)). 
 > Each value change triggers downstream reactive updates.
 
@@ -40,7 +40,7 @@ The current value can also be set using the **value** input.
 
 The `check-box` simply returns `T` or `NIL` depending on whether it is checked or not, and can be checked/uncheck with a simple click. 
 
-<img src="images/check-box.png">
+<img src="interface-boxes_img/check-box.png">
 
 
 ## Button
@@ -50,7 +50,7 @@ By default, the value of the box is `NIL`, and becomes `T` when the button is cl
 
 It can be decorated with a **text**, ans assigned a specific **send-value** that is set instead of `T`, and pushed to the output when the button is pressed. 
 
-<img src="images/button.png">
+<img src="interface-boxes_img/button.png">
 
 
 ## Switch
@@ -59,11 +59,11 @@ The `switch` box provides a simple interface to select between different value t
 
 The box can be added as many inputs as desired, and displays corresponding boxes taht can be clicked to select one of the inputs.
 
-<img src="images/switch.png">
+<img src="interface-boxes_img/switch.png">
 
 The **multiple-selection** attribute can be set from the inspector panel. In multiple selection, `switch` evaluates to the list of selected inputs.
 
-<img src="images/switch-multi.png">
+<img src="interface-boxes_img/switch-multi.png">
 
 
 ## List selection
@@ -71,25 +71,25 @@ The **multiple-selection** attribute can be set from the inspector panel. In mul
 The `list-selection` box displays and allows selecting one or more items from a list of choices.
 The size and font of the list cells can be set from the [inspector](inspector) panel, as a **multiple-selection** option, and an **output-mode**.  
 
-<img src="images/list-selection.png">
+<img src="interface-boxes_img/list-selection.png">
 
 Items are selected/desected by clicking on the corresponding row of the list.
 If **multiple-selection** is on, several items can be selected at a time, and returned as a list from the `list-selection` box output.
 
-<img src="images/list-selection-multi.png">
+<img src="interface-boxes_img/list-selection-multi.png">
 
 The **output-mode** determines whether the output should contain the **value**, or the **index** (starting with 0) of the selected item in the list. 
 
-<img src="images/list-selection-index.png">
+<img src="interface-boxes_img/list-selection-index.png">
 
 
 ## List menu
 
 The `list-menu` box has a similar purpose as `list-selection`, but displays the the list of choices as a drop-down menu.  
 
-<img src="images/list-menu.png">
+<img src="interface-boxes_img/list-menu.png">
 
 The **output-mode** also determines whether the output should contain the **value**, or the **index** (starting with 0) of the selected item in the list. 
 
-<img src="images/list-menu-index.png">
+<img src="interface-boxes_img/list-menu-index.png">
 

@@ -4,7 +4,7 @@ layout: docpage
 
 # Boxes
 
-<img src="./images/om+.png" align="right">
+<img src="box_img/om+.png" align="right">
 A **box** is a rectangular frame displaying a name (generally, the name of the function, object or embedded component it is referring to), an icon (sometimes) and a number of inlets and outlets.
 **Inlets** (at the top) represent inputs of the function call. They corresponds to the _arguments_ of a [function box](function-box) or embedded [sub-patch](abstraction), or the _attributes_ of an [object constructor](objects).
 **Outlets** represent the returned value(s).
@@ -13,7 +13,7 @@ A **box** is a rectangular frame displaying a name (generally, the name of the f
 ----
 ### Create a box
 
-- <img src="./images/new-box.png" align="right">
+- <img src="box_img/new-box.png" align="right">
  Type <kbd>N</kbd> or double click anywhere on the patch editor background to create a function or object box. 
 In the temporary text-input field, type a [simple value](value-box), or the name of the object you wish to add in the patch, then press <kbd>ENTER</kbd>.
 
@@ -23,7 +23,7 @@ In the temporary text-input field, type a [simple value](value-box), or the name
 - Use the _Packages Library_ tab of the main [Session window](session) [ <kbd>Ctrl/⌘</kbd>+<kbd>shift</kbd>+<kbd>W</kbd> ], to also double-click in a function or class icon, and then add it somewhere in the patch editor. 
 
 
-<img src="./images/completion.png" align="right" left-margin="30px">
+<img src="box_img/completion.png" align="right" left-margin="30px">
 
 #### Auto-completion
 
@@ -41,16 +41,16 @@ The boxes have a number of "active" areas, changing their appearance or the mous
 
 - Resize areas at the right and bottom borders (when the box is resizable)
 
-<img src="./images/om+-hint.png" align="right"> 
+<img src="box_img/om+-hint.png" align="right"> 
 - Inputs and outputs (displaying tooltips: name, value and short documentation) 
 
 - Add/remove input buttons (when available) — see below.
 
-> <img src="./images/input-set-value.png" align="right"> 
+> <img src="box_img/input-set-value.png" align="right"> 
 Box **inputs** allow to enter arguments/attribute/parameters to OM# boxes. 
 Their value can be set "by hand" by just clicking on the input and typing a simple value, or through [connections](connections) to other boxes.
 >
-> <img src="./images/list-box-optional.png" align="right"> 
+> <img src="box_img/list-box-optional.png" align="right"> 
 > Boxes with a small <kbd>+</kbd> icon at the upper-right corner have hidden [optional or keyword inputs](box-inputs). When such inputs are visible, they can be removed with the other small <kbd>-</kbd> button.
 >
 > &rarr; See [this page dedicated to box inputs](box-inputs).

@@ -10,24 +10,24 @@ layout: docpage
 
 Create a global variable by typing **`global`** in the new box entry field:
 
-<img src="./images/global-create.png"> 
+<img src="global-variable_img/global-create.png"> 
 
 This valriable can then be renamed by editing the name field of the box:
 
-<img src="./images/global-rename.png"> 
+<img src="global-variable_img/global-rename.png"> 
 
 It can also be name directly at creating the box:
 
-<img src="./images/global-create-name.png"> 
+<img src="global-variable_img/global-create-name.png"> 
 
 The value is set using the optional inpt of the box:
 
-<img src="./images/global-set.png"> 
-<img src="./images/global-set-chord.png"> 
+<img src="global-variable_img/global-set.png"> 
+<img src="global-variable_img/global-set-chord.png"> 
 
 
 Any copy of this variable box, or newly created global variable with the same name (and anywhere in the environment), will hold a pointer and allow direct access to the value:
 
-<img src="./images/global-read.png"> 
+<img src="global-variable_img/global-read.png"> 
 
 

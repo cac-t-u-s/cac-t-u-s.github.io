@@ -4,7 +4,7 @@ layout: docpage
 
 # Importing patches from OpenMusic 
 
-<img src="./images/om6-types.png" align="right"> 
+<img src="import-from-om_img/om6-types.png" align="right"> 
 
 Importing OpenMusic patches in OM# is relatively straightforward.
 The "Open" command in the "File" menu proposes the "OM6" file format amongst the different supported file types.

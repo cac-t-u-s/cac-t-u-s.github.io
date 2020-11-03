@@ -34,14 +34,14 @@ To include an existing abstraction in a patch, you can use one of the following 
 2. Use the menu "Box/Add Box/External abstraction", click somewhere in the container patch and select a .opat file from the file-chooser dialog. 
 3. Type <kbd>P</kbd> and enter the name or full pathname of the file.
 
-<img src="./images/create-abs-patch-box.png"> 
+<img src="abstraction_img/create-abs-patch-box.png"> 
 
 In (3) either the name of the file or its _pathname_ (i.e. file location, with folders separated by a "/") can be specified. The search locations are:
 
 - The folder where the current container patch is located.
 - The "search path" specified in the "File and folders" [preferences](preferences).
 
-<img src="./images/preferences-search-path.png"> 
+<img src="abstraction_img/preferences-search-path.png"> 
 
 ### Finding / changing the location of an abstraction
 
@@ -51,13 +51,13 @@ In (3) either the name of the file or its _pathname_ (i.e. file location, with f
 
 The full reference pathname of an abstraction box can be read in the [inspector panel](inspector).
 
-<img src="./images/abs-pathname.png"> 
+<img src="abstraction_img/abs-pathname.png"> 
 
 This pathname can be changed or edited: if it is changed to another existing file, the patch box will now make reference to this new abstaction.
 
 A patch box with lost abstraction will display in red, as well as the pathname field in the inspector panel. Use this field to edit and restore the abstraction pathname.
 
-<img src="./images/abs-lost.png"> 
+<img src="abstraction_img/abs-lost.png"> 
 
 > In order to avoid loosing tracks of abstractions, patches and dependencies should either be moved and transfered jointly in a same folder, or placed in the search path specified in the "File" [Preferences](preferences).
 
@@ -92,7 +92,7 @@ _The link to the original reference is then broken._
 To create an internal patch in another patch, you can use one of the following options:
 
 1. Type "patch", or "p" in the same text field you would use to type a function or class name (displayed with double-click or using the <kbd>N</kbd> keyboard shortcut).     
-<img src="images/new-internal-patch.png"> 
+<img src="abstraction_img/new-internal-patch.png"> 
 2. Use the menu "Box/Add Box/Internal patch", then click somewhere in the container patch to create the new patch box.
 3. (_for patches only_) [Encapsulate](patch-box#encapsulation) some boxes that are already in the container patch, using <kbd>shift</kbd> + <kbd>E</kbd> (see paragraph below).
      
@@ -103,9 +103,9 @@ To create an internal patch in another patch, you can use one of the following o
 Internal abstractions are not bound to any external reference and therefore can be renamed at anytime without any consequence on the execution.    
 There are two ways of changing the name of an internal abstraction:
 1. Double-click on the name text-field on the box.     
-<img src="images/patch-box-rename.png"> 
+<img src="abstraction_img/patch-box-rename.png"> 
 2. Use the "Name" property in the [inspector panel](inspector).     
-<img src="images/patch-box-name.png">
+<img src="abstraction_img/patch-box-name.png">
 
 ### Copies and multiple references
 

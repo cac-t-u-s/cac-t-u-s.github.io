@@ -33,7 +33,7 @@ They will correspond to the inputs of the abstraction box.
 The `return-value` will be read from the box output (Lisp-function boxes can have only one output).
 
 
-<img src="images/lisp-function-box.png"> 
+<img src="lispfun-box_img/lisp-function-box.png"> 
 
 
 

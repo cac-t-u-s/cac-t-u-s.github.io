@@ -13,14 +13,14 @@ The class MIDI-TRACK is a container for MIDI events. It contains a sequence of o
 
 A MIDI file can be loaded by just connecting a _pathname_ to _self_. If the value of _self_ is **:choose-file**, then the evaluation of the **MIDI-TRACK** box will open a file-chooser dialog for loading a MIDI file. 
 
-<img src="./images/midi-track-init.png"> 
+<img src="midi-track_img/midi-track-init.png"> 
 
 ## Editor
 
 The editor of **MIDI-TRACK** displays and allows editing of the internal MIDI-NOTES as a "paino-roll" representation. 
 Transpositions, time and duration edits, note addition or removal are allowed and performed with the usual commands, as well as playback, zoom-in and -out, and (timeline-editor) modifications.
 
-<img src="./images/midi-track-editor.png"> 
+<img src="midi-track_img/midi-track-editor.png"> 
 
 ## Compatibility
 

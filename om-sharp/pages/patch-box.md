@@ -13,7 +13,7 @@ They are saved as **.opat** files which can be used as _[global](abstraction#glo
 
 _[Internal](abstraction#internal-abstraction)_ patch abstractions can be created from the _Box/Add Box..._ menu or typing **`patch`**, or **`p`** in the same text field you would use to type a function or class name (displayed with double-click or using the <kbd>N</kbd> keyboard shortcut).    
 
-<img src="images/new-internal-patch.png"> 
+<img src="patch-box_img/new-internal-patch.png"> 
 
 
 ## Ins and Outs
@@ -27,20 +27,20 @@ _[Internal](abstraction#internal-abstraction)_ patch abstractions can be created
 In order to include an input or output in a patch, you can use one of the following options:
 
 1. Type **`in`** or **`out** in the same text field you would use to type a function or class name (displayed with double-click or using the <kbd>N</kbd> keyboard shortcut).    
-<img src="images/create-input.png">    
-<img src="images/create-output.png">    
+<img src="patch-box_img/create-input.png">    
+<img src="patch-box_img/create-output.png">    
 2. Use the menus "Boxes/Add Box/Input" / "Boxes/Add Box/Output", then click somewhere in the container patch to create the new input or output box.
 
 **&rarr; Connect the input and output boxes respectively to the parameters and resuts of the abstraction**
 
-<img src="images/in-outs.png"> 
+<img src="patch-box_img/in-outs.png"> 
 
 **In** / **Out** boxes correspond to the inlets / outlets of the abstraction boxes referring to the patch you are editing. 
 
-<img src="images/abstraction-inlets-outlets.png"> 
+<img src="patch-box_img/abstraction-inlets-outlets.png"> 
 
 
-<img src="images/inbox-rename.png" align="right"> 
+<img src="patch-box_img/inbox-rename.png" align="right"> 
 
 ### Renaming inputs and output
 
@@ -53,7 +53,7 @@ In and Out boxes can be renamed by double-clicking on the name label.
 
 ### Input default value
 
-<img src="images/input-default.png" align="right">
+<img src="patch-box_img/input-default.png" align="right">
 
 **Input** boxes have themselves [optional inlets](box-inputs#additional-inputs).
 These inlets can be used to connect _default values_, which will be used for internal evaluations of the patch boxes. 
@@ -63,7 +63,7 @@ These inlets can be used to connect _default values_, which will be used for int
 
 
 > The [Lisp-equivalent "lambda" expression of the edited patch can be displayed](lisp#getting-the-equivalent-lisp-code-of-a-patch) on the patch side panel as long as at least one **ouput** box is present, and will be computed (just like during the patch compilation) from this or these output box(es). Input boxes are considered as the _arguments_ of the expression.     
-<img src="images/abstraction-lisp-code.png"> 
+<img src="patch-box_img/abstraction-lisp-code.png"> 
 
 
 
@@ -73,15 +73,15 @@ These inlets can be used to connect _default values_, which will be used for int
 Every connection excluded from the encapsulation becomes input or an output of the abstraction.    
 To encapsulate selected boxes, use the corresponding "Boxes / Encapsulate selection" menu or the <kbd>shift</kbd> + <kbd>E</kbd> shortcut.
 
-<img src="images/encapsulate.png"> 
+<img src="patch-box_img/encapsulate.png"> 
 
 The inverse mechanism ("un-encapsulation") can be used to remove an abstraction and include its contents in the containing patch.     
 To un-encapsulate an abstraction, use the "Boxes / Unencapsulate selection" menu or the <kbd>shift</kbd> + <kbd>U</kbd> shortcut.     
-<img src="images/unencapsulate.png"> 
+<img src="patch-box_img/unencapsulate.png"> 
 
 
 
-<img src="./images/patch-box-views.png" align="right"> 
+<img src="patch-box_img/patch-box-views.png" align="right"> 
 
 ## Display 
 

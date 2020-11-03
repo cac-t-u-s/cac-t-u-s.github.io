@@ -14,7 +14,7 @@ The condition **TEST** is said true when it evaluates to anything that is not `N
 
 **ELSE** is an [optional input](box-inputs#optional), and by default, the result of `if` on a false condition (if **TEST** evaluates to `NIL`) is also `NIL`. 
 
-<img src="./images/if.png">
+<img src="if_img/if.png">
 
 > **Note: Contrary to most boxes in OM# and functions in Lisp, with `if` _only the input corresponding to the chosen form (THEN or ELSE) is evaluated, depending on the result of the test_.**
 

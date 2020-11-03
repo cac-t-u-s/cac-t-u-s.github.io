@@ -13,11 +13,11 @@ Currently-supported 3D objects are: `3D-LINES`, `3D-CUBE` and `3D-SPHERE`.
 
 - `3D-CUBE` and `3D-SPHERE` can be constructed as "standard" [objects](objects) in OM patches: 
 
-<img src="./images/3d-model-cubes.png">
+<img src="3d-model_img/3d-model-cubes.png">
 
 - `3D-LINES` shall just be specified as list of values. Their colour is assigned randomly. 
 
-<img src="./images/3d-model-lines.png">
+<img src="3d-model_img/3d-model-lines.png">
 
 
 > **Note:** The `3D-LINES` object will be fully functional in the coming OM# update. In the meantime, it is also possible to create `3D-LINES` from your own Lisp code or functions, in which case the colour, and other aspects of rendering are also accessible. 
@@ -28,7 +28,7 @@ The main editing consists in 3D-rotations along different combinations of axes.
 
 
 
-<img src="./images/3d-model.png" width="500" align="right">
+<img src="3d-model_img/3d-model.png" width="500" align="right">
 
 ## Viewpoint 
 
@@ -64,6 +64,6 @@ Rotation short-cuts:
 This will output transformed data out in the patch and update downstream reactive connected boxes.
 
 <center>
-<img src="./images/3d-model-boxes.png" width="400" align="middle">
+<img src="3d-model_img/3d-model-boxes.png" width="400" align="middle">
 </center>
 

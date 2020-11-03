@@ -8,7 +8,7 @@ layout: docpage
 
 Reactivity can be set/unset: 
 
-<img src="./images/reactive-set-input.png" align="right"> 
+<img src="reactive_img/reactive-set-input.png" align="right"> 
 - At the level of a box input or output, using a contextual menu option ("set reactive"):
 
 
@@ -16,7 +16,7 @@ Reactivity can be set/unset:
 
 - At the level of a box, also using the "reactive" control of the inspector panel, or the <kbd>R</kbd> shortcut. This is equivalent to to setting/usetting the reactivity of all the inputs anf outputs of this box at once.
 
-<img src="./images/reactive-patch-simple.png"> 
+<img src="reactive_img/reactive-patch-simple.png"> 
 
 &rarr; Reactive inputs, outputs and connections are displayed with a slight red border.
 
@@ -45,7 +45,7 @@ Reactivity can be set/unset:
 
 The [interface boxes](interface-boxes) provides plenty of opportunities top design interactive visual programs in OM#, which for the most part will make sense when used along with the reactive mode, in ordere to set an input value, change the routing of a patch, or trigger an actions.
 
-<img src="./images/reactive-example-button.png">  <img src="./images/reactive-example-slider.png"> 
+<img src="reactive_img/reactive-example-button.png">  <img src="reactive_img/reactive-example-slider.png"> 
 
 
 #### Communicate internally: `send` / `receive`
@@ -56,7 +56,7 @@ The message can be labelled in order to target a specific receiver, or a set of 
 
 Targetted `receive` boxes notify and update downstream reactive boxes.
 
-<img src="./images/reactive-example-send.png">  <img src="./images/reactive-example-receive.png"> 
+<img src="reactive_img/reactive-example-send.png">  <img src="reactive_img/reactive-example-receive.png"> 
 
 #### Routing data
 
@@ -64,12 +64,12 @@ Data transferred througfh reactive program updates can be filtered and route by 
 
 `route` has unlimited [optional inputs](box-inputs#optional) which can be connected to different _tests_ (a function or patch box in [lambda mode](lambda), or just a function name tio apply, ). Received data will only be proagated if they comply with the test.
 
-<img src="./images/reactive-example-send-2.png">  <img src="./images/reactive-example-route.png"> 
+<img src="reactive_img/reactive-example-send-2.png">  <img src="reactive_img/reactive-example-route.png"> 
 
 
 #### Communicate with the world
 
-<img src="./images/reactive-example-osc.png" align="right">
+<img src="reactive_img/reactive-example-osc.png" align="right">
 
 Data received from external applications through UDP/OSC or MIDI update and trigger computing in OM# visual programs.
 

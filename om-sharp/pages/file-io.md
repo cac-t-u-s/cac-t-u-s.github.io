@@ -30,19 +30,19 @@ These functions will generally include a (standard or [optional](box-inputs#opti
 
 The "Files and Folders" preference tab in OM# [preferences](preferences) provides a number of options to parameterise the default folder locations and the behaviours of file reading/writing operations.
 
-<img src="images/file-preferences.png"> 
+<img src="file-io_img/file-preferences.png"> 
 
 > #### Generating Pathnames to the Default Folders
 > The functions `infile`, `outfile`, `tmpfile` all take a simple file name (and optionally type and list of directories) and generate a full pathname with it, using the location of the default input, output or temporary files defined in the "Files and Folders" preferences. 
 >
-> <img src="images/file-in-out.png"> 
+> <img src="file-io_img/file-in-out.png"> 
 
 
 > #### File Chooser
 > The `file-chooser` function launches a file chooser dialog window allowing to select a file or directory to read or create, depending on the options selected in its ["keyword" inputs](box-inputs#keyword). 
 >
-> <img src="images/file-chooser.png"> 
-> <img src="images/file-chooser-options.png"> 
+> <img src="file-io_img/file-chooser.png"> 
+> <img src="file-io_img/file-chooser-options.png"> 
 
 
 
@@ -50,7 +50,7 @@ The "Files and Folders" preference tab in OM# [preferences](preferences) provide
 
 `save-as-text` is a simple utility to write different kind of data transiting in OM# programs, as a text file. Supported data types are lists, [BPF/BPC](bpf-bpc) (write the list of point coordinates), or [TextBuffer](textbuffer) objects (just write the contents to the file).
 
-<img src="images/save-as-text.png"> 
+<img src="file-io_img/save-as-text.png"> 
 
 
 ## Advanced Control over File Reading/Writing Operations
@@ -60,7 +60,7 @@ In order to perform more advanced file input/output operations, it is possible t
 The  `open-file-stream` opens and returns a "stream" to a file (designated using a pathname), which can be used to incrementally read or write text data, using the functions `file-read-line` , `file-write-line` (or simply, `file-write`), all requiring the stream as one or their arguments. 
 The stream should finally be closed using `close-file-stream`, so the file is freed and available for further operations. See also the `file-stream` help-patch.
 
-<img src="images/file-stream.png"> 
+<img src="file-io_img/file-stream.png"> 
 
 
 > **Note:** A similar set of functions is available for manipulating (reading/writing) SDIF data using `open-sdif-stream`/ `close-sdif-stream`. See more in the [SDIF](sdif) section.

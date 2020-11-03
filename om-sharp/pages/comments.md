@@ -8,6 +8,6 @@ layout: docpage
 
 Create comments in a patch using the shortcut <kbd>C</kbd> (or the general shortcut <kbd>N</kbd>, then typing "comment"). Then type a text in the editable box. 
 
-<img src="./images/comment.png"> 
+<img src="comments_img/comment.png"> 
 
 You can resize, move, copy, delete them and edit comment's appearance and attributes as any other boxes (see [Inspect/edit box attributes](inspector)). 

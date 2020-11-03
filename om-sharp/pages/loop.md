@@ -19,7 +19,7 @@ Loops in OM# are standard patches (with any number of inputs and outputs) includ
 
 The `iterate` box can have an arbitrary number of inputs, which are evaluated from left to right and allow for combining iterators and the sequencing of actions inside the loop.
 
-<img src="./images/loop-list-patch.png">
+<img src="loop_img/loop-list-patch.png">
 
 `iterate` triggers evaluation, but does not return a value from the patch, as standard outputs / `out` boxes do.
 The iterations therefore generally produce side-effects (`print` is one of them) or data collection (for instance using `collect` or `accum`, whose value can be returned by the patch outputs) (see below, [data collection](#data-collection)).    
@@ -27,7 +27,7 @@ The iterations therefore generally produce side-effects (`print` is one of them)
 While editing a loop, it is possible to get a "preview" of the iteration result by evaluating the `iterate` box.
 The list displayed in the listener here is however a display artefact, as `iterate` by itself does not collect any data.
 
-<img src="./images/loop-list-simple.png">
+<img src="loop_img/loop-list-simple.png">
 
 
 ## Iterators: `loop-for`, `loop-list`, `loop-tail`, `loop-while`
@@ -36,22 +36,22 @@ There exist 4 different iterators:
 
 - **`loop-list`** iterates on the successive elements of a list
 
-<img src="./images/loop-list.png">
+<img src="loop_img/loop-list.png">
 
 - **`loop-tail`** iterates on the tail of a list, popping out the first element each time
 
-<img src="./images/loop-tail.png">
+<img src="loop_img/loop-tail.png">
 
 - **`loop-for`** iterates between two numbers
 
-<img src="./images/loop-for.png">
+<img src="loop_img/loop-for.png">
 
 - **`loop-while`** iterates while a given condition is true
 
-<img src="./images/loop-while.png">
+<img src="loop_img/loop-while.png">
 
 
-<img src="./images/loop-by.png" align="right">    
+<img src="loop_img/loop-by.png" align="right">    
 > #### Optional inputs in iterators    
 > Some iterators (`loop-for`, `loop-list`, `loop-tail`) have an optional input called `by` allowing to control the iteration with more advanced criteria. 
 > 
@@ -68,11 +68,11 @@ This is when loops start to be more expressive and powerful than ususal `map...`
 
 The iteration stops as soon as one of the iterator finishes:
 
-<img src="./images/loop-combined-it.png">
+<img src="loop_img/loop-combined-it.png">
 
 This makes sense in particular for the `loop-while` iterator, which essentially works connected to other iterators.
 
-<img src="./images/loop-combined-while.png">
+<img src="loop_img/loop-combined-while.png">
 
 > **Note:** Iterator values are not valid outside of the `iterate` context. It is an error to connect it directly to a loop output, for instance.     
 In order to return the last value of an iterator, use a [memory](memory) box like `mem` or `collect` (see below).
@@ -85,7 +85,7 @@ One of the main use of loops in OM# will be the iterative processing and collect
 - Connect the first output (**:collect**) of a `collect` box to `iterate`, in order to collect/accumulate data in memory.
 - Connect the second output (**:data-out**) of the `collect` box to an output to return the collected data at the end of the loop.
 
-<img src="./images/loop-collect.png">
+<img src="loop_img/loop-collect.png">
 
 > **See also:** [Memory](memory) &rarr; More on `collect` / `accum`
 
@@ -94,7 +94,7 @@ One of the main use of loops in OM# will be the iterative processing and collect
 
 ## Summing Up...
 
-<img src="./images/loop-lispcode.png" align="right">
+<img src="loop_img/loop-lispcode.png" align="right">
 
 When a patch containing an `iterate` box is evaluated, the following actions happen in order:
 

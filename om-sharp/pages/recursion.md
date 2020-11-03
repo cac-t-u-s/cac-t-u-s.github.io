@@ -30,6 +30,6 @@ In OM#, recursive visual programs can be recursive as well, as long as they are 
 >
 > See more on ["how to use global/external abtractions"](abstraction#global-abstraction).
 
-<img src="./images/rec-make.png"> 
-<img src="./images/rec-factorial.png">
+<img src="recursion_img/rec-make.png"> 
+<img src="recursion_img/rec-factorial.png">
 

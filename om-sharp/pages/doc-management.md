@@ -15,7 +15,7 @@ The [Session window](session) includes a "Documents" tab displaying the list of 
 
 Documents displayed in red have no pathname (either don't have one, or point to a non-exiting file), and need to be saved/re-saved.
 
-<img src="./images/session-documents.png">
+<img src="doc-management_img/session-documents.png">
 
 => **Double-clicking on an item opens the document, or brings its window to the front.**
 
@@ -31,7 +31,7 @@ The main file extensions used in OM# are:
 - **.oseq**: [sequencers](sequencer) (sequenced arrangements/programs)
 - **.olsp**: [Lisp-functions](lisp) (in the OM# format)
 
-<img src="./images/doc-files.png">
+<img src="doc-management_img/doc-files.png">
 
 ------
 ## Open/Save/Duplicate/Reload documents
@@ -67,6 +67,6 @@ It is therefore possible to edit a document by hand (or even, to generate it by 
 
 > See and edit the text-version of an OM# patch using the "File/Open as Text" menu.
 
-<img src="./images/patch-as-text.png">
+<img src="doc-management_img/patch-as-text.png">
 
 

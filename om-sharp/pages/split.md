@@ -9,7 +9,7 @@ It is a useful shorthand to access the first few elements of a list.
 
 Add/remove ouputs using the `+`/ `-` buttons.
 
-<img src="./images/split.png"> 
+<img src="split_img/split.png"> 
 
 > **Note:** If several ouputs are called, beware of multiple re-evaluations of the list, and consider using the [eval-once](eval-once) option. 
 

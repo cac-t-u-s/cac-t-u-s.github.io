@@ -10,7 +10,7 @@ OM# includes a whole Lisp programming interface, and there exist several ways to
 
 > OM# is a Lisp environment, that is, it embeds the whole Common Lisp language and interpreter. Visual programs created in OM# are just compiled into Lisp functions before to execute, and can therefore seamlessly call and interact with pure Lisp program components.
 
-> <img src="./images/lisp-in-patch.png" align="right"> 
+> <img src="lisp_img/lisp-in-patch.png" align="right"> 
  Any function that is defined in Lisp can be instanciated as a "box" in OM# visual program. Just type its name (prefixed by its Lisp _package_ name if not in the **:om** package).    
 
 
@@ -55,7 +55,7 @@ The Lisp files in this folder are loaded before starting up the OM# session and 
 - **Your own folder, as defined in the General preferences:**     
 The Lisp files in this folder are loaded at starting the session.
 
-<img src="./images/user-code-folder-preference.png">
+<img src="lisp_img/user-code-folder-preference.png">
 
 ------
 ## Lisp in OM# patches
@@ -66,7 +66,7 @@ The equivalent of the previous "Find Definition" command is also available in vi
 
 This command will take you the Lisp source of the visual program component (if it can be found). You can eventuyally edit it, re-evaluate it from there, and modify its behaviour (be careful!). 
 
-<img src="./images/find-definition.png">
+<img src="lisp_img/find-definition.png">
 
 ### Using "Lisp-functions"
 
@@ -78,11 +78,11 @@ This command will take you the Lisp source of the visual program component (if i
 
 An interesting feature of the OM# patch editor is the possibility to display on a side panel, the equivalent Lisp code corresponding to part or all of a visual program.
 
-> Open the "Lisp" pane in a patch editor with the button <img class="embedded" src="./images/patch-button-lisp.png">, from the menu "Edit/Show Lisp Code", or using the <kbd>Ctrl/⌘</kbd>+<kbd>L</kbd> shortcut.
+> Open the "Lisp" pane in a patch editor with the button <img class="embedded" src="patch-button-lisp.png">, from the menu "Edit/Show Lisp Code", or using the <kbd>Ctrl/⌘</kbd>+<kbd>L</kbd> shortcut.
 
 The Lisp code corresponding to the evaluation of the selected box is displayed (if any) or otherwise, to the whole patch, as if it were compiled and [used as an abstraction in another patch](abstraction): _this patch must have at least one OUT box in order to do/return anything !_
 
-<img src="./images/patch-lisp-code.png">
+<img src="lisp_img/patch-lisp-code.png">
 
 > **Hint:** The generated Lisp translation can be copied (button "Copy Lisp Code") and reused in Lisp-buffers or Lisp-functions.
 

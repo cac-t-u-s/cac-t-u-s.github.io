@@ -9,7 +9,7 @@ layout: docpage
 Libraries must be located in specific folders where OM# can find them !     
 &rarr; Set one or several locations in the **Libraries** tab of the [Preferences](preferences) window:
 
-<img src="./images/lib-preferences.png">
+<img src="libraries_img/lib-preferences.png">
 
 
 The **External Libraries** tab of the [Session Window](session) displays the libaries that are currently detected. This tab should update along with your modifications in the Preferences' search paths (but you can also help it with the "Refresh list" button!).
@@ -17,7 +17,7 @@ The "Refresh list" button is also useful to update the view when changes are mad
 
 Notice the different icons for libraries that are loaded, and not loaded:
 
-<img src="./images/libraries.png">
+<img src="libraries_img/libraries.png">
 
 
 > **Warnings:**     
@@ -38,7 +38,7 @@ Under certain condition (depending on how the library is, and which tools of the
 
 > The "Auto load" option in the Libaries preferences (see screen above) allows to load the required libraries silently as soon as the are needed. 
 
-<img src="./images/dead-boxes.png" align="right" hspace="20">
+<img src="libraries_img/dead-boxes.png" align="right" hspace="20">
 
 If the library is not loaded or not found the corresponding boxes will be temporarily disabled, and display in red in the patch.
 

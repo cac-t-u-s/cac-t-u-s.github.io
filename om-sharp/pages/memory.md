@@ -18,7 +18,7 @@ The boxes described in this page all embed a storage slot, or **memory**.
 
 `mem` is a sort of delay that can be used in patches and [iterations](loop) to recall the previous value or the _n_ previous values that have passed through the box.
 
-<img src="images/mem.png">
+<img src="memory_img/mem.png">
 
 > **See the `mem` examples in OM# inbuilt Help Patches**
 
@@ -32,7 +32,7 @@ They are meant to be used either inside OM# [loops](loop) or in [reactive progra
 
 ### `collect`
 
-<img src="images/collect.png" align="right">
+<img src="memory_img/collect.png" align="right">
 
 `collect` is the main collector box, from which are derived the two others. 
 Its memory is a simple list. 
@@ -64,7 +64,7 @@ Any `collect` input receiving a reactive notification simulates the evaluation o
 
 - An additional **:time-list** output returns a list of times corresponding to the collect time of each item in the memory.
 
-<img src="images/tcollect.png">
+<img src="memory_img/tcollect.png">
 
 > `tcollect` allows for instance the grouping of chords when processing a stream of incoming notes.     
 > **See also the _Core features/collect_ Help Patch.**
@@ -80,7 +80,7 @@ Possible functions are for instance `+`, in order to sum up the inputs (supposin
 > `accum` is mostly intended to be used in [loops](loop) as a way to extend or specifilze the behavior of `collect` when needed.    
 > **See the _Core features/loop_ Help Patch.**
 
-<img src="images/accum.png">
+<img src="memory_img/accum.png">
 
 > **Note:** `accum` has no _push_ input and therefore is not suited to work in reactive processes as `collect`/`tcollect` do.
 

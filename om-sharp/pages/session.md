@@ -18,14 +18,14 @@ This tab opens by default at starting a new session. This is where you will see 
 Note that it is also possible to open the Listener as a separate window, using the "Open as separate window" button at the bottom, or using the Windows menu and short-cut. The separate Listener window offers a number of additional options, for instance if you would like to _input_ Lisp commands to the system. See [Listener](listener) for more details.
 
 
-<img src="./images/session-listener.png">
+<img src="session_img/session-listener.png">
 
 ### The **Documents** tab 
 
 This tab lists all open documents (mostly, patches/visual programs), displaying their pathname (if any), last modification date, etc. 
 **Double-clicking on an item opens the document, or brings its window to the front.**
 
-<img src="./images/session-documents.png">
+<img src="session_img/session-documents.png">
 
 
 Documents displayed in red have no pathname (either don't have one, or point to a non-exiting file), and need to be saved/re-saved. 
@@ -42,7 +42,7 @@ The "Save selection" and "Close selection" buttons save or close all selected do
 
 In this tab are listed all the "packages" in-built in the environment.
 
-<img src="./images/session-packages.png">
+<img src="session_img/session-packages.png">
 
 Open/browse packages using the triangle icons on the left, in order to see the list of functions and classes they contain.
 Click on an item to display its quick-diocumentation on the right.
@@ -58,7 +58,7 @@ Notice the different icons for libraries that are loaded (brown, with a green la
 
 => Double click on a library to load it, and brows its contents just like in the previous tab.
 
-<img src="./images/session-libs.png">
+<img src="session_img/session-libs.png">
 
 
 > See also: [Libraries](libraries)
