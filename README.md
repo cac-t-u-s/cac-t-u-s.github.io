@@ -1,7 +1,7 @@
 
 
 
-<img src="images/cactus.png" width="90" align="right"> 
+<img src="cactus.png" width="90" align="right"> 
 
 The CACTus project is a collection of tools for Computer-Assisted Composition, centered around the OM# visual programming environment.
 
