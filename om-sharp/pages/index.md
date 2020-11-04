@@ -109,21 +109,33 @@ OM# provides an extensive set of tools for the manipulation of musical structure
 
 ## Audio
 
-[...]
+- Audio Settings
+- The `SOUND` box
+- Audio tools
 
 ## MIDI
 
-[...]
+MIDI is a standard protocol (and file format) designed for musical software and device to communicate and exchange control data for synthesizers. It includes the high level notions of notes, continuous controllers (volume, pitch bend, panning, etc.)   
+The MIDI protocol is used in OM# to "play" musical structures: a synthesizer must be connected to receive and render the data into sound.   
+OM# also provides a set of tools and function to import, process or generate MIDI-encoded data with visual programs. 
 
+- MIDI Settings
 - [`MIDI-TRACK`](midi-track)
+- MIDI tools
 
 ## OSC 
 
-[...]
+OSC (Open Sound Control) is a standard format for the communication and data transfer between audio, music, or multimedia devices and applications.
+
+- Sending / Receiving OSC
+- OSC data structures
+
+See also the [odot / o.OM external for OM#](https://github.com/cac-t-u-s/o.OM).
 
 ## SDIF
 
-[...]
+- The `SDIFFILE` box
+- SDIF tools
 
 ## Programming
 
