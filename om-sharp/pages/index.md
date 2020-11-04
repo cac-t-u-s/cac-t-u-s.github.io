@@ -96,12 +96,16 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 
 ## Score
 
-- NOTE
-- CHORD
-- CHORD-SEQ
-- VOICE
-- MULTI-SEQ / POLY
-- N-CERCLE
+OM# provides an extensive set of tools for the manipulation of musical structures, located in teh "Score" package.
+
+- `NOTE`
+- `CHORD`
+- `CHORD-SEQ`: The classic
+- `VOICE` and rhythmic structures
+- Polyphonic objects: `MULTI-SEQ` / `POLY`
+- Extras: Additional score elements
+- `N-CERCLE`: A mathematical tool
+
 
 ## Audio
 
