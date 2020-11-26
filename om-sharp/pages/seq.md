@@ -11,7 +11,7 @@ Add/remove inputs and ouputs using the `+`/ `-` buttons.
 <img src="seq_img/seq.png"> 
 
 
-`seq is close to what a simple `list` call would do with similar inputs, but only returns the required data. By involving evaluation of expressions not necessarily bound to return data, this box supports the creation of programs with "side-effect", as in [_imperative_ programming](https://en.wikipedia.org/wiki/Imperative_programming) style.
+`seq` is close to what a simple `list` call would do with similar inputs, but only returns the required data. By involving evaluation of expressions not necessarily bound to return data, this box supports the creation of programs with "side-effect", as in [_imperative_ programming](https://en.wikipedia.org/wiki/Imperative_programming) style.
 
 <img src="seq_img/seq-side-effect.png"> 
 
