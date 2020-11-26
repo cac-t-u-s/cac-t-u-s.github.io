@@ -96,8 +96,9 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 
 ## Score
 
-OM# provides an extensive set of tools for the manipulation of musical structures, located in teh "Score" package.
+OM# provides an extensive set of tools for the manipulation of musical structures, located in the "Score" package.
 
+- Score boxes and editors (general)
 - `NOTE`
 - `CHORD`
 - `CHORD-SEQ`: The classic
@@ -106,6 +107,16 @@ OM# provides an extensive set of tools for the manipulation of musical structure
 - Extras: Additional score elements
 - `N-CERCLE`: A mathematical tool
 
+## MIDI
+
+MIDI is a standard protocol (and file format) designed for musical software and device to communicate and exchange control data for synthesizers. It includes the high level notions of notes, continuous controllers (volume, pitch bend, panning, etc.)
+The MIDI protocol is used in OM# to "play" musical structures: a synthesizer must be connected to receive and render the data into sound.
+OM# also provides a set of tools and function to import, process or generate MIDI-encoded data with visual programs. 
+
+- MIDI Settings
+- [`MIDI-TRACK`](midi-track)
+- MIDI tools
+
 
 ## Audio
 
@@ -113,15 +124,6 @@ OM# provides an extensive set of tools for the manipulation of musical structure
 - The `SOUND` box
 - Audio tools
 
-## MIDI
-
-MIDI is a standard protocol (and file format) designed for musical software and device to communicate and exchange control data for synthesizers. It includes the high level notions of notes, continuous controllers (volume, pitch bend, panning, etc.)   
-The MIDI protocol is used in OM# to "play" musical structures: a synthesizer must be connected to receive and render the data into sound.   
-OM# also provides a set of tools and function to import, process or generate MIDI-encoded data with visual programs. 
-
-- MIDI Settings
-- [`MIDI-TRACK`](midi-track)
-- MIDI tools
 
 ## OSC 
 
