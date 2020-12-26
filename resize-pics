@@ -1,0 +1,3 @@
+
+cp ${1:-_Original}/* ${2:-.}
+mogrify -resize 50% *.png
