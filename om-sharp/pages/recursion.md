@@ -20,7 +20,7 @@ Recursion consists in calling a function in the body of this same function. It p
 **Note:** Recursion is also a useful and powerful means to handle recursive data structures like trees.
 
 
-In OM#, recursive visual programs can be recursive as well, as long as they are set as **[global abstractions](abstraction#global-abstraction)**. Global (or "external") abstractions are stored on the disk and referenced in the document manager, and therefore can be used from anywhere (not only locally in the patch where they have been create — this is the case for "local", or [internal abstractions](abstraction#internal-abstraction)), including inside themselves.
+In OM#, visual programs can be recursive as well, as long as they are set as **[global abstractions](abstraction#global-abstraction)**. Global (or "external") abstractions are stored on the disk and referenced in the document manager, and therefore can be used from anywhere (not only locally in the patch where they have been placed — this is the case for "local", or [internal abstractions](abstraction#internal-abstraction)), including inside themselves.
 
 
 > &rarr; Insert a global absttaction in itself as you would insert another global abstraction, that is, using one of the following options:
