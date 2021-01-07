@@ -15,7 +15,7 @@ layout: docpage
 Loops in OM# are standard patches (with any number of inputs and outputs) including one or more **`iterate`** boxes.    
 **Each `iterate` box accounts for a loop.**
 
-`iterate` evaluates its input(s) a number of time during that is determined by the loop _iterators_ (`loop-for`, `loop-list`, `loop-tail`, `loop-while`) that are conncted to it, either directly or indirectly. The example below prints the elements in a list:
+`iterate` evaluates its input(s) a number of time as determined by the loop _iterators_ (`loop-for`, `loop-list`, `loop-tail`, `loop-while`) that are conncted to it, either directly or indirectly. The example below prints the elements in a list:
 
 The `iterate` box can have an arbitrary number of inputs, which are evaluated from left to right and allow for combining iterators and the sequencing of actions inside the loop.
 
