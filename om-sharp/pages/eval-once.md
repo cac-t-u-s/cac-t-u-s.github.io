@@ -4,11 +4,11 @@ layout: docpage
 
 # Eval-Once Mode
  
-The "eval-once" mode is a possible value of boxes' **[lock-state](eval-modes#lock-state)** attribute, which allows for the box to be reevaluated _only once_ per global request.
+The "eval-once" mode is one of the possible **[lock-state](eval-modes#lock-state)** of OM# boxes, which allows for the box to be reevaluated _only once_ per global request.
 
  A "global request" is either:
  * A user- or external [evaluation](eval) request in a top-level patch, or
- * A call to a sub-patch or [abstraction](abstraction) considered inside this patch.
+ * A call to a sub-patch or [abstraction](abstraction) (inside this patch).
  * An iteration inside a [loop](loop).
 
 > #### IMPORTANT: Default Eval-Once
@@ -16,9 +16,9 @@ The "eval-once" mode is a possible value of boxes' **[lock-state](eval-modes#loc
 >   
 > <img src="eval-once_img/pref-auto-ev-once.png">
 
-### In "manual" mode (when *"Auto ev-once"* is off):
+### In manual mode (when the *"Auto ev-once"* preference is off):
 
-Use the key <kbd>1</kbd>, or the [inspector view](inspector) to set/unset the eval-once mode for selected boxes.
+Use the key <kbd>1</kbd>, or the [inspector view](inspector) to set/unset the **eval-once** mode for selected boxes.
 
 The **eval-once** mode changes the _number of times_ a box is evaluated if this box value is requested several times, that is, essentially:
  * if the box is connected to several other boxes through one or several of its ouputs
@@ -39,8 +39,8 @@ It has an impact on computational cost (and time!), by avoiding multiple, unnece
  
 [`REPEAT-N`](repeat-n) is a special box which simulates _N_ successive calls to a box.    
 It's optional input `scope` affects the behavior of boxes that are connected to it, and in the **eval-once** state.
-* If `scope` = `:local` each iteration end reinitializes the "eval-once context", and boxes are evaluated again at the first time of the next iteration.
 * If `scope` = `:global` the "eval-once context" lasts during the whole patch execution (just like a normal function).
+* If `scope` = `:local` each iteration end reinitializes the "eval-once context", and boxes are evaluated again at the first time of the next iteration.
 
 <img src="eval-once_img/ev-once-repeat-n.png">
 
@@ -56,7 +56,7 @@ Below are typical examples where the eval-once mode _should_ generally be on (if
 2) <img src="eval-once_img/ev-once-object.png">
 3) <img src="eval-once_img/ev-once-patch.png">
 
-In these different cases, the boxes in "eval-once" mode would otherwise be evaluated several times, which can be useless/costly, but also potentially wrong if different values result from of these different evaluations. 
+In these different cases, the boxes in "eval-once" mode would otherwise be evaluated several times, which can be useless/costly, but also potentially wrong if different values result from the successive evaluations. 
 
 > ***Hint: Keep the "Auto ev-once" option on in the OM# preference to avoid worrying about these different cases !***
 
