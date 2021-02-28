@@ -88,8 +88,8 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - 3D Curve – `3DC`
 - Arrays – `2D-ARRAY` / `CLASS-ARRAY`
 - Text Buffer
-- DATA-STREAM
-- [3D objects and 3D-MODEL](3d-model)
+- `DATA-STREAM`
+- [3D objects and `3D-MODEL`](3d-model)
 
 > **&rarr; Explore the "Basic Tools" [package](session#the-packages-library-tab), for instance from the "Function and Classes Reference" (menu "Help"), to discover hundreds of functions dedicated to the processing of lists, and other structured data in this package using arithmetic, combinatorial, and other mathematical or algorithmic methods.**
 
