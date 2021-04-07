@@ -78,7 +78,7 @@ This command will take you the Lisp source of the visual program component (if i
 
 An interesting feature of the OM# patch editor is the possibility to display on a side panel, the equivalent Lisp code corresponding to part or all of a visual program.
 
-> Open the "Lisp" pane in a patch editor with the button <img class="embedded" src="patch-button-lisp.png">, from the menu "Edit/Show Lisp Code", or using the <kbd>Ctrl/⌘</kbd>+<kbd>L</kbd> shortcut.
+> Open the "Lisp" pane in a patch editor with the button <img class="embedded" src="lisp_img/patch-button-lisp.png">, from the menu "Edit/Show Lisp Code", or using the <kbd>Ctrl/⌘</kbd>+<kbd>L</kbd> shortcut.
 
 The Lisp code corresponding to the evaluation of the selected box is displayed (if any) or otherwise, to the whole patch, as if it were compiled and [used as an abstraction in another patch](abstraction): _this patch must have at least one OUT box in order to do/return anything !_
 
