@@ -16,7 +16,7 @@ The condition **TEST** is said true when it evaluates to anything that is not `N
 
 <img src="if_img/if.png">
 
-> **Note: Contrary to most boxes in OM# and functions in Lisp, with `if` _only the input corresponding to the chosen form (THEN or ELSE) is evaluated, depending on the result of the test_.**
+> **Note:** Contrary to most OM# boxes, and Lisp functions, `if` first evaluates its first input (TEST) in order to determine which one of THEN or ELSE to evaluate next. Therefore, **only one of THEN or ELSE input is evaluated**.
 
 
 > **See also:** [Logical Operators](logic) 
