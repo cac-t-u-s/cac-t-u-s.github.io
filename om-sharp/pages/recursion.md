@@ -6,7 +6,7 @@ layout: docpage
 
 Recursion consists in calling a function in the body of this same function. It provides a powerful and elegant way to solve certain kinds of problems.
 
-> A typical example is the mathematical _factorial_ (also noted with _!_): _`5! = 5 x 4 x 3 x 2 x 1`_.   
+> A typical example is the mathematical function _factorial_ (also noted with _!_): _`5! = 5 x 4 x 3 x 2 x 1`_.   
 > The function _factorial_ can be defined as:     
 > _`factorial(n) - n x factorial(n-1)`_.     
 > It is important however, that the recursion have a _termination condition_. In the case of factorial, we need to complement the definition with:     
