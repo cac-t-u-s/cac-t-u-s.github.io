@@ -38,10 +38,10 @@ The visual language is based on [Common Lisp](http://www.gigamonkeys.com/book/in
 - A redesigned [sequencer](pages/sequencer) interface including dual program/tracks-based visualization, meta-programming tools, and reactive execution modes.
 - Human-readable, easily [editable text format](pages/doc-management#file-format) for patches and other documents. Possibility to read and edit patches as text.
 - New **score editors**, BPF/BPC editors, etc. Nicer display. Easier edit. 
-- **Collection** : a versatile container handling the storage, visualization and editing of collection of objects.
-- A **time-based model** for "executable" objects, including dynamic function execution and data send/transfer possibility.
+- [`collection`](pages/store-collect) : a versatile container handling the storage, visualization and editing of collection of objects.
+- A [time-based model](pages/time-sequence) for "executable" objects, including dynamic function execution and data send/transfer possibility.
 - Dynamic-memory allocated **audio buffers** (no need to store all your sounds in external files anymore).
-- New generation of tools and editors for the representation and manipulation of musical objects (score, sounds, [MIDI tracks](pages/midi-track), temporal data streams, controllers, etc.) 
+- New generation of tools and editors for the representation and manipulation of musical objects (score, sounds, [MIDI tracks](pages/midi-track), temporal data streams, etc.) 
 - A framework for handling **OSC** data and bundles
 - ...
 
