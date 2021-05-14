@@ -174,6 +174,7 @@ External libraries are packages containing additional pieces of code that can be
 
 About the general design and implementation of OM#: 
 
+  * [Score Objects in OM#](https://hal.archives-ouvertes.fr/hal-03221785/document). Jean Bresson. International Conference on Technologies for Music Notation and Representation (TENOR’20/21), Hamburg, Germany (Online), 2021.
   * [Next-generation Computer-aided Composition Environment: A New Implementation of OpenMusic](https://hal.archives-ouvertes.fr/hal-01567619/document). Jean Bresson, Dimitri Bouche, Thibaut Carpentier, Diemo Schwarz, Jérémie Garcia. International Computer Music Conference (ICMC’17), Shanghai, China, 2017.
   * [Timed Sequences: A Framework for Computer-Aided Composition with Temporal Structures](https://hal.archives-ouvertes.fr/hal-01484077/document). Jérémie Garcia, Dimitri Bouche, Jean Bresson. International Conference on Technologies for Music Notation and Representation (TENOR’17), A Coruña, Spain, 2017.
   * [Computer-aided Composition of Musical Processes](https://hal.archives-ouvertes.fr/hal-01370792/document). Dimitri Bouche, Jérôme Nika, Alex Chechile, Jean Bresson. Journal of New Music Research, 46(1), 2017.
