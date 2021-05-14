@@ -23,7 +23,7 @@ When they have an editor, they cal also be played using dedicated transport cont
 <img src="player_img/play-controls.png"> 
 
 
-The start marker for the player inside the object editor can be set by double-clicking anywhere. 
+The start marker for the player inside the object editor can be set by double-clicking anywhere on a time-graduated view – either the main editor view, or the [timeline view](time-sequence#timeline-editor), when relevant.
 
 Use <kbd>Esc</kbd> to reset the start marker at the beginning (time = 0).
 
