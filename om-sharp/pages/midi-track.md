@@ -22,11 +22,11 @@ Transpositions, time and duration edits, note addition or removal are allowed an
 
 <img src="midi-track_img/midi-track-editor.png"> 
 
-## Compatibility
-
-`MIDI-TRACK` corresponds, and extends the features of the **MIDIFILE** class in OM. At the difference of a MIDIFILE, the `MIDI-TRACK` is not attached to a file and actuall contains/internally stores the list of MIDI events.
-
-Loading an OM patch containing a **MIDIFILE** will automatically convert it into a `MIDI-TRACK`, however, the _self_ input might need to be set to **:choose-file** and/or the file contents relaoded to obtain the exact same confirguration.
+> ### Compatibility
+> 
+> `MIDI-TRACK` corresponds, and extends the features of the **MIDIFILE** class in OM. At the difference of a MIDIFILE, the `MIDI-TRACK` is not attached to a file and actuall contains/internally stores the list of MIDI events.
+> 
+> Loading an OM patch containing a **MIDIFILE** will automatically convert it into a `MIDI-TRACK`, however, the _self_ input might need to be set to **:choose-file** and/or the file contents relaoded to obtain the exact same confirguration.
 
 
 
