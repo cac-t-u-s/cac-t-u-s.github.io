@@ -33,9 +33,13 @@ Two commands allow to auto-connect a number of selected boxes together:
 
 <img src="connections_img/connect-auto-h.png"> 
 
-- <kbd>shift</kbd> + <kbd>C</kbd> follows a bottom-to-top approach trying to cascade all selected boxes from first outputs to first inputs.
+- <kbd>shift</kbd> + <kbd>C</kbd> follows a bottom-up approach trying to cascade all selected boxes from first outputs to first inputs.
 
 <img src="connections_img/connect-auto-v.png"> 
+
+> **Hint: Make lists!** 
+>
+> Use <kbd>shift</kbd> + <kbd>L</kbd> to create a `LIST` function box that automatically connects to all currently selected boxes.
 
 ------
 ## Graphic Properties
