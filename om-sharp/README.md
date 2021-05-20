@@ -29,19 +29,19 @@ The visual language is based on [Common Lisp](http://www.gigamonkeys.com/book/in
 
 **OM#** includes a brand-new generation of tools and features in your computer-assisted composition environment:
 
-- New [patching interfaces and environment](pages/patch) with easier box inspection / display control / automatic alignment / connections / etc.
+- [Patching interfaces and environment](pages/patch) with easier box inspection / display control / automatic alignment / connections / etc.
 - [No workspace](pages/doc-management) to set-up: open your documents and simply organize them in your usual file-system. 
 - Interactive visualization of [Lisp code](pages/lisp#getting-the-equivalent-lisp-code-of-a-patch) corresponding to visual programs.
 - A native implementation of the [reactive mode](pages/reactive) for visual program execution.
 - New [loops](pages/loop). Embed iterative processes in standard patches. Use a collection of new collectors and memory utilities. 
-- A new set of [interface components](pages/interface-boxes): list-selection, switch, button, slider, ... / Lock your patch for faster interaction.
+- A set of [interface components](pages/interface-boxes): list-selection, switch, button, slider, ... / Lock your patch for faster interaction.
 - A redesigned [sequencer](pages/sequencer) interface including dual program/tracks-based visualization, meta-programming tools, and reactive execution modes.
 - Human-readable, easily [editable text format](pages/doc-management#file-format) for patches and other documents. Possibility to read and edit patches as text.
 - New **score editors**, BPF/BPC editors, etc. Nicer display. Easier edit. 
-- [`collection`](pages/store-collect) : a versatile container handling the storage, visualization and editing of collection of objects.
+- Versatile [containers](pages/store-collect) handling the storage, visualization and editing of collection of objects.
 - A [time-based model](pages/time-sequence) for "executable" objects, including dynamic function execution and data send/transfer possibility.
-- Dynamic-memory allocated **audio buffers** (no need to store all your sounds in external files anymore).
-- New generation of tools and editors for the representation and manipulation of musical objects (score, sounds, [MIDI tracks](pages/midi-track), temporal data streams, etc.) 
+- Dynamic-memory allocated **audio buffers**.
+- Tools and editors for the representation and manipulation of musical objects (score, sounds, [MIDI tracks](pages/midi-track), temporal data streams, etc.) 
 - A framework for handling **OSC** data and bundles
 - ...
 
@@ -60,7 +60,7 @@ OM# is a free software distributed under the GPLv3 license.
 
 As a Common Lisp program, OM# can be considered just as an extension of Lisp including the specific built-in features of the application. 
 The application is developed with the latest [LispWorks](http://www.lispworks.com/) compiler (7.1.2), which provides multi-platform support and graphical/GUI toolkits in Common Lisp. 
-A limited "Personal" edition of LispWorks 7 is now available: its limited heap size requires compiling sources in several successive runs, and it is not possible to create new OM# executables with it, however, it allows to load and run/use/edit the program from the sources.
+A limited "Personal" edition of LispWorks 7 is now available: its limited heap size requires compiling sources in several successive runs, and it is not possible to create new OM# executables with it, however, it allows loading and running/using/editing the program from its sources.
 
 Alternatively, the OM# executable also includes a Lisp interpreter which can load and evaluate modifications and extensions of the program sources.
 
@@ -70,7 +70,7 @@ Alternatively, the OM# executable also includes a Lisp interpreter which can loa
 
 ### Compatibility
 
-OM# can load patches created in OpenMusic. See the [how to import OpenMusic patches](pages/import-from-om).    
+OM# can load patches created in OpenMusic. See [how to import OpenMusic patches](pages/import-from-om).    
 Most OpenMusic external libraries are easily portable (or already ported). See [how to create or adapt a library](pages/write-library).     
 Report any problems in porting or converting libraries or patches on the discussion forum (see below).
 
@@ -81,18 +81,15 @@ Report any problems in porting or converting libraries or patches on the discuss
 ### Help | Bug reports | Community
 
 **See the new [`om-sharp-users`](https://github.com/cac-t-u-s/om-sharp-users) repository.**     
-&rarr; Use the [Issue Tracker](https://github.com/cac-t-u-s/om-sharp-users/issues) to report problems, suggest features or enhancements, or just discuss about the project !
 
-A [discussion group](https://discussion.forum.ircam.fr/c/om-sharp) is also hosted on Ircam Forumnet.     
-&rarr; Create an account in order to post questions and replies.    
-Subscribe to group notifications using _Watching_ / _Tracking_ and other options.
+&rarr; Use the [Issue Tracker](https://github.com/cac-t-u-s/om-sharp-users/issues) to report problems, suggest features or enhancements, or just discuss about the project !
 
 
 ------
 
 ### Externals / Libraries 
 
-External libraries are packages containing additional pieces of code that can be loaded dynamically in an OM# session. A few of them are readily available and listed below, as well as a number of compatible OpenMusic libraries.
+External libraries are packages containing additional pieces of code that can be loaded dynamically in an OM# session. Some of them are readily available and listed below, as well as a number of compatible OpenMusic libraries.
 
 
 > OM# [external libraries](pages/libraries) are structured as a simple folder, called either "libname" or "libname x.y" (where "libname" is the name of the library, and "x.y" is a version number), containing a loader file named **libname.omlib**.
