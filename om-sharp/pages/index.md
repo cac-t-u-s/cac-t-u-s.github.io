@@ -76,7 +76,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 
 - [Time-Sequences and Timeline editors](time-sequence)
 - [Player](player)
-- Sequencer: General presentation
+- [Sequencer: General presentation](sequencer)
 - Sequencer Box
 - Meta-programming
 
