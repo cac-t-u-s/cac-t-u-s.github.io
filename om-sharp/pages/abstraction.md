@@ -24,9 +24,9 @@ Abstractions can be either **[global](#global-abstraction)** or **[internal](#in
 
 ## Global Abstraction
 
-**A "global abstraction" is included in apatch, but exists as a self-standing document on the disk.**
+**A "global" (or "external") abstraction is included in a patch, but exists as a self-standing document on the disk.**
 
-To create a new (global) abstraction, first create a file with the main _File/New..._ menu items (or the <kbd>Ctrl/⌘</kbd> + <kbd>S</kbd> shortcut for a patch), or find an existing one to include in the patch.
+To create a new abstraction, first create a file with the main _File/New..._ menu items (or the <kbd>Ctrl/⌘</kbd> + <kbd>S</kbd> shortcut for a patch), or find an existing one to include in the patch.
 
 To include an existing abstraction in a patch, you can use one of the following options:
 
