@@ -59,8 +59,8 @@ A patch can also include inputs and outputs (to receive arguments or return valu
   - [Multiple Connections: `hub`](hub)
   - [Splitting List Contents: `split`](split)
 - [Abstractions](abstraction)
-  - [Patch Box](patch-box)
-  - [Lisp-Function Box](lispfun-box)
+- [Patch Box](patch-box)
+- [Lisp-Function Box](lispfun-box)
 - [Lambda-Functions](lambda)
 - [Store and Collect](store-collect)
 - [Memory](memory)
@@ -70,18 +70,18 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Recursion](recursion)
 - [Reactive Processes](reactive)
 - [Reading/Writing Files](file-io)
+- Meta-visual-programming
 
-
-## Time
+## Player and Time Structures
 
 - [Time-Sequences and Timeline editors](time-sequence)
 - [Player](player)
-- [Sequencer: General presentation](sequencer)
-- Sequencer Box
-- Meta-programming
+- [Sequencer (Box/Document)](sequencer)
+- [Sequencer (Editor)](sequencer-editor)
+- Sequencer Control Patch and Meta-programming
 
 
-## Objects and Editors from the Basic Package
+## Objects and Editors of the Basic Package
 
 - [Break-Point Function – `BPF`](bpf)
 - [Break-Point Curve – `BPC`](bpc)
