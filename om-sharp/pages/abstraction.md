@@ -17,7 +17,7 @@ Abstractions can be either **[global](#global-abstraction)** or **[internal](#in
 > ### See Also...
 > - [Patch Box](patch-box)
 > - [Lisp-Function Box](lispfun-box)
-> - [Sequencer Box](sequencer-box)
+> - [Sequencer](sequencer)
 
 
 ------
@@ -30,7 +30,7 @@ To create a new abstraction, first create a file with the main _File/New..._ men
 
 To include an existing abstraction in a patch, you can use one of the following options:
 
-1. Drag the corresponding file (**.opat**, **.olsp**, **.omaq**) from your system Desktop manager.
+1. Drag the corresponding file (**.opat**, **.olsp**, **.oseq**) from your system Desktop manager.
 2. Use the menu "Box/Add Box/External abstraction", click somewhere in the container patch and select a .opat file from the file-chooser dialog. 
 3. Type <kbd>P</kbd> and enter the name or full pathname of the file.
 
@@ -93,7 +93,7 @@ To create an internal patch in another patch, you can use one of the following o
 
 1. Type "patch", or "p" in the same text field you would use to type a function or class name (displayed with double-click or using the <kbd>N</kbd> keyboard shortcut).     
 <img src="abstraction_img/new-internal-patch.png"> 
-2. Use the menu "Box/Add Box/Internal patch", then click somewhere in the container patch to create the new patch box.
+2. Right-click or use the menu "Box/Add Box/Internal patch", then click somewhere in the container patch to create the new patch box.
 3. (_for patches only_) [Encapsulate](patch-box#encapsulation) some boxes that are already in the container patch, using <kbd>shift</kbd> + <kbd>E</kbd> (see paragraph below).
      
 
