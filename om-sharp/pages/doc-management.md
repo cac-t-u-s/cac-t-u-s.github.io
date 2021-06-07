@@ -27,8 +27,8 @@ Closed documents may remain in the list if they are still used somewhere, inside
 
 The main file extensions used in OM# are:
 
-- **.opat**: [patches](patch) (visual programs) 
-- **.oseq**: [sequencers](sequencer) (sequenced arrangements/programs)
+- **.opat**: [Patches](patch) (visual programs) 
+- **.oseq**: [Sequencers](sequencer) (sequenced arrangements/programs)
 - **.olsp**: [Lisp-functions](lisp) (in the OM# format)
 
 <img src="doc-management_img/doc-files.png">
@@ -65,7 +65,7 @@ OM# documents are stored in a textual format readable both by humans and by Lisp
 
 It is therefore possible to edit a document by hand (or even, to generate it by a script) before to load (or reload) it in OM#.
 
-> See and edit the text-version of an OM# patch using the "File/Open as Text" menu.
+> See and edit the text-version of an OM# patch using the "File / Open as Text..." menu.
 
 <img src="doc-management_img/patch-as-text.png">
 
