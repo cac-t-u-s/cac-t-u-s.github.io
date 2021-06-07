@@ -7,8 +7,7 @@ layout: docpage
 Functional programming tends to avoid side-effects: functions shouldn't to modify the state of the program anywhere outside of their own scope.
 For this reason in general, data and objects are copied when they are passed to functions that are likely to modify them.
 Connecting a value to the `self` input of an [object box](objects), for instance, makes a copy of it, so that no editing of the copy can affect the original data.     
-Sometimes copy are costlly (in space/memory and time). The "slot accessors" described here is meant to allow for a direct read/write access to the slots of an object, without making a copy of it. These are to use with care and considerations !
-
+Sometimes copy are costlly (in space/memory and time). The "slot accessors" described here is meant to allow for a direct read/write access to the slots of an object, without making a copy of it. 
 
 ## Slot-access: `slots`
 
