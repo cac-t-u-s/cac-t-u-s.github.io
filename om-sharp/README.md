@@ -50,7 +50,26 @@ The visual language is based on [Common Lisp](http://www.gigamonkeys.com/book/in
 
 ------
 
+### Help | Bug reports | Community
+
+**See the new [`om-sharp-users`](https://github.com/cac-t-u-s/om-sharp-users) repository.**     
+&rarr; Use the [Issue Tracker](https://github.com/cac-t-u-s/om-sharp-users/issues) to report problems, suggest features or enhancements, or just discuss about the project !
+
+
+------
+
+<img src="./images/BMC.png" width="50pix" align="right">
+
+### Contributing coffee
+
+Support the development of OM#: [Buy me a coffee!](https://www.buymeacoffee.com/cactus.jb)
+
+
+
+------
+
 <img src="./images/lisp.png" width="90pix" margin="10px" align="right">
+
 
 ### Sources
 
@@ -73,16 +92,6 @@ Alternatively, the OM# executable also includes a Lisp interpreter which can loa
 OM# can load patches created in OpenMusic. See [how to import OpenMusic patches](pages/import-from-om).    
 Most OpenMusic external libraries are easily portable (or already ported). See [how to create or adapt a library](pages/write-library).     
 Report any problems in porting or converting libraries or patches on the discussion forum (see below).
-
-
-------
-
-
-### Help | Bug reports | Community
-
-**See the new [`om-sharp-users`](https://github.com/cac-t-u-s/om-sharp-users) repository.**     
-
-&rarr; Use the [Issue Tracker](https://github.com/cac-t-u-s/om-sharp-users/issues) to report problems, suggest features or enhancements, or just discuss about the project !
 
 
 ------
