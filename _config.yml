@@ -2,12 +2,12 @@
 plugins_dir:
   - jekyll-mentions
 
-title: Cactus / OM#
-description: Visual Programming | Computer-Aided Music Compositon
+title: OM#
+description: Visual Programming | Computer-assisted Music Composition
 
 show_downloads: false
 
-site.url: https://cac-t-u-s.github.io/om-sharp/
+site.url: https://cac-t-u-s.github.io/
 
 owner_url: https://github.com/j-bresson
 owner_name: j-bresson

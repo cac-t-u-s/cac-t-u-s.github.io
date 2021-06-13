@@ -2,13 +2,13 @@
 layout: docpage
 ---
 
-> **OM#** is a visual programming language dedicated to musical structure generation and processing.    
+> **OM#** is a visual programming language dedicated to musical structure generation and processing.
 >
 > [&rarr; Back to the main project page](..)
 
 ## Environment
 
-OM# does not require setting up and maintaining a **workspace**. All documents can be just be opened, copied and shared independently.   
+OM# does not require setting up and maintaining a **workspace**. All documents can be just be opened, copied and shared independently.
 
 The state and settings of the working environment are controlled from the "Session" and "Preferences" windows.
 
@@ -70,16 +70,20 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Recursion](recursion)
 - [Reactive Processes](reactive)
 - [Reading/Writing Files](file-io)
-- Meta-visual-programming
+
 
 ## Player and Time Structures
 
 - [Time-Sequences and Timeline editors](time-sequence)
 - [Player](player)
+
+## Sequencer
+
+The **sequencer** is an editor where musical structures can be arranged and executed in time, and a visual programming tool extending the notion of _patch_ with a temporal dimension.
+
 - [Sequencer (Box/Document)](sequencer)
 - [Sequencer (Editor)](sequencer-editor)
-- Sequencer Control Patch and Meta-programming
-
+- [Sequencer (Programming)](sequencer-exec)
 
 ## Objects and Editors of the Basic Package
 
@@ -111,7 +115,7 @@ OM# provides an extensive set of tools for the manipulation of musical structure
 
 MIDI is a standard protocol (and file format) designed for musical software and device to communicate and exchange control data for synthesizers. It includes the high level notions of notes, continuous controllers (volume, pitch bend, panning, etc.)
 The MIDI protocol is used in OM# to "play" musical structures: a synthesizer must be connected to receive and render the data into sound.
-OM# also provides a set of tools and function to import, process or generate MIDI-encoded data with visual programs. 
+OM# also provides a set of tools and function to import, process or generate MIDI-encoded data with visual programs.
 
 - MIDI Settings
 - [`MIDI-TRACK`](midi-track)
@@ -125,7 +129,7 @@ OM# also provides a set of tools and function to import, process or generate MID
 - Audio tools
 
 
-## OSC 
+## OSC
 
 OSC (Open Sound Control) is a standard format for the communication and data transfer between audio, music, or multimedia devices and applications.
 
