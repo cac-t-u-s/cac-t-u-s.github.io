@@ -57,10 +57,23 @@ Just double-click to open, edit, and play the sequencer contents.
 
 > **More in [Sequencer (Editor)](sequencer-editor)**
 
-> **More in [Sequencer (Programming)](sequencer-programming)**
+The sequencer box unique output, by default, returns the sequencer itself. 
+Other values can ve returned through the sequencer's [control patch](sequencer-programming#control-patch-a-reflective-program). 
 
-> ## Compatibility note
->
+
+## Build the maquette programmatically
+
+
+Sequencer boxes have two [optional inputs](box-inputs#optional), allowing to set the contents of the sequencer from the patch containing a sequencer box.
+
+<img src="sequencer_img/ex-build-sequencer.png">
+
+> **Note:** Other inlets and outlets of the sequencer box can be created through the sequencer's [control patch](sequencer-programming#control-patch-a-reflective-program).     
+> **&rarr; See [Sequencer (Programming)](sequencer-programming)**
+
+
+## Compatibility note
+
 > The sequencer is an extended version of the OpenMusic "maquette". Maquette files (.omm) can be imported from OpenMusic OM# and converted to OM# sequencer documents (.oseq).
 >
 > &rarr; See [How to import an OM document](import-from-om).
