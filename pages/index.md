@@ -26,9 +26,9 @@ The state and settings of the working environment are controlled from the "Sessi
 ## Visual Programming
 
 
-A **patch** is a visual program: the graphical equivalent to a Lisp expression (or of a set of Lisp expressions). It contains **boxes** connected together via patch cords (also simply called **connections**).   
+A **patch** is a visual program: the graphical equivalent to a Lisp expression (or of a set of Lisp expressions). It contains **boxes** connected together via patch cords (also simply called **connections**).
 
-Boxes can represent either **Lisp functions**, other **embedded or external visual programs** (sub-patches), **simple values** or **object constructors**.    
+Boxes can represent either **Lisp functions**, other **embedded or external visual programs** (sub-patches), **simple values** or **object constructors**.
 
 A patch can also include inputs and outputs (to receive arguments or return values when it is embedded in another patch), textual comments, and specific _active_ components (e.g. buttons, sliders, etc.) used to set values and arguments for other boxes.
 
@@ -79,13 +79,14 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 
 ## Sequencer
 
-The **sequencer** is an editor where musical structures can be arranged and executed in time, and a visual programming tool extending the notion of _patch_ with a temporal dimension.
+The **sequencer** is a visual programming tool extending the notion of _patch_ with a temporal dimension.
+The geometrical and temporal layout of its contents are programmable and determine a musical form which can be computed, edited, and rendered in time.
 
 - [Sequencer (Box/Document)](sequencer)
 - [Sequencer (Editor)](sequencer-editor)
-- [Sequencer (Programming)](sequencer-exec)
+- [Sequencer (Programming)](sequencer-programming)
 
-## Objects and Editors of the Basic Package
+## Objects and Editors of the Basic Tools Package
 
 - [Break-Point Function – `BPF`](bpf)
 - [Break-Point Curve – `BPC`](bpc)
