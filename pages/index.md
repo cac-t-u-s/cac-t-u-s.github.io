@@ -70,6 +70,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Recursion](recursion)
 - [Reactive Processes](reactive)
 - [Reading/Writing Files](file-io)
+- [Meta-visual programming](meta)
 
 
 ## Player and Time Structures

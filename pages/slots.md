@@ -34,14 +34,10 @@ Note that this is mostly an optimization.
 
 ## A use-case of "setting slot"
 
-I can't really think of a simple example of slot writing which doesn't either result from awckward patch design, or can be done differently at lower cost, except... &rarr; _meta-programming_.
+I can't really think of a simple example of slot writing which doesn't either result from awckward patch design, or can be done differently at lower cost, except... _[meta-programming](meta)_.
 
-We call "meta-programing" the fact for a program to consider other programs (or itself!) as data.
-In a visual program, this would be a patch, or a box dealing with its own contents (or with other patches' contents).
-This is notably useful when creating advanced processes with the OM _maquette_ (or [sequencer](sequencer) in OM#): boxes can for instance position themselves (in time) according to some internal or external parameters.  
-
-OM# provides a number of utilities for this, which are described in a [dedicated section of this manual](sequencer-programming#meta-visual-programming-with-box-properties), such as `mybox`: a direct access to the box in which the visual program is executed.
-In this case, the contents of `mybox` can only be set with the slot accessors of the class `OMBox`.
+OM# provides a number of utilities for processing patch contents, such as **`thisbox`**: a direct access to the box in which the visual program is executed.
+The contents and properties of **`thisbox`** (and not a copy of it!) can only be set with the slot accessors of the class `OMBox`:
 
 <img src="slots_img/slots-write-meta.png"> 
 
