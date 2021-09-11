@@ -8,16 +8,16 @@ layout: docpage
 > * Whether or not should the box be evaluated and update its value;
 > * What it should return.
 
-Both attributes are accessible from the [inspector view](inspector).    
-Seeting these attributes states change the appearance of the box by displaying little icons on its top-left and bottm-left corners.   
+Both attributes are accessible from the [inspector view](inspector).
+Seeting these attributes states change the appearance of the box by displaying little icons on its top-left and bottm-left corners.
 
-<img src="eval-modes_img/box-state-attributes.png">  
+<img src="eval-modes_img/box-state-attributes.png">
 
-Some specific states can also be switched on/off using keyboard shortcuts (see details below).  
+Some specific states can also be switched on/off using keyboard shortcuts (see details below).
 
 > _Not all states are available for all types of box._
 
-> The state of a box is in fact also determined by the **reactive** attribute of the box, which brings up news cases where the box gets evaluated. See [Reactive Processes](reactive). 
+> The state of a box is in fact also determined by the **reactive** attribute of the box, which brings up news cases where the box gets evaluated. See [Reactive Processes](reactive).
 
 ------
 ## Lock State
@@ -40,6 +40,6 @@ There exist 4 different lock-states (not all available for all types of box):
 | Attribute value | Shortcut | Evaluation behavior | Box icon |
 |---|---|---|---|
 |**NORMAL** (NIL) | | Default mode: the box is [evaluated](eval) normally, with input value(s) collected from upstream-connected boxes. | |
-|**LAMBDA** | <kbd>L</kbd> | **The box returns _the function that it defines_.** <br>This is a very powerful feature of OM# allowing to easily get into graphical/functional programming.<br> **&rarr; See [Lambda Functions](lambda) for more details.**| <img src="eval-modes_img/icon-lambda.png"> |
+|**LAMBDA** | <kbd>L</kbd> | **The box returns _the function that it defines_.** <br>This is a very useful way to easily get into graphical/functional programming.<br> **&rarr; See [Lambda Functions](lambda) for more details.**| <img src="eval-modes_img/icon-lambda.png"> |
 |**REFERENCE** |  | **The box returns its internal reference**, which can be a Lisp _generic function_ (for [function boxes](function-box)), a _class_ (for [object boxes](objects)), a _patch_ (for [abstraction boxes](abstraction)), ...<br> Input values are ignored and inlets/incoming connections are disabled.<br> This mode is rarely used in practice, except for "meta-programming", e.g. inside the OM# [sequencer](sequencer).  | <img src="eval-modes_img/icon-reference.png"> |
 |**BOX** |  | **The box returns itself** as a value. <br> Inlets are evaluated.  <br> This mode is also rarely used in practice.  | <img src="eval-modes_img/icon-box.png"> |

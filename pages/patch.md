@@ -3,13 +3,13 @@ layout: docpage
 ---
 
 # Patch editor: Basics of visual programming
- 
-_This page describes the main features and manipulations allowing to create, configure and connect boxes in visual programs. It points to the other sections of this documentation for details on every specific features._
+
+_This page describes the main features and manipulations involved in creating, configuring and connecting boxes in visual programs. It points to the other sections of this documentation for details on every specific features._
 
 ------
 
 
-<img src="patch_img/file-menu.png" align="right"> 
+<img src="patch_img/file-menu.png" align="right">
 > Everything starts in the **patch editor**. Use the "File" menu to create a new patch, or open an existing patch, and display it in the patch editor window.
 
 The different options in the "File" menu are:
@@ -21,15 +21,15 @@ The different options in the "File" menu are:
 
 > &rarr; See [More on Document Management](doc-management)
 
-The "new" patch is an empty white page, ready for you to fill-in. 
+The "new" patch is an empty white page, ready for you to fill-in.
 You will have to add [boxes](#boxes) and [connect](#connections) them, in order to create visual programs.
 
-<img src="patch_img/new-patch.png"> 
+<img src="patch_img/new-patch.png">
 
 > The patch editor has an optional **side panel** on the right, which opens with the buttons <img src="patch_img/patch-button-listener.png" class="embedded"> <img src="patch_img/patch-button-i.png" class="embedded"> <img src="patch_img/patch-button-lisp.png" class="embedded"> on the right-border of the window (or corresponding commands and short-cuts in the "Edit" menu), in order to display:
 > - The [Listener output](listener)
 > - The [contents Inspector](inspector)
-> - The [patch-to-Lisp conversions](lisp#getting-the-equivalent-lisp-code-of-a-patch)  
+> - The [patch-to-Lisp conversions](lisp#getting-the-equivalent-lisp-code-of-a-patch)
 
 ------
 
@@ -44,24 +44,24 @@ A box is a rectangular frame displaying a name (generally, the name of the funct
 **To create a box:**
 
 - <img src="patch_img/new-box.png" align="right">
- Type <kbd>N</kbd> or double click anywhere on the patch editor background to create a function or object box. 
+ Type <kbd>N</kbd> or double click anywhere on the patch editor background to create a function or object box.
 In the temporary text-input field, type a [simple value](value-box), or the name of the object you wish to add in the patch, then press <kbd>ENTER</kbd>.
 
 
 - Use the **"Boxes/Add Box..." menu** of the patch editor window: just select a box name, then click somewhere in the patch editor.
 
-- Use the _Packages Library_ tab of the main [Session window](session) [ <kbd>Ctrl/⌘</kbd>+<kbd>shift</kbd>+<kbd>W</kbd> ], to also double-click in a function or class icon, and then add it somewhere in the patch editor. 
+- Use the _Packages Library_ tab of the main [Session window](session) [ <kbd>Ctrl/⌘</kbd>+<kbd>shift</kbd>+<kbd>W</kbd> ], to also double-click in a function or class icon, and then add it somewhere in the patch editor.
 
 
-> **Any Lisp function can be used** in a patch editor. 
-However, only a subset of specific/documented functions declared in OM packages are visible in the function library.  
+> **Any Lisp function can be used** in a patch editor.
+However, only a subset of specific/documented functions declared in OM packages are visible in the function library.
 
 
-<img src="patch_img/input-set-value.png" align="right"> 
-**Box inputs** allow to enter arguments/attribute/parameters to OM# boxes. 
+<img src="patch_img/input-set-value.png" align="right">
+**Box inputs** allow to enter arguments/attribute/parameters to OM# boxes.
 Their value can be set "by hand" by just clicking on the input and typing a simple value, or through connections to other boxes (see below).
 
-**Documentation:** 
+**Documentation:**
 Use the menu "Help/Help Function & Class Reference" or the the <kbd>Ctrl/⌘</kbd>+<kbd>D</kbd> shortcut to open an auto-generated HTML reference documentation page of a box.
 
 
@@ -76,11 +76,11 @@ Use the menu "Help/Help Function & Class Reference" or the the <kbd>Ctrl/⌘</kb
 In order to create a connection, use the mouse to drag from a box output to another box input.
 If the connection is allowed (for instance, cycles are not permitted and inconsistent with the visual language semantics), the connection line will appear in the patch.
 
-<img src="patch_img/connection.png"> 
+<img src="patch_img/connection.png">
 
 Existing connections can be selected with the mouse, re-routed (e.g. for readability) with "mouse drag", re-connected somewhere else, or deleted (using the <kbd>backspace</kbd> key).
 
-> &rarr; See the [dedicated page about Connections](connections). 
+> &rarr; See the [dedicated page about Connections](connections).
 
 
 ------
@@ -96,7 +96,7 @@ Existing connections can be selected with the mouse, re-routed (e.g. for readabi
 
 Patch contents (boxes and connections) can be dragged on the patch editor, and/or from one editor window to another.
 
-Alternatively, the arrow keys <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> also move selected boxes.     
+Alternatively, the arrow keys <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> also move selected boxes.
 <kbd>shift</kbd> + <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> performs faster moves.
 
 ### Delete
@@ -118,7 +118,7 @@ The "Edit/Select all..." menu command / <kbd>Ctrl/⌘</kbd>+<kbd>A</kbd> selects
 
 ### Align
 
-- The "Edit/Align Boxes" menu command, or <kbd>shift</kbd>+<kbd>A</kbd> key-combination,  automatically adjust the box layout to align positions of neighbour boxes and inputs vs. outputs. 
+- The "Edit/Align Boxes" menu command, or <kbd>shift</kbd>+<kbd>A</kbd> key-combination,  automatically adjust the box layout to align positions of neighbour boxes and inputs vs. outputs.
 
 > &rarr; See other commands in the [Boxes](box) section.
 
@@ -131,7 +131,7 @@ A patch is executed locally by the [evaluation](eval) request / <kbd>V</kbd> of 
 
 ------
 
-## Lock 
+## Lock
 The icons  <img src="patch_img/lock-icon.png" width="50px"> at the top of the patch window, or the menu "Edit/Edit lock" [ <kbd>Ctrl/⌘</kbd> + <kbd>E</kbd> ] allow you **lock/unlock** the patch editor.
 In the lock mode:
 - The patch can not be edited (most commands described in this page are disabled)

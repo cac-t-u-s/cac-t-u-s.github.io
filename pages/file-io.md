@@ -17,7 +17,7 @@ The basic common lisp functions and notions used for manipulating pathnames are:
 - `pathname-name`, `pathname-type`, `pathname-directory` allow accessing the respective parts (name, extension, list of directories) of the pathname.
 - `pathname` converts a string in the equivalent pathname.
 - `namestring` converts a pathname to the equivalent string.
-- `merge-pathnames` facilitates creating pathnames by extending or modifying existing pathnames (see [a detailed description](http://www.lispworks.com/documentation/lw50/CLHS/Body/f_merge_.htm)). 
+- `merge-pathnames` facilitates creating pathnames by extending or modifying existing pathnames (see [a detailed description](http://www.lispworks.com/documentation/lw50/CLHS/Body/f_merge_.htm)).
 - `probe-file` tests if a file exists at this pathname.
 - `directory` lists the files and directories contained in a given directory. See also `om-directory` in the note below.
 
@@ -30,19 +30,19 @@ These functions will generally include a (standard or [optional](box-inputs#opti
 
 The "Files and Folders" preference tab in OM# [preferences](preferences) provides a number of options to parameterise the default folder locations and the behaviours of file reading/writing operations.
 
-<img src="file-io_img/file-preferences.png"> 
+<img src="file-io_img/file-preferences.png">
 
 > #### Generating Pathnames to the Default Folders
-> The functions `infile`, `outfile`, `tmpfile` all take a simple file name (and optionally type and list of directories) and generate a full pathname with it, using the location of the default input, output or temporary files defined in the "Files and Folders" preferences. 
+> The functions `infile`, `outfile`, `tmpfile` all take a simple file name (and optionally type and list of directories) and generate a full pathname with it, using the location of the default input, output or temporary files defined in the "Files and Folders" preferences.
 >
-> <img src="file-io_img/file-in-out.png"> 
+> <img src="file-io_img/file-in-out.png">
 
 
 > #### File Chooser
-> The `file-chooser` function launches a file chooser dialog window allowing to select a file or directory to read or create, depending on the options selected in its ["keyword" inputs](box-inputs#keyword). 
+> The `file-chooser` function launches a file chooser dialog window to select a file or directory. The file can be an existing one, or a new one to be created, depending on the options selected in its ["keyword" inputs](box-inputs#keyword).
 >
-> <img src="file-io_img/file-chooser.png"> 
-> <img src="file-io_img/file-chooser-options.png"> 
+> <img src="file-io_img/file-chooser.png">
+> <img src="file-io_img/file-chooser-options.png">
 
 
 
@@ -50,17 +50,17 @@ The "Files and Folders" preference tab in OM# [preferences](preferences) provide
 
 `save-as-text` is a simple utility to write different kind of data transiting in OM# programs, as a text file. Supported data types are lists, [BPF/BPC](bpf-bpc) (write the list of point coordinates), or [TextBuffer](textbuffer) objects (just write the contents to the file).
 
-<img src="file-io_img/save-as-text.png"> 
+<img src="file-io_img/save-as-text.png">
 
 
 ## Advanced Control over File Reading/Writing Operations
 
-In order to perform more advanced file input/output operations, it is possible to open (and close!) file "streams" in OM# visual programs. A _file stream_ is a temporary accessor allowing to push or read data from a given location on the disk. A typical use case is the iterative processing or generation of data in a [loop](loop).
+In order to perform more advanced file input/output operations, it is possible to open (and close!) file "streams" in OM# visual programs. A _file stream_ is a temporary accessor which makes it possible to push or read data from a given location on the disk. A typical use case is the iterative processing or generation of data in a [loop](loop).
 
-The  `open-file-stream` opens and returns a "stream" to a file (designated using a pathname), which can be used to incrementally read or write text data, using the functions `file-read-line` , `file-write-line` (or simply, `file-write`), all requiring the stream as one or their arguments. 
+The  `open-file-stream` opens and returns a "stream" to a file (designated using a pathname), which can be used to incrementally read or write text data, using the functions `file-read-line` , `file-write-line` (or simply, `file-write`), all requiring the stream as one or their arguments.
 The stream should finally be closed using `close-file-stream`, so the file is freed and available for further operations. See also the `file-stream` help-patch.
 
-<img src="file-io_img/file-stream.png"> 
+<img src="file-io_img/file-stream.png">
 
 
 > **Note:** A similar set of functions is available for manipulating (reading/writing) SDIF data using `open-sdif-stream`/ `close-sdif-stream`. See more in the [SDIF](sdif) section.

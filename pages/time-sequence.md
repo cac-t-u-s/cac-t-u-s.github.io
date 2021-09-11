@@ -7,7 +7,7 @@ layout: docpage
 
 Most "playable" objects in OM# implement the notion of "time sequence": they can be considered as a sequence of "timed item" (i.e., anything that has a position in time, and evenutally a duration).
 
-Example of "time sequences" are: [`BPF`](bpf), [`BPC`](bpc), [`3DC`](3DC) (all representing a sequence of timed-points), but also [`DATA-STREAM`](data-stream), and its subclasses: [`MIDI-TRACK`](midi-track), [`CHORD-SEQ`](chord-seq), [`VOICE`](voice)...   
+Example of "time sequences" are: [`BPF`](bpf), [`BPC`](bpc), [`3DC`](3DC) (all representing a sequence of timed-points), but also [`DATA-STREAM`](data-stream), and its subclasses: [`MIDI-TRACK`](midi-track), [`CHORD-SEQ`](chord-seq), [`VOICE`](voice)...
 
 
 > ### Actions
@@ -29,7 +29,7 @@ The timeline editor is a simple view representing the timed items as circles on 
 <img src="time-sequence_img/timeline.png">
 
 
-The timeline editor has a horizontal time ruler allowing to scroll and zoom in and out in the time sequence. 
+The timeline editor has a horizontal time ruler which allows scrolling and zooming in and out in the time sequence.
 
 Timed items can be translated in time using mouse drag operations, or using the <kbd>&larr;</kbd> / <kbd>&rarr;</kbd> keys.
 
@@ -47,7 +47,7 @@ The timeline editor supports [player interactions](player), by setting the curso
 
 ### Un-timed items
 
-Not all the items in a time sequence need to have a fixed time (this is particularly relevant for time sequences like the [`BPC`](bpc) object).     
+Not all the items in a time sequence need to have a fixed time (this is particularly relevant for time sequences like the [`BPC`](bpc) object).
 When an item has no time, its actual timing is calculated by interpolation between the two closest timed items.
 
 Un-timed items are represented by an empty circle. They get a time as soon as they are manually edited from the timeline editor.

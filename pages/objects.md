@@ -4,9 +4,9 @@ layout: docpage
 
 # Object Box
 
-_Object_, or _"Class" Boxes_ allow to generate and process data structures in OM# visual programs. 
+_Object_, or _"Class" Boxes_ allow to generate and process data structures in OM# visual programs.
 
-> In **object-oriented programming** (OOP), a _class_ is a template structure defining a **type** of data, its attributes (also called _slots_) and behaviours. From a defined class are be derived _instances_ of this class. 
+> In **object-oriented programming** (OOP), a _class_ is a template structure defining a **type** of data, its attributes (also called _slots_) and behaviours. From a defined class are be derived _instances_ of this class.
 > An object box in OM can actually refer to the OOP concept of "factory": its main role is to produce (and additionally, to store/display/edit) instances of a given class.
 
 
@@ -19,33 +19,33 @@ In order to create an object box, select the corresponding _class_ from the "Box
 
 <img src="objects_img/obj-make-box.png">
 
-## Box 
+## Box
 
 The object box generally has several inputs and the same number of outputs.
 
 * **Inputs are arguments of the constructors**: they are the attributes or parameters that allow to build an instance of the class.
 
-* **Outputs are accessors** allowing to read/access these attributes.
+* **Outputs are accessors** to read or access these attributes.
 
 <img src="objects_img/obj-box-input.png">
 _The BPF class has 2 main contructor arguments. `x-points` and `y-points`._
 
-> ### The "self" input/output 
+> ### The "self" input/output
 > The first input/ouput of an object box, generally labelled ***"self"***, is a special one. It corresponds to the actual instance that is created, and allows to access it as such (_self_ ouput), or to create it by copying or conversion from an other object (when such conversion is possible). See examples below.
 >
-> The function `x-transfer` uses a `BPF` object as its first argument: we can get it using the **self** output of a `BPF` box:     
+> The function `x-transfer` uses a `BPF` object as its first argument: we can get it using the **self** output of a `BPF` box:
 >
 > <img src="objects_img/x-transfer.png">
 >
-> The function `om-sample` returns a `BPF` instance: we can input and display/store in in a `BPF` box using the **self** input:       
+> The function `om-sample` returns a `BPF` instance: we can input and display/store in in a `BPF` box using the **self** input:
 >
 > <img src="objects_img/om-sample.png">
 
 ## Persistence
 
-Object boxes store and display the last computed instance, until a new evaluation replaces it.    
+Object boxes store and display the last computed instance, until a new evaluation replaces it.
 
-The value is aslo stored and reloaded within the patch. 
+The value is aslo stored and reloaded within the patch.
 
 ## Visualization
 
@@ -53,13 +53,13 @@ Object boxes generally have visualization modes, which can be selected from the 
 
 * **hidden**: the contents is hidden / the box only displays its reference class name (and possiblym its name — see below).
 * **text**: displays the contents of the visible class _slots_ as text.
-* **mini-view** (when implemented for a given object): a graphical preview of the current value.  
+* **mini-view** (when implemented for a given object): a graphical preview of the current value.
 
 <img src="objects_img/obj-box-view-modes.png">
 
 ## Name
 
-Object boxes can be given a namem independently of the clqss name. This is useful to document the role of some data in a process (e.g. "initial value") or to label stored data or results. 
+Object boxes can be given a namem independently of the clqss name. This is useful to document the role of some data in a process (e.g. "initial value") or to label stored data or results.
 
 The name can be set and changed in the [inspector view](inspector). It can also be set visible or not fro; therem or using the <kbd>N</kbd> shortcut.
 
@@ -75,7 +75,7 @@ The editor allows to vizualize, and generally, to edit/modify the current value.
 
 
 > ### Lock
-> The [lock mechanism](eval-modes#lock-state) \| <kbd>B</kbd> is very important when working with object boxes in OM#, especially those associated with an editor.   
+> The [lock mechanism](eval-modes#lock-state) \| <kbd>B</kbd> is very important when working with object boxes in OM#, especially those associated with an editor.
 > If some editing is performed on the current value of the box (in the editor) the box gets automatically locked, so as not to reinitialize and loose the edits at the next box evaluation.
 
 
@@ -93,7 +93,7 @@ _– `decimals` is an optional additional argument of the BPF contructor._
 
 Box "attributes" are related to the box or editor display or behaviour, independently of the constructued value.
 
-> &rarr; In addition to the contructor arguments this menu can also conatain **"box attributes"**, which will allow to set/or transfer some general visualization or editing parameters of the editor through the box inputs/output. 
+> &rarr; In addition to the contructor arguments this menu can also conatain **"box attributes"**, which will allow to set/or transfer some general visualization or editing parameters of the editor through the box inputs/output.
 
 <img src="objects_img/obj-box-key-list.png">
 
