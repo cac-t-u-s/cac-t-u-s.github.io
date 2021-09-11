@@ -7,9 +7,14 @@ layout: docpage
 <img src="sequencer_img/sequencer.png" width="40%">
 
 
-The **sequencer** is a document and musical container allowing to organize musical objects and processes in time.
+The **sequencer** is a document and musical container organizing musical objects and processes in time.
 
-Following the OM# document framework, the sequencer can therefore be used as a top-level container [document](doc-management), or embedded in a patch as an [abstraction box](abstractions).
+A sequencer can contain:
+- [Object boxes](objects), scheduled in a common time refential
+- [Abstractions (patches)](abstraction), produing muisocal objects, or any other data
+- Other [function boxes](function-box) connecting all these together.
+
+Following the OM# document framework, the sequencer can be used as a top-level container [document](doc-management), or embedded in a patch as an [abstraction box](abstractions).
 
 
 <img src="sequencer_img/new-sequencer.png" align="right">
@@ -57,18 +62,18 @@ Just double-click to open, edit, and play the sequencer contents.
 
 > **More in [Sequencer (Editor)](sequencer-editor)**
 
-The sequencer box unique output, by default, returns the sequencer itself. 
-Other values can ve returned through the sequencer's [control patch](sequencer-programming#control-patch-a-reflective-program). 
+The sequencer box unique output, by default, returns the sequencer itself.
+Other values can ve returned through the sequencer's [control patch](sequencer-programming#control-patch-a-reflective-program).
 
 
-## Build the maquette programmatically
+## Build the sequencer programmatically
 
 
-Sequencer boxes have two [optional inputs](box-inputs#optional), allowing to set the contents of the sequencer from the patch containing a sequencer box.
+Sequencer boxes have two [optional inputs](box-inputs#optional). These inputs allow setting the contents of the sequencer from the patch containing a sequencer box.
 
 <img src="sequencer_img/ex-build-sequencer.png">
 
-> **Note:** Other inlets and outlets of the sequencer box can be created through the sequencer's [control patch](sequencer-programming#control-patch-a-reflective-program).     
+> **Note:** Other inlets and outlets of the sequencer box can be created through the sequencer's [control patch](sequencer-programming#control-patch-a-reflective-program).
 > **&rarr; See [Sequencer (Programming)](sequencer-programming)**
 
 

@@ -28,7 +28,7 @@ The maquette view has both a [horizontal/time ruler](#time-rulers) and a vertica
 
 The "tracks" view arranges the sequencer contents on different tracks.
 
-The **value** of each box (or its first output value, for [patches/abstraction boxes](patch-box) with several ouputs) is displayed proportinally to its real duration.
+The when in "value" [display mode](patch-box#display), the **value** of each box (or its first output value, for [patches/abstraction boxes](patch-box) with several ouputs) is displayed proportinally to its real duration.
 
 <img src="sequencer-editor_img/tracks-view.png">
 
@@ -54,7 +54,7 @@ The **value** of each box (or its first output value, for [patches/abstraction b
 
 ## Evaluation
 
-Boxes in the sequencer can be [evaluated](eval), anytime and anywhere, using the <kbd>V</kbd> key.     
+Boxes in the sequencer can be [evaluated](eval), anytime and anywhere, using the <kbd>V</kbd> key.
 The box evaluation has the same semantics as in a patch: evaluating upstream-connected boxes, when relevant, and following connections (even when hidden by the "tracks" view).
 
 The button <img src="sequencer-editor_img/eval-black.png" width="40"> on the sequencer window reevaluates all the sequencer contents at once.
@@ -65,7 +65,7 @@ The button <img src="sequencer-editor_img/eval-black.png" width="40"> on the seq
 
 The time rulers above and below the sequencer views display time units, and allow navigating (click-and-drag horizontally, or using the "pan" gesture if supported by the operating system) and zooming in/out (click-and-drag vertically, or using the "zoom" gesture if supported by the operating system).
 
-- The ruler at the top is a "metric rule": it displays time in beats (according to the specified tempo, and by default following a 4/4 meter). 
+- The ruler at the top is a "metric rule": it displays time in beats (according to the specified tempo, and by default following a 4/4 meter).
 - The ruler at the bottom displays time in milliseconds.
 
 <img src="sequencer-editor_img/tempo.png" align="right">
@@ -79,7 +79,7 @@ The "Metro" (metronome) check on the sequencer editor allows hearing the beats w
 
 In [_tracks_ view](#tracks-view-), the ["master points"](time-sequence#master-timed-items) found in [time-sequence](time-sequence) objects in the maquette can be displayed as "time markers" in the if the box has the "Show markers" option turned on.
 
-Time markers make it possible to stretch the contents of time-sequences by moving master points from the sequencer editor.      
+Time markers make it possible to stretch the contents of time-sequences by moving master points from the sequencer editor.
 They can also be synchronized (by just dragging them on top of each other) and used to synchronize internal events from different objects contained in the sequencer.
 
 <img src="sequencer-editor_img/markers.png">
@@ -95,7 +95,7 @@ The value of each box (or its first output value, for patches/abstraction boxes 
 Time intervals and loops can be set [as in other OM# playable editors](player).
 
 
-> ### xReactive evaluation during playback
+> ### Reactive evaluation during playback
 >
 > **When a box in the sequencer is as at least one [reactive](reactive) output, it is also reevaluated when the play cursor reaches it**.
 >
