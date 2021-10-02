@@ -4,10 +4,10 @@ layout: docpage
 
 # Interface Boxes
 
-Interface boxes facilitate the interaction with visual programs, either for selecting/setting input or intermediate values, to triger actions or to control the computation flow.
+Interface boxes facilitate the interaction with visual programs, either for selecting/setting input or intermediate values, to trigger actions or to control the computation flow.
 They usually (but not necessarily) work along with [reactive visual programs](reactive): user actions on interface boxes trigger notifications to downstream reactive connections.
 
-> Actions on the interface boxes can be performed by **mouse clicks/mouse drag using the <kbd>Ctrl/⌘</kbd> key**.
+> Actions on the interface boxes can be performed by **mouse clicks/mouse drag using the <kbd>⌘</kbd> (MacOS) or <kbd>shift</kbd> + <kbd>Ctrl</kbd> (Windows, Linux) keys**.
 > They can also be performed **with simple mouse clicks and drags (without a modifier key) when the patch is [locked](patch#lock)**.
 
 Each interface box has different characteristics taht can be set either trought a set of optional ["box-attributes"](objects#box-attributes) inputs, or via the [inspector](inspector) panel.
