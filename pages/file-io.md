@@ -13,15 +13,15 @@ Common Lisp pathnames are printed with the prefix `#P`  (e.g. #P"/dirA/dirB/file
 
 The basic common lisp functions and notions used for manipulating pathnames are:
 
-- `make-pathname`: creates a pathname from a file name, extension, and a list of directories given respectively to the keyword arguments `:name`, `:type`, `:directory` (and more). E.g. `(make-pathname :directory '(:absolute "dira" "dirb") :name "file" :type "ext")`. See also `om-make-pathname` in the note below.
+- `make-pathname`: creates a pathname from a file name, extension, and a list of directories given respectively to the keyword arguments `:name`, `:type`, `:directory` (and more). E.g. `(make-pathname :directory '(:absolute "dira" "dirb") :name "file" :type "ext")`. See also `create-pathname` in the note below.
 - `pathname-name`, `pathname-type`, `pathname-directory` allow accessing the respective parts (name, extension, list of directories) of the pathname.
 - `pathname` converts a string in the equivalent pathname.
 - `namestring` converts a pathname to the equivalent string.
 - `merge-pathnames` facilitates creating pathnames by extending or modifying existing pathnames (see [a detailed description](http://www.lispworks.com/documentation/lw50/CLHS/Body/f_merge_.htm)).
 - `probe-file` tests if a file exists at this pathname.
-- `directory` lists the files and directories contained in a given directory. See also `om-directory` in the note below.
+- `directory` lists the files and directories contained in a given directory. See also `folder-contents` in the note below.
 
-> **Note:** OM# provides a number of additional facilities designed as higher-level functions on top of the Common Lisp pathnames. `om-make-pathname` and `om-directory` are for instance recommended for use in OM# patches, instead of  `make-pathname` and `directory`.
+> **Note:** OM# provides a number of additional facilities designed as higher-level functions on top of the Common Lisp pathnames. `create-pathname` and `folder-contents` are for instance recommended for use in OM# patches, instead of  `make-pathname` and `directory`.
 
 ## Input and Output Files in OM#
 
@@ -36,6 +36,8 @@ The "Files and Folders" preference tab in OM# [preferences](preferences) provide
 > The functions `infile`, `outfile`, `tmpfile` all take a simple file name (and optionally type and list of directories) and generate a full pathname with it, using the location of the default input, output or temporary files defined in the "Files and Folders" preferences.
 >
 > <img src="file-io_img/file-in-out.png">
+
+> **Note:** `home-directory` is a useful utility that can be used to compose pathname, starting the user "home" folder.
 
 
 > #### File Chooser
