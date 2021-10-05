@@ -13,13 +13,15 @@ The few following rules make for the library to smoothly integrate and run in th
 ### Structure and Naming
 
 - The name of the library is the name of the folder before the first white space (_"my-lib"_, _"my-lib 1.0"_, ...)
-- The folder should contain a file of this name, with the extension "omlib" (e.g. _"my-lib.omlib"_)
+- The folder should contain a file of this name, with the extension "olib" (e.g. _"my-lib.olib"_) 
 - A subfolder sound contain the sources (optional)
 - A subfolder named _"resources"_ should contain the resources, and in particular another subfolder named _"icons"_
 
+_Note: the extension ".omlib" is also supported._
+
 ```
 my-lib/
-  |---- my-lib.omlib
+  |---- my-lib.olib
   |---- sources/
            |---- file-1.lisp
            |---- file-2.lisp
@@ -34,9 +36,9 @@ my-lib/
 
 > **Warning:** GitHub users/dowloaders -- when dowloading a repository (say, for the library "my-lib"), GitHub may append the name of the branch to the downloaded packages ("my-lib-master.zip", etc.), preventing the lib to be recognised for its true name. If this is the case, just rename the folder after downloading it.
 
-### Contents and syntax of the .omlib file
+### Contents and syntax of the .olib file
 
-The .omlib file (_my-lib.omlib_) contains list with the information necessary to display and load the library in OM#:
+The .olib file (_my-lib.olib_) contains list with the information necessary to display and load the library in OM#:
 
 ```cl
 (:om-lib
@@ -85,9 +87,9 @@ The symbols can also be gathered in "sub-packages":
 
 ### Adapting an OpenMusic library
 
-In general for a simple library (and if the code inside the source files is compatible!), adapting an OpenMusic library mostly requires making the .omlib file from the corresponding ".lisp" loader-file of the library (_my-lib.lisp_).  
+In general for a simple library (and if the code inside the source files is compatible!), adapting an OpenMusic library mostly requires making the .olib file from the corresponding ".lisp" loader-file of the library (_my-lib.lisp_).  
 
-> Note that _my-lib.lisp_ and _my-lib.omlib_ can both stay in the library folder, making the library compatible with both OpenMusic and OM#.
+> Note that _my-lib.lisp_ and _my-lib.olib_ can both stay in the library folder, making the library compatible with both OpenMusic and OM#.
 
 
 
