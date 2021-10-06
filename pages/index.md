@@ -25,7 +25,6 @@ The state and settings of the working environment are controlled from the "Sessi
 
 ## Visual Programming
 
-
 A **patch** is a visual program: the graphical equivalent to a Lisp expression (or of a set of Lisp expressions). It contains **boxes** connected together via patch cords (also simply called **connections**).
 
 Boxes can represent either **Lisp functions**, other **embedded or external visual programs** (sub-patches), **simple values** or **object constructors**.
@@ -97,7 +96,7 @@ The geometrical and temporal layout of its contents are programmable and determi
 - `DATA-STREAM`
 - [3D objects and `3D-MODEL`](3d-model)
 
-> **&rarr; Explore the "Basic Tools" [package](session#the-packages-library-tab), for instance from the "Function and Classes Reference" (menu "Help"), to discover hundreds of functions dedicated to the processing of lists, and other structured data in this package using arithmetic, combinatorial, and other mathematical or algorithmic methods.**
+> &rarr; Explore the "Basic Tools" [package](session#the-packages-library-tab), for instance from the "Function and Classes Reference" (menu "Help"), to discover hundreds of functions dedicated to the processing of lists, and other structured data in this package using arithmetic, combinatorial, and other mathematical or algorithmic methods.
 
 
 ## Score
@@ -113,34 +112,41 @@ OM# provides an extensive set of tools for the manipulation of musical structure
 - Extras: Additional score elements
 - `N-CERCLE`: A mathematical tool
 
+> &rarr; See [MIDI Settings](midi-settings) for how to play (and hear!) score objects in OM#.
+
 ## MIDI
 
-MIDI is a standard protocol (and file format) designed for musical software and device to communicate and exchange control data for synthesizers. It includes the high level notions of notes, continuous controllers (volume, pitch bend, panning, etc.)
+[MIDI (Musical Instrument Digital Interface)](https://www.midi.org/) is a standard protocol and file format designed for musical software and device to communicate and exchange control data for synthesizers. It includes the high level notions of notes, continuous controllers (volume, pitch bend, panning, etc.)
 The MIDI protocol is used in OM# to "play" musical structures: a synthesizer must be connected to receive and render the data into sound.
-OM# also provides a set of tools and function to import, process or generate MIDI-encoded data with visual programs.
+OM# also provides a set of tools and function to import, process or generate MIDI-encoded data.
 
-- MIDI Settings
+- [MIDI Settings](midi-settings)
 - [`MIDI-TRACK`](midi-track)
 - MIDI tools
 
 
 ## Audio
 
-- Audio Settings
-- The `SOUND` box
-- Audio tools
+Audio programming in Common Lisp is fun, and can even perfom pretty well. OM# provides a library of tools which allow maniuplating audio files and audio buffers in visual programs. These tools can be combined to implement digital sound processing or associated with other external tools for audio synthesis or analysis.
 
+- [`SOUND` Object](sound)
+- [Sound Editor](sound-editor)
+- [Audio Settings](audio-settings)
+- [Sound Processing](sound-processing)
+- [Analysis/Synthesis Libraries](sound-libs)
 
 ## OSC
 
-OSC (Open Sound Control) is a standard format for the communication and data transfer between audio, music, or multimedia devices and applications.
+[OSC (OpenSoundControl)](http://opensoundcontrol.org/) is a common data transport specification (or encoding) for realtime message communication among audio, music, or multimedia applications and hardware.
 
 - Sending / Receiving OSC
 - OSC data structures
 
-See also the [odot / o.OM external for OM#](https://github.com/cac-t-u-s/o.OM).
+See also the [odot external for OM#](https://github.com/cac-t-u-s/o.OM).
 
 ## SDIF
+
+[SDIF (Sound Description Interchange Format)](http://sdif.sourceforge.net/) is a standard for the representation, storage and interchange of a variety of sound descriptions including time-domain, spectral, or sinusoidal models. SDIF consists of a basic data format framework and an extensible set of standard sound descriptions.
 
 - The `SDIFFILE` box
 - SDIF tools
