@@ -42,7 +42,7 @@ The environment is based on [Common Lisp](http://www.gigamonkeys.com/book/introd
 - New **score editors**, BPF/BPC editors, etc. Nicer display. Easier edit.
 - Versatile [containers](pages/store-collect) handling the storage, visualization and editing of collection of objects.
 - A [time-based model](pages/time-sequence) for "executable" objects, including dynamic function execution and data send/transfer possibility.
-- Dynamic-memory allocated **audio buffers**.
+- Dynamic-memory allocated [audio buffers](pages/sound).
 - Tools and editors for the representation and manipulation of musical objects (score, sounds, [MIDI tracks](pages/midi-track), temporal data streams...)
 - A framework for handling **OSC** data and bundles
 - ...
