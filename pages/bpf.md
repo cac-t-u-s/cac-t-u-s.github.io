@@ -4,7 +4,7 @@ layout: docpage
 
 # `BPF` – Break-Point Function
 
-The `BPF` [object](objects) is a list of ordered [x, y] points which represent a "funcion", or relation of a given parameter to another parameter.
+The `BPF` [object](objects) is a list of ordered [x, y] points which represent a "function", or relation of a given parameter to another parameter.
 
 
 > **&rarr; The "Curves and Functions" and "Interpolation" sub-packages of the "Basic Tools" [package](session#the-packages-library-tab), also include numerous useful utilities to manipulate and process BPF data, such as `bpf-scale`, `bpf-interpol`, `bpf-crossfade`, `bpf-spline`, `x-transfer` / `y-transfer`, `om-sample`, and many more. See for instance the Functions/Classes Reference (menu "Help").**
@@ -14,7 +14,7 @@ The `BPF` [object](objects) is a list of ordered [x, y] points which represent a
 
 ### Points
 
-The BPF points are specified with two seperate lists of x and y coordinates (called respectively `x-points` and `y-points`).
+The BPF points are specified with two separate lists of x and y coordinates (called respectively `x-points` and `y-points`).
 
 <img src="bpf_img/bpf-box.png">
 
@@ -26,11 +26,11 @@ The output values of these points can be either read via the corresponding `x-po
 ### Precision
 
 BPFs have a **precision** parameter, which can be set between 0 and 10 decimals. 
-Input `x-points` and `y-points` are automatically trucated to this precision.
+Input `x-points` and `y-points` are automatically truncated to this precision.
 
 <img src="bpf_img/bpf-decimals.png">
 
-> **Note:** Precision is an important parameter to consider when converting data, e.g. from sound analysis to the symbolic level. A low precision value can be responsible for excessive rounding or trucating the values.     
+> **Note:** Precision is an important parameter to consider when converting data, e.g. from sound analysis to the symbolic level. A low precision value can be responsible for excessive rounding or truncating the values.     
 >
 > <img src="bpf_img/bpf-decimals-truncated.png">
 
@@ -70,7 +70,7 @@ The editor options at the bottom allow to show/hide a grid in the background, di
 
 ### View Modes 
 
-The "Display" chooser allows to switch between several visuaizations of the BPF:
+The "Display" chooser allows to switch between several visualizations of the BPF:
 
 - **"Default"** (points connected by straight lines)    
 
@@ -102,7 +102,7 @@ The "Display" chooser allows to switch between several visuaizations of the BPF:
   - Use <kbd>Ctrl/⌘</kbd> + click to add point. 
   - Select and drag points or sets of points using rectangular / "rubber-band" selection.    
   (Use <kbd>Shift</kbd> + click to add/remove points to/from multiple selection). 
-  - Select the whole function by clicking on a segment beteen two points in the "line" view modes. 
+  - Select the whole function by clicking on a segment between two points in the "line" view modes. 
 
 - Draw / "Pen" mode: 
   - Click and draw on the view.
@@ -125,12 +125,12 @@ The "Display" chooser allows to switch between several visuaizations of the BPF:
 
 #### "Edit" menu commands:
 
-- Use the <kbd>Ctrl/⌘</kbd> + <kbd>A</kbd> shrotcut for "Select All" (and select all points in the BPF)
+- Use the <kbd>Ctrl/⌘</kbd> + <kbd>A</kbd> shortcut for "Select All" (and select all points in the BPF)
 
-- Use the <kbd>Ctrl/⌘</kbd> + <kbd>R</kbd> shrotcut for "Reverse" (and reverse 
+- Use the <kbd>Ctrl/⌘</kbd> + <kbd>R</kbd> shortcut for "Reverse" (and reverse 
 the order of the BPF points).
 
-- Use the <kbd>Ctrl/⌘</kbd> + <kbd>Z</kbd>  / <kbd>Ctrl/⌘</kbd> + <kbd>shift</kbd> + <kbd>Z</kbd> shrotcut for "Undo" / "Redo" commands.
+- Use the <kbd>Ctrl/⌘</kbd> + <kbd>Z</kbd>  / <kbd>Ctrl/⌘</kbd> + <kbd>shift</kbd> + <kbd>Z</kbd> shortcut for "Undo" / "Redo" commands.
 
 
 

@@ -25,7 +25,7 @@ The boxes described in this page all embed a storage slot, or **memory**.
 
 ## Collectors: `collect`, `accum`, `tcollect`
 
-`collect`, `accum`, and `tcollect` are advanced collectors inspired by OpenMusic's `omloop` feature.
+`collect`, `accum`, and `tcollect` are advanced collectors inspired by OpenMusics `omloop` feature.
 They are meant to be used either inside OM# [loops](loop) or in [reactive programs](reactive), as a means to store and collect incoming data.    
 
 > Remember that these boxes are simply holding the data in memory. 
@@ -37,7 +37,7 @@ They are meant to be used either inside OM# [loops](loop) or in [reactive progra
 `collect` is the main collector box, from which are derived the two others. 
 Its memory is a simple list. 
 
-`collect` has 3 inputs and 3 outputs, which behave slightly differently depending on whether they are evaluated in a standard way ("pulled" from the ouputs, typically, in a [loop](loop)) or activated by a [reactive notifier](reactive) ("pushed" on the inputs).
+`collect` has 3 inputs and 3 outputs, which behave slightly differently depending on whether they are evaluated in a standard way ("pulled" from the outputs, typically, in a [loop](loop)) or activated by a [reactive notifier](reactive) ("pushed" on the inputs).
 
 #### Standard case (pulling outputs)
 
@@ -48,11 +48,11 @@ Its memory is a simple list.
 
 #### In reactive processes (pushing inputs)
 
-Any `collect` input receiving a reactive notification simulates the evaluation of teh corresponding output:  
+Any `collect` input receiving a reactive notification simulates the evaluation of the corresponding output:  
 
 * **:data-in** collects the incoming value in the memory.
 * **:push** triggers a notification on the **:data-out** output holding the current contents of the memory.
-* **:init** triggers reinitialization with the memory with incoming value.
+* **:init** triggers re-initialization with the memory with incoming value.
 
 > **See [Reactive processes](reactive) and the _Core features/collect_ Help Patch**
 
@@ -60,7 +60,7 @@ Any `collect` input receiving a reactive notification simulates the evaluation o
 
 `tcollect` is similar to `collect` but includes a temporal dimension. 
 
-- An additional **:delay** input allows setting a delay in millseconds during which all collected data will be included in a common sub-list.
+- An additional **:delay** input allows setting a delay in milliseconds during which all collected data will be included in a common sub-list.
 
 - An additional **:time-list** output returns a list of times corresponding to the collect time of each item in the memory.
 
@@ -75,9 +75,9 @@ Any `collect` input receiving a reactive notification simulates the evaluation o
 `accum` is a generalization of `collect` that allows to perform user-defined collection strategies.
 The main difference with `collect`is the second input, which here must receive an accumulation function able to process a combination of the input (_data-in_) with the current content of the memory.
 
-Possible functions are for instance `+`, in order to sum up the inputs (supposingly numbers), `max` to maximize the values, or any other function or patch processing one inpu value and the current state of the memory.  
+Possible functions are for instance `+`, in order to sum up the inputs (supposedly numbers), `max` to maximize the values, or any other function or patch processing one input value and the current state of the memory.  
 
-> `accum` is mostly intended to be used in [loops](loop) as a way to extend or specifilze the behavior of `collect` when needed.    
+> `accum` is mostly intended to be used in [loops](loop) as a way to extend or specialize the behavior of `collect` when needed.    
 > **See the _Core features/loop_ Help Patch.**
 
 <img src="memory_img/accum.png">

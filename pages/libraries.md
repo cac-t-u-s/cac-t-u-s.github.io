@@ -12,7 +12,7 @@ Libraries must be located in specific folders where OM# can find them !
 <img src="libraries_img/lib-preferences.png">
 
 
-The **External Libraries** tab of the [Session Window](session) displays the libaries that are currently detected. This tab should update along with your modifications in the Preferences' search paths (but you can also help it with the "Refresh list" button!).
+The **External Libraries** tab of the [Session Window](session) displays the libraries that are currently detected. This tab should update along with your modifications in the Preferences' search paths (but you can also help it with the "Refresh list" button!).
 The "Refresh list" button is also useful to update the view when changes are made inside the folders while OM# is running.
 
 Notice the different icons for libraries that are loaded, and not loaded:
@@ -22,7 +22,7 @@ Notice the different icons for libraries that are loaded, and not loaded:
 
 > **Warnings:**     
 > Beware of duplicate libraries in the different folders. Only one of them (first found!) can be loaded.
-> Warning: GitHub users/dowloaders -- when dowloading a repository (say, for the library "my-lib"), GitHub may append the name of the branch to the downloaded packages ("my-lib-master.zip", etc.), preventing the lib to be recognised fro its original name. Just rename the folder after downloading it.
+> Warning: GitHub users/downloaders -- when downloading a repository (say, for the library "my-lib"), GitHub may append the name of the branch to the downloaded packages ("my-lib-master.zip", etc.), preventing the lib to be recognised by its original name. Just rename the folder after downloading it.
 
 > **See also:** [How to write a library](write-library).
 
@@ -36,7 +36,7 @@ Patches created with objects or functions from an external library will need thi
 
 Under certain condition (depending on how the library is, and which tools of the library are used -- see [How to write an external library](write-library)) the patch components can "remember" which library they depend on.  If this is the case and the required library is installed/detected but not loaded at opening a patch, a prompt will open proposing you to load it.
 
-> The "Auto load" option in the Libaries preferences (see screen above) allows to load the required libraries silently as soon as the are needed. 
+> The "Auto load" option in the Libraries preferences (see screen above) allows to load the required libraries silently as soon as the are needed. 
 
 <img src="libraries_img/dead-boxes.png" align="right" hspace="20">
 

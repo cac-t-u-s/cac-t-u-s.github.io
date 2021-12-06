@@ -127,7 +127,7 @@ OM# also provides a set of tools and function to import, process or generate MID
 
 ## Audio
 
-Audio programming in Common Lisp is fun, and can even perfom pretty well. OM# provides a library of tools which allow maniuplating audio files and audio buffers in visual programs. These tools can be combined to implement digital sound processing or associated with other external tools for audio synthesis or analysis.
+Audio programming in Common Lisp is fun, and can even perform pretty well. OM# provides a library of tools which allow manipulating audio files and audio buffers in visual programs. These tools can be combined to implement digital sound processing or associated with other external tools for audio synthesis or analysis.
 
 - [`SOUND` Object](sound)
 - [Sound Editor](sound-editor)

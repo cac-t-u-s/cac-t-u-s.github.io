@@ -21,7 +21,7 @@ In order to create an object box, select the corresponding _class_ from the "Box
 
 The function ["lambda-lists"](http://www.lispworks.com/documentation/HyperSpec/Body/03_da.htm) determines the different inputs of a function boxes, and **the type of data that it accepted for each input**.
 
-> In Common Lisp / OM# a data **type** can be either a basic type defined in the language (e.g. integer, string, symbol, ...) or determined by a class definition (e.g. BPF, CHORD, ...). Connecting wrong types to the function inputs yields an runtime-excecution error, that is generally handled and displayed by OM# as follows:      
+> In Common Lisp / OM# a data **type** can be either a basic type defined in the language (e.g. integer, string, symbol, ...) or determined by a class definition (e.g. BPF, CHORD, ...). Connecting wrong types to the function inputs yields an runtime-execution error, that is generally handled and displayed by OM# as follows:      
 >
 > <img src="function-box_img/type-error.png">
 

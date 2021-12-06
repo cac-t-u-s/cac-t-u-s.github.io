@@ -4,14 +4,14 @@ layout: docpage
 
 # Evaluation
 
-**Evaluation is the essential mecanism of program execution in OM.**
+**Evaluation is the essential mechanism of program execution in OM.**
 Evaluating a box means requesting it to compute a value by applying a function to it's inputs. When the inputs are connected, the evaluation propagates to upstream connected boxes, until all requested values allow the computation of the box.
 
-Use the <kbd>V</kbd> shortcut to evaluate the slected box(es) in the patch.
+Use the <kbd>V</kbd> shortcut to evaluate the selected box(es) in the patch.
 
-During evaluation, the box gets hilighted with a light-green frame.
+During evaluation, the box gets highlighted with a light-green frame.
 
-When the evaluation terminates, the result is oprinted in the [Listener](listener). Use <kbd>Ctrl/⌘</kbd> + <kbd>shift</kbd> + <kbd>L</kbd> , or open the listener pane in the patch editor with the button <img src="eval_img/patch-button-listener.png" class="embedded"> if it is not visible.
+When the evaluation terminates, the result is printed in the [Listener](listener). Use <kbd>Ctrl/⌘</kbd> + <kbd>shift</kbd> + <kbd>L</kbd> , or open the listener pane in the patch editor with the button <img src="eval_img/patch-button-listener.png" class="embedded"> if it is not visible.
 
 <img src="eval_img/listener-basic-green.png"> 
 
@@ -59,7 +59,7 @@ Use the "Edit/Abort Evaluation" menu command [ <kbd>Ctrl/⌘</kbd> + <kbd>shift<
 There's a lot of possible reasons why a evaluation box evaluation can lead to an error !
 
 - A deliberate error-report from one of the evaluated module/submodule (e.g. "x should be greater than 0")
-- A patch contruction error (e.g. "You have tried to add characters instead of numbers")
+- A patch construction error (e.g. "You have tried to add characters instead of numbers")
 - Bugs in OM or in your own / your library code.
 - Etc.
 

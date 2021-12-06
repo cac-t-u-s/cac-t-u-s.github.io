@@ -17,7 +17,7 @@ The first input (`self`) of the box is used to initialize the internal audio buf
 
 When nothing is connected (and if the box is not [locked](eval-modes#lock-state)) a file-chooser dialog opens when evaluating the `SOUND` box. 
 
-Once initialized, a few attributes from the sound (number of channels, number of samples, sample rate, file patname) can be read on the box (in ["text" visualization mode](objects#visualization)) or from the corresponding box outputs.
+Once initialized, a few attributes from the sound (number of channels, number of samples, sample rate, file pathname) can be read on the box (in ["text" visualization mode](objects#visualization)) or from the corresponding box outputs.
 
 <img src="sound_img/sound-info-box.png"> 
 <img src="sound_img/sound-info-slots.png"> 
@@ -31,7 +31,7 @@ When specified as input, the `:file-pathname` attribute stores or copies the inc
 
 <img src="sound_img/sound-file-pathname.png"> 
 
-The `:access-from-file` attribute of the sound determines whether the sound data sould be accessed from the disk (when available) or loaded and accessed as an internal buffer.
+The `:access-from-file` attribute of the sound determines whether the sound data should be accessed from the disk (when available) or loaded and accessed as an internal buffer.
 
 <img src="sound_img/sound-access-from-file.png"> 
 
@@ -39,7 +39,7 @@ The `:access-from-file` attribute of the sound determines whether the sound data
 
 ## Other attributes
 
-- The `:gain` attributes applies when playing the sound. It can be set throught the box input, or in the [sound editor](sound-editor). 
+- The `:gain` attributes applies when playing the sound. It can be set through the box input, or in the [sound editor](sound-editor). 
 
 - The `:markers` attributes is a list of markers (time in milliseconds) that can be set, displayed, and extracted from the sound.    
 *Note:* A marker can also be a list `(time "label")` where _"label"_ is a string displayed with the time marker.
@@ -50,7 +50,7 @@ The `:access-from-file` attribute of the sound determines whether the sound data
 
 ## Play
 
-Use the standard play controls to play/stop a `SOUND`. (Space-bar from a patche editor).   
+Use the standard play controls to play/stop a `SOUND`. (Space-bar from a patch editor).   
 &rarr; See [Player](player)
 
 

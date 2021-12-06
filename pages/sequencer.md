@@ -10,8 +10,8 @@ layout: docpage
 The **sequencer** is a document and musical container organizing musical objects and processes in time.
 
 A sequencer can contain:
-- [Object boxes](objects), scheduled in a common time refential
-- [Abstractions (patches)](abstraction), produing muisocal objects, or any other data
+- [Object boxes](objects), scheduled in a common time referential
+- [Abstractions (patches)](abstraction), producing musical objects, or any other data
 - Other [function boxes](function-box) connecting all these together.
 
 Following the OM# document framework, the sequencer can be used as a top-level container [document](doc-management), or embedded in a patch as an [abstraction box](abstractions).
@@ -63,7 +63,7 @@ Just double-click to open, edit, and play the sequencer contents.
 > **More in [Sequencer (Editor)](sequencer-editor)**
 
 The sequencer box unique output, by default, returns the sequencer itself.
-Other values can ve returned through the sequencer's [control patch](sequencer-programming#control-patch-a-reflective-program).
+Other values can be returned through the sequencer's [control patch](sequencer-programming#control-patch-a-reflective-program).
 
 
 ## Build the sequencer programmatically

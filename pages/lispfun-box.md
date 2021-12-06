@@ -26,7 +26,7 @@ The basic syntax is :
 ```
 
 In the Lisp function editor the usual syntax of Common Lisp applies.    
-Lines starting with `;` are comments (ingnored).
+Lines starting with `;` are comments (ignored).
 
 `arg1`, `arg2`, ... are the "arguments" or parameters of the function. 
 They will correspond to the inputs of the abstraction box.

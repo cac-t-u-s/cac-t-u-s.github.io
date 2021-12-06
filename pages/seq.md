@@ -2,11 +2,11 @@
 layout: docpage
 ---
 
-# Sequencing oprerations: `seq`
+# Sequencing operations: `seq`
 
-The `seq` box simply eveluates all its outputs in a specific order (from left to right) and returns results on corresponding ouputs.  
+The `seq` box simply evaluates all its outputs in a specific order (from left to right) and returns results on corresponding outputs.  
 
-Add/remove inputs and ouputs using the `+`/ `-` buttons.
+Add/remove inputs and outputs using the `+`/ `-` buttons.
 
 <img src="seq_img/seq.png"> 
 
@@ -17,5 +17,5 @@ Add/remove inputs and ouputs using the `+`/ `-` buttons.
 
 
 <img src="seq_img/seq-ev-once.png" align="right"> 
-> **Note:** If several ouputs are called, beware of multiple evaluation of the whole sequence, and consider using the [eval-once](eval-once) option. 
+> **Note:** If several outputs are called, beware of multiple evaluation of the whole sequence, and consider using the [eval-once](eval-once) option. 
 

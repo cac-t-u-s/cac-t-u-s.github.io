@@ -20,7 +20,7 @@ To add a patch in a sequencer:
 - <kbd>Ctrl/⌘</kbd> + click (or double-click in "maquette" view and type "patch")
 - (see [other means to create abstraction boxes](abstraction))
 
-If the first output of a patch is a playable/musical, it will be intergated in the sequencer output for playback. Otherwise inputs and outputs can just pass data in and out between programs and objects in the sequencer.
+If the first output of a patch is a playable/musical, it will be integrated in the sequencer output for playback. Otherwise inputs and outputs can just pass data in and out between programs and objects in the sequencer.
 
 > – _This patch generates a musical sequence (first output) for the sequencer. It also passes data out to another patch box:_          
 > <img src="sequencer-programming_img/patch-in-seq-tracks-2.png">
@@ -43,7 +43,7 @@ If the first output of a patch is a playable/musical, it will be intergated in t
 
 Using the [tools of the "Meta programming" package](meta), a patch box in a sequencer can access (and modify) information about its own containing box and context.
 
-**`thisbox`** is a special input providing an access to the box containing the current patch. All its properties are accessible (size, color, name, position). The position is a particulraly interesting parameter, considering that the x/horizontal axis respresents the time of the resulting musical structure in the sequencer.
+**`thisbox`** is a special input providing an access to the box containing the current patch. All its properties are accessible (size, color, name, position). The position is a particularly interesting parameter, considering that the x/horizontal axis represents the time of the resulting musical structure in the sequencer.
 
 In order to query or set the box properties, use the [`SLOTS` box](slots#a-use-case-of-setting-slot) with the `OMBox` class.
 
@@ -98,7 +98,7 @@ Therefore the [sequencer box](sequencer) by default has one output, which return
 Anything can be programmed in this patch. 
 In particular, utilities from the ["Meta"](meta) and ["Sequencer"](programming-with-the-sequencer-contents) packages allow manipulating the contents of the sequencer, or [controlling the player](#controlling-the-player) from there.
 
-> — _This control patch generates two boxes at random positions between 0 and 4000ms on tracks #1 and #2, each time the sequanncer is evaluated:_
+> — _This control patch generates two boxes at random positions between 0 and 4000ms on tracks #1 and #2, each time the sequencer is evaluated:_
 > <img src="sequencer-programming_img/seq-control-patch-ex.png">
 
 

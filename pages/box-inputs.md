@@ -6,7 +6,7 @@ layout: docpage
 
 Box inputs allow to enter arguments/attribute/parameters to OM# boxes.
 
-These values can be set "by hand" by just clicking on the input and typing a simple value, or through a [connection](pach#connections) to another box's output.
+These values can be set "by hand" by just clicking on the input and typing a simple value, or through a [connection](patch#connections) to another box's output.
 
 <img src="box-inputs_img/input-set-value.png"> 
 

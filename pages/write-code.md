@@ -55,7 +55,7 @@ The `defmethod!`-specific attributes in these definitions are:
     
 
 
-> **Note:** `:intvals` applies to the _visible_ inputs in the order of definition. In cas of [_optional_ or _keyword_ inputs](box-inputs), it is recommended that the default value specified in `:intvals` be the same as the one defined for the arguments in the function definition. Otherwise, the input woudl have a different default value depending whether it is visible or not.
+> **Note:** `:initvals` applies to the _visible_ inputs in the order of definition. In case of [_optional_ or _keyword_ inputs](box-inputs), it is recommended that the default value specified in `:initvals` be the same as the one defined for the arguments in the function definition. Otherwise, the input woudl have a different default value depending whether it is visible or not.
 >
 > Example: 
 > ```cl

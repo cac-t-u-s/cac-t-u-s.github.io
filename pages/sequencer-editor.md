@@ -28,7 +28,7 @@ The maquette view has both a [horizontal/time ruler](#time-rulers) and a vertica
 
 The "tracks" view arranges the sequencer contents on different tracks.
 
-The when in "value" [display mode](patch-box#display), the **value** of each box (or its first output value, for [patches/abstraction boxes](patch-box) with several ouputs) is displayed proportinally to its real duration.
+The when in "value" [display mode](patch-box#display), the **value** of each box (or its first output value, for [patches/abstraction boxes](patch-box) with several outputs) is displayed proportionally to its real duration.
 
 <img src="sequencer-editor_img/tracks-view.png">
 
@@ -88,9 +88,9 @@ They can also be synchronized (by just dragging them on top of each other) and u
 
 <img src="sequencer-editor_img/transport.png">
 
-The transport bar at the top of the sequencer editor controls the palyback of the sequencer contents.
+The transport bar at the top of the sequencer editor controls the playback of the sequencer contents.
 
-The value of each box (or its first output value, for patches/abstraction boxes with several ouputs) is considered its "musical output" by the player.
+The value of each box (or its first output value, for patches/abstraction boxes with several outputs) is considered its "musical output" by the player.
 
 Time intervals and loops can be set [as in other OM# playable editors](player).
 
