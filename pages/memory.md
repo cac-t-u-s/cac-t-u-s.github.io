@@ -6,8 +6,8 @@ layout: docpage
 
 OM# visual programs (and functional programs in general) usually don't deal much with memory. A function should produce no "side effects", and always behave identically / return the same result from a given set of parameters, regardless of what happens in the meantime, or of what results were computed previously.
 
-This rule breaks very often in practice: for instance as soon as a program preforms a [file input or output](file-io). 
-In addition, OM# provides various means to record and collect data in visual programs. 
+This rule breaks very often in practice: for instance as soon as a program preforms a [file input or output](file-io).
+In addition, OM# provides various means to record and collect data in visual programs.
 
 The boxes described in this page all embed a storage slot, or **memory**.
 
@@ -25,17 +25,17 @@ The boxes described in this page all embed a storage slot, or **memory**.
 
 ## Collectors: `collect`, `accum`, `tcollect`
 
-`collect`, `accum`, and `tcollect` are advanced collectors inspired by OpenMusic's `omloop` feature.
+`collect`, `accum`, and `tcollect` are advanced collectors inspired by the `omloop` feature of OpenMusic.
 They are meant to be used either inside OM# [loops](loop) or in [reactive programs](reactive), as a means to store and collect incoming data.    
 
-> Remember that these boxes are simply holding the data in memory. 
+> Remember that these boxes are simply holding the data in memory.
 
 ### `collect`
 
 <img src="memory_img/collect.png" align="right">
 
-`collect` is the main collector box, from which are derived the two others. 
-Its memory is a simple list. 
+`collect` is the main collector box, from which are derived the two others.
+Its memory is a simple list.
 
 `collect` has 3 inputs and 3 outputs, which behave slightly differently depending on whether they are evaluated in a standard way ("pulled" from the ouputs, typically, in a [loop](loop)) or activated by a [reactive notifier](reactive) ("pushed" on the inputs).
 
@@ -48,7 +48,7 @@ Its memory is a simple list.
 
 #### In reactive processes (pushing inputs)
 
-Any `collect` input receiving a reactive notification simulates the evaluation of teh corresponding output:  
+Any `collect` input receiving a reactive notification simulates the evaluation of teh corresponding output:
 
 * **:data-in** collects the incoming value in the memory.
 * **:push** triggers a notification on the **:data-out** output holding the current contents of the memory.
@@ -58,7 +58,7 @@ Any `collect` input receiving a reactive notification simulates the evaluation o
 
 ### `tcollect`
 
-`tcollect` is similar to `collect` but includes a temporal dimension. 
+`tcollect` is similar to `collect` but includes a temporal dimension.
 
 - An additional **:delay** input allows setting a delay in millseconds during which all collected data will be included in a common sub-list.
 
