@@ -10,7 +10,7 @@ They usually (but not necessarily) work along with [reactive visual programs](re
 > Actions on the interface boxes can be performed by **mouse clicks/mouse drag using the <kbd>⌘</kbd> (MacOS) or <kbd>shift</kbd> + <kbd>Ctrl</kbd> (Windows, Linux) keys**.
 > They can also be performed **with simple mouse clicks and drags (without a modifier key) when the patch is [locked](patch#lock)**.
 
-Each interface box has different characteristics taht can be set either trought a set of optional ["box-attributes"](objects#box-attributes) inputs, or via the [inspector](inspector) panel.
+Each interface box has different characteristics that can be set either trough a set of optional ["box-attributes"](objects#box-attributes) inputs, or via the [inspector](inspector) panel.
 
 
 ## Sliders
@@ -27,7 +27,7 @@ The current value can also be set using the **value** input.
 
 > #### Number box
 > <img src="interface-boxes_img/value-box.png" align="right">
-> A simple valie box containing a number (integer or flat) is automatically turned into an interactive number box, whose value can be changed by dragging up or down with the mouse (and either <kbd>Ctrl/⌘</kbd>, or patch [locked](patch#lock)).
+> A simple value box containing a number (integer or flat) is automatically turned into an interactive number box, whose value can be changed by dragging up or down with the mouse (and either <kbd>Ctrl/⌘</kbd>, or patch [locked](patch#lock)).
 > Each value change triggers downstream reactive updates.
 >
 > #### Note box
@@ -38,7 +38,7 @@ The current value can also be set using the **value** input.
 
 ## Check-box
 
-The `check-box` simply returns `T` or `NIL` depending on whether it is checked or not, and can be checked/uncheck with a simple click. 
+The `check-box` simply returns `T` or `NIL` depending on whether it is checked or not, and can be checked/unchecked with a simple click. 
 
 <img src="interface-boxes_img/check-box.png">
 
@@ -57,7 +57,7 @@ It can be decorated with a **text**, ans assigned a specific **send-value** that
 
 The `switch` box provides a simple interface to select between different value to connect somewhere, avoiding the need to disconnect/reconnect the corresponding outputs.
 
-The box can be added as many inputs as desired, and displays corresponding boxes taht can be clicked to select one of the inputs.
+The box can be added as many inputs as desired, and displays corresponding boxes that can be clicked to select one of the inputs.
 
 <img src="interface-boxes_img/switch.png">
 
@@ -73,7 +73,7 @@ The size and font of the list cells can be set from the [inspector](inspector) p
 
 <img src="interface-boxes_img/list-selection.png">
 
-Items are selected/desected by clicking on the corresponding row of the list.
+Items are selected/deselected by clicking on the corresponding row of the list.
 If **multiple-selection** is on, several items can be selected at a time, and returned as a list from the `list-selection` box output.
 
 <img src="interface-boxes_img/list-selection-multi.png">

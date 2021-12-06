@@ -31,7 +31,7 @@ In order to include an input or output in a patch, you can use one of the follow
 <img src="patch-box_img/create-output.png">    
 2. Use the menus "Boxes/Add Box/Input" / "Boxes/Add Box/Output", then click somewhere in the container patch to create the new input or output box.
 
-**&rarr; Connect the input and output boxes respectively to the parameters and resuts of the abstraction**
+**&rarr; Connect the input and output boxes respectively to the parameters and results of the abstraction**
 
 <img src="patch-box_img/in-outs.png"> 
 
@@ -62,7 +62,7 @@ These inlets can be used to connect _default values_, which will be used for int
 > The default values (that is, anything connected above **input** boxes) are not taken into account in the compilation of the patch, nor "outside" in the evaluation of the abstraction boxes referring to the patch.
 
 
-> The [Lisp-equivalent "lambda" expression of the edited patch can be displayed](lisp#getting-the-equivalent-lisp-code-of-a-patch) on the patch side panel as long as at least one **ouput** box is present, and will be computed (just like during the patch compilation) from this or these output box(es). Input boxes are considered as the _arguments_ of the expression.     
+> The [Lisp-equivalent "lambda" expression of the edited patch can be displayed](lisp#getting-the-equivalent-lisp-code-of-a-patch) on the patch side panel as long as at least one **output** box is present, and will be computed (just like during the patch compilation) from this or these output box(es). Input boxes are considered as the _arguments_ of the expression.     
 <img src="patch-box_img/abstraction-lisp-code.png"> 
 
 
@@ -87,6 +87,6 @@ To un-encapsulate an abstraction, use the "Boxes / Unencapsulate selection" menu
 
 Abstraction boxes offer three visualization modes, which can be switched from the _View_ item of the [inspector panel](inspector), or using the  <kbd>M</kbd> keyboard shortcut :
 
-- **hidden**: no contents displayed besides the name of the astraction;
+- **hidden**: no contents displayed besides the name of the abstraction;
 - ***mini-view***: displays a preview of the visual program graph;
 - ***value***: displays the current value of the different outputs (as computed by the last evaluation of the box).

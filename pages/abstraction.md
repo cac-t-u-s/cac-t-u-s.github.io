@@ -45,7 +45,7 @@ In (3) either the name of the file or its _pathname_ (i.e. file location, with f
 
 ### Finding / changing the location of an abstraction
 
-> Global abstractions are convenient as they allow a same file to be reused at several places. They are the true way of dealing with modularity in a program, since they are really independant of their caller environment and context.
+> Global abstractions are convenient as they allow a same file to be reused at several places. They are the true way of dealing with modularity in a program, since they are really independent of their caller environment and context.
 >
 > The drawback is that they need to be always reachable and found, and the relative-pathname link and be easily broken by simply moving or renaming the patch file.
 
@@ -53,13 +53,13 @@ The full reference pathname of an abstraction box can be read in the [inspector 
 
 <img src="abstraction_img/abs-pathname.png"> 
 
-This pathname can be changed or edited: if it is changed to another existing file, the patch box will now make reference to this new abstaction.
+This pathname can be changed or edited: if it is changed to another existing file, the patch box will now make reference to this new abstraction.
 
 A patch box with lost abstraction will display in red, as well as the pathname field in the inspector panel. Use this field to edit and restore the abstraction pathname.
 
 <img src="abstraction_img/abs-lost.png"> 
 
-> In order to avoid loosing tracks of abstractions, patches and dependencies should either be moved and transfered jointly in a same folder, or placed in the search path specified in the "File" [Preferences](preferences).
+> In order to avoid loosing tracks of abstractions, patches and dependencies should either be moved and transferred jointly in a same folder, or placed in the search path specified in the "File" [Preferences](preferences).
 
 
 ### Copies and multiple references
@@ -76,9 +76,9 @@ Save modifications in an abstraction editor using the standard command <kbd>Ctrl
 
 ### Internalize
 
-**Convert a global abstraction to a local abstraction using the menu "Boxes/Interanlize abstraction(s)" or the keyborad shortcut** <kbd>A</kbd>.
+**Convert a global abstraction to a local abstraction using the menu "Boxes/Internalize abstraction(s)" or the keyboard shortcut** <kbd>A</kbd>.
 
-> Internalizing a global abtraction box makes a local copy and attaches it to the box.    
+> Internalizing a global abstraction box makes a local copy and attaches it to the box.    
 _The link to the original reference is then broken._
 
 

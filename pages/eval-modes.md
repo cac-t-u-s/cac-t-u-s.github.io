@@ -4,12 +4,12 @@ layout: docpage
 
 # Box State and Evaluation Modes
 
-> Boxes in OM# have a _state_ determined by their **lock-state** and **eval-mode** attributes, wich determine the behaviour of a box evaluation by controlling respectively:
+> Boxes in OM# have a _state_ determined by their **lock-state** and **eval-mode** attributes, which determine the behaviour of a box evaluation by controlling respectively:
 > * Whether or not should the box be evaluated and update its value;
 > * What it should return.
 
 Both attributes are accessible from the [inspector view](inspector).
-Seeting these attributes states change the appearance of the box by displaying little icons on its top-left and bottm-left corners.
+Setting these attributes states change the appearance of the box by displaying little icons on its top-left and bottom-left corners.
 
 <img src="eval-modes_img/box-state-attributes.png">
 

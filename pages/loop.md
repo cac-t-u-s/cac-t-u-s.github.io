@@ -5,7 +5,7 @@ layout: docpage
 # Loops
 
 > A _loop_ is an iteration: a process that repeats an operation a number of times to perform repetitive tasks, accumulation, collection of data, etc.
-> Loops are not the easiest thing to do in OM#, but they can become a powerfull ally.
+> Loops are not the easiest thing to do in OM#, but they can become a powerful ally.
 
 > **See also:** [**`mapcar`**](lambda#iterations) is a nice an also powerful alternative to the OM# loop feature in many cases. It is often a matter of style!
 
@@ -15,7 +15,7 @@ layout: docpage
 Loops in OM# are standard patches (with any number of inputs and outputs) including one or more **`iterate`** boxes.
 **Each `iterate` box accounts for a loop.**
 
-`iterate` evaluates its input(s) a number of time as determined by the loop _iterators_ (`loop-for`, `loop-list`, `loop-tail`, `loop-while`) that are conncted to it, either directly or indirectly. The example below prints the elements in a list:
+`iterate` evaluates its input(s) a number of time as determined by the loop _iterators_ (`loop-for`, `loop-list`, `loop-tail`, `loop-while`) that are connected to it, either directly or indirectly. The example below prints the elements in a list:
 
 The `iterate` box can have an arbitrary number of inputs, which are evaluated from left to right and allow for combining iterators and the sequencing of actions inside the loop.
 
@@ -25,7 +25,7 @@ The `iterate` box can have an arbitrary number of inputs, which are evaluated fr
 The iterations therefore generally produce side-effects (`print` is one of them) or data collection (for instance using `collect` or `accum`, whose value can be returned by the patch outputs) (see below, [data collection](#data-collection)).
 
 While editing a loop, it is possible to get a "preview" of the iteration result by evaluating the `iterate` box.
-The list displayed in the listener here is however a display artefact, as `iterate` by itself does not collect any data.
+The list displayed in the listener here is however a display artifact, as `iterate` by itself does not collect any data.
 
 <img src="loop_img/loop-list-simple.png">
 
@@ -64,7 +64,7 @@ There exist 4 different iterators:
 
 
 Several iterators can be combined and connected to a same `iterate` box.
-This is when loops start to be more expressive and powerful than ususal `map...` iterators.
+This is when loops start to be more expressive and powerful than usual `map...` iterators.
 
 The iteration stops as soon as one of the iterator finishes:
 
@@ -98,7 +98,7 @@ One of the main use of loops in OM# will be the iterative processing and collect
 
 When a patch containing an `iterate` box is evaluated, the following actions happen in order:
 
-- Evlauation of the  `init-do` boxes (if any).
+- Evaluation of the  `init-do` boxes (if any).
 _`init-do` is a special box specifying actions to perform before iteration starts (for instance preparing initial states)._
 - Iteration of the `iterate` boxes
 - Evaluation of the `out`boxes (just like in a standard patch)

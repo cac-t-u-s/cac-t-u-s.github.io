@@ -21,7 +21,7 @@ The "eval-once" mode is one of the possible **[lock-state](eval-modes#lock-state
 Use the key <kbd>1</kbd>, or the [inspector view](inspector) to set/unset the **eval-once** mode for selected boxes.
 
 The **eval-once** mode changes the _number of times_ a box is evaluated if this box value is requested several times, that is, essentially:
- * if the box is connected to several other boxes through one or several of its ouputs
+ * if the box is connected to several other boxes through one or several of its outputs
  * if the box is connected to a **REPEAT-N** box with **:local** scope (see below).
 
 It has an impact on computational cost (and time!), by avoiding multiple, unnecessary executions of the same box.    
@@ -31,7 +31,7 @@ It has an impact on computational cost (and time!), by avoiding multiple, unnece
 > In the first example below, the `om-random` box is evaluated 3 times in the "normal" case, and only 1 time if the eval/once mode is on.     
 > <img src="eval-once_img/ev-once-off.png"> <img src="eval-once_img/ev-once-on.png">   
 >
-> In the second examplem eval-once is set to another downstream box (`list`), making the call to `om-random` happen 3 times only, at the first evaluation of the `list` box.    
+> In the second example eval-once is set to another downstream box (`list`), making the call to `om-random` happen 3 times only, at the first evaluation of the `list` box.    
 > <img src="eval-once_img/ev-once-on-list.png">
 
 
@@ -50,7 +50,7 @@ It's optional input `scope` affects the behavior of boxes that are connected to 
 ### Multiple outputs
 
 The **eval-once** mode makes particular sense for any box with multiple outputs, when several of these outputs are evaluated.   
-Below are typical examples where the eval-once mode _should_ generally be on (if not set by default in the preferences) in order to avoid multiple, unecessary computations and sometimes, inconsistent results:
+Below are typical examples where the eval-once mode _should_ generally be on (if not set by default in the preferences) in order to avoid multiple, unnecessary computations and sometimes, inconsistent results:
 
 1) <img src="eval-once_img/ev-once-multipleout.png">
 2) <img src="eval-once_img/ev-once-object.png">

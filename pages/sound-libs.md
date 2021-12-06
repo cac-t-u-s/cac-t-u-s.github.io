@@ -4,7 +4,7 @@ layout: docpage
 
 # Sound Analysis/Synthesis Libraries
 
-Some [external libraries](../#externals--libraries) bring powerful sound processing and synthesis capabilities in to OM#. Conversely, OM# can be a powerful environment to conctrol of the corresponding signal processing engines.
+Some [external libraries](../#externals--libraries) bring powerful sound processing and synthesis capabilities in to OM#. Conversely, OM# can be a powerful environment to control of the corresponding signal processing engines.
 
 - [Csound](#csound)
 - [OMChroma](#omchroma)
@@ -15,7 +15,7 @@ Some [external libraries](../#externals--libraries) bring powerful sound process
 
 ## Csound
 
-The **[csound library](https://github.com/cac-t-u-s/csound/)** is a simple tool to run Csound syntehsis processes specified from text files or [text buffers](text-buffer). 
+The **[csound library](https://github.com/cac-t-u-s/csound/)** is a simple tool to run Csound synthesis processes specified from text files or [text buffers](text-buffer). 
 
 > &rarr; Get Csound: [https://csound.com](https://csound.com)
 
@@ -35,7 +35,7 @@ OMChroma controls Csound synthesis using advanced structures and programming tec
 
 ## Sound analysis using SuperVP and pm2
 
-SuperVP and pm2 are two signal analysis and processing kernels developed at [IRCAM](https://www.ircam.fr), respectively based of short-term Fourier transform ("sonagram") and sinusoidal models ("partials"). They were notably used as sound processing engines of the [AudioScultp](https://forum.ircam.fr/projects/detail/audiosculpt/) software.
+SuperVP and pm2 are two signal analysis and processing kernels developed at [IRCAM](https://www.ircam.fr), respectively based of short-term Fourier transform ("sonogram") and sinusoidal models ("partials"). They were notably used as sound processing engines of the [AudioSculpt](https://forum.ircam.fr/projects/detail/audiosculpt/) software.
 
 The libraries **[OM-SuperVP](https://github.com/openmusic-project/om-supervp)** and **[OM-pm2](https://github.com/openmusic-project/om-pm2)** for OpenMusic are compatible with OM#. They both require an [IRCAM Forum subscription](https://www.ircam.fr/innovations/abonnements-du-forum/) to unlock the included sound processing engines.
 
@@ -43,7 +43,7 @@ The libraries **[OM-SuperVP](https://github.com/openmusic-project/om-supervp)** 
 - Fundamental frequency analysis
 - Transient detection
 - SFFT analysis
-- Formant analusis
+- Formant analysis
 - Time stretching
 - Frequency shifting
 - Sound transposition
@@ -51,7 +51,7 @@ The libraries **[OM-SuperVP](https://github.com/openmusic-project/om-supervp)** 
 - Clipping
 - Freezing
 - Source-filter synthesis
-- Cross syntesis
+- Cross synthesis
 
 All transformations can be controlled over time with BPFs or other advanced specification syntax.
 
@@ -76,7 +76,7 @@ All transformations can be controlled over time with BPFs or other advanced spec
 ## Spat
 
 The **[Spat](https://github.com/cac-t-u-s/spat)** library connects OM# with the IRCAM [Spatialisateur](https://forum.ircam.fr/projects/detail/spat/) kernel. 
-The various DSP processors included in the library can be controled over time via Spat control interfaces and OM# ["timeline" interfaces](time-sequence#timeline-editor), which enables advanced parameterization and real-time/offline rendering of sound spatialization processes.
+The various DSP processors included in the library can be controlled over time via Spat control interfaces and OM# ["timeline" interfaces](time-sequence#timeline-editor), which enables advanced parameterization and real-time/offline rendering of sound spatialization processes.
 
 <img src="sound-libs_img/spat-filter-processing.png"> 
 <img src="sound-libs_img/spat-dsp-editor.png" width="500"> 

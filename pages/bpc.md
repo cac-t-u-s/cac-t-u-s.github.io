@@ -12,7 +12,7 @@ It allows to draw free curves (shapes, trajectories) as a succession of 2D-point
 
 ### Points
 
-The BPC points are specified with two seperate lists of x and y coordinates (called respectively `x-points` and `y-points`).
+The BPC points are specified with two separate lists of x and y coordinates (called respectively `x-points` and `y-points`).
 
 <img src="bpc_img/bpc-box.png">
 
@@ -22,14 +22,14 @@ The output values of these points can be either read via the corresponding `x-po
 ### Precision
 
 BPCs have a **precision** parameter, which can be set between 0 and 10 decimals. 
-Input `x-points` and `y-points` are automatically trucated to this precision.
+Input `x-points` and `y-points` are automatically truncated to this precision.
 
 <img src="bpc_img/bpc-decimals-truncated.png">
 
 
 ### Other attributes
 
-The BPC box has additional [optional inputs](objects#additionaloptional-inputsoutputs) that are similar to thos of the [`BPF`](bpf#other-bpf-attributes), such as **name**, **color**, **action**, etc.
+The BPC box has additional [optional inputs](objects#additionaloptional-inputsoutputs) that are similar to those of the [`BPF`](bpf#other-bpf-attributes), such as **name**, **color**, **action**, etc.
 
 
 ### Box Attributes 
@@ -49,11 +49,11 @@ It has otherwise the same editing and visualization modes, options, and commands
 
 ## `time-sequence`
 
-Contrary to a BPF, where x-coordinates are considered as the time dimension, the BPC objects includes **times** as an additional (optiobal) information attached to each individual point.
+Contrary to a BPF, where x-coordinates are considered as the time dimension, the BPC objects includes **times** as an additional (optional) information attached to each individual point.
 
 A list of `times` can be provided as an [optional input](objects#additionaloptional-inputsoutputs) of the `BPC` box, where time can be either a number (time in millisecond) or NIL.
 
-> Reminder: untimed points (point whos time is NIL) will see their play time inerpolated between neighbouring timed-points.
+> Reminder: untimed points (point whose time is NIL) will see their play time interpolated between neighbouring timed-points.
 
 
 <img src="bpc_img/bpc-box-times.png"> 

@@ -35,7 +35,7 @@ When the option "Enable Listener input" is on in the general [preferences](prefe
 
 ### Other Listener options
 
-A few options in the "General" section of the [preferences](preferences) conceren the Listener window:
+A few options in the "General" section of the [preferences](preferences) concern the Listener window:
 - Keep the Listener window to front (on top of all other windows)
 - Activate Listener input (see previous section).
 - Font selection for the Listener pane

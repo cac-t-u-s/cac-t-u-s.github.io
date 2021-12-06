@@ -5,18 +5,18 @@ layout: docpage
 # Time Sequences
 
 
-Most "playable" objects in OM# implement the notion of "time sequence": they can be considered as a sequence of "timed item" (i.e., anything that has a position in time, and evenutally a duration).
+Most "playable" objects in OM# implement the notion of "time sequence": they can be considered as a sequence of "timed item" (i.e., anything that has a position in time, and eventually a duration).
 
 Example of "time sequences" are: [`BPF`](bpf), [`BPC`](bpc), [`3DC`](3DC) (all representing a sequence of timed-points), but also [`DATA-STREAM`](data-stream), and its subclasses: [`MIDI-TRACK`](midi-track), [`CHORD-SEQ`](chord-seq), [`VOICE`](voice)...
 
 
 > ### Actions
 >
-> The actions triggered by the timed items in the sequencey vary along with the different sub-classes of time sequences.
+> The actions triggered by the timed items in the sequence vary along with the different sub-classes of time sequences.
 >
 > Some objects have predefined actions (e.g. audio, MIDI events, ...) while others can be freely assigned (e.g. BPF, BPC...).
 
-Time sequences can generqlly be edited thanks to a "timeline editor" included in the different object's editor window.
+Time sequences can generally be edited thanks to a "timeline editor" included in the different object's editor window.
 
 
 <img src="time-sequence_img/bpc-timeline.png">

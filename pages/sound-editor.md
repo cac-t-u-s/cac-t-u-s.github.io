@@ -8,7 +8,7 @@ The sound editor opens when double-clicking a [`SOUND` object](sound).
 
 ## Visualization
 
-The sound editor has the ususal horizontal rulers for zooming in/out and scrolling through the sound.
+The sound editor has the usual horizontal rulers for zooming in/out and scrolling through the sound.
 
 ## Player
 
@@ -27,7 +27,7 @@ Markers can be added, removed, or edited in the sound editor.
 - Drag a selected marker to move it in the sound.
 - Use the <kbd>backspace</kbd> key to remove a selected marker.
 
-> Markers are also be reprsented and edited in the internal ["timeline"](time-sequence#timeline-editor) of the sound editor:    
+> Markers are also be represented and edited in the internal ["timeline"](time-sequence#timeline-editor) of the sound editor:    
 >
 > <img src="sound-editor_img/sound-editor-timeline.png"> 
 
@@ -38,7 +38,7 @@ Sound markers can be associated to a "label". The elements of the list of marker
 
 <img src="sound-editor_img/marker-label.png"> 
 
-Marker labels can be edited from teh sound editor:
+Marker labels can be edited from the sound editor:
 
 - Use <kbd>L</kbd> to set the label of any selected marker.
 - Use <kbd>shift</kbd> + <kbd>L</kbd> to remove the label of selected marker(s).

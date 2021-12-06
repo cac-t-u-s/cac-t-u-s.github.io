@@ -34,7 +34,7 @@ my-lib/
            |---- ...
 ```
 
-> **Warning:** GitHub users/dowloaders -- when dowloading a repository (say, for the library "my-lib"), GitHub may append the name of the branch to the downloaded packages ("my-lib-master.zip", etc.), preventing the lib to be recognised for its true name. If this is the case, just rename the folder after downloading it.
+> **Warning:** GitHub users/downloaders -- when downloading a repository (say, for the library "my-lib"), GitHub may append the name of the branch to the downloaded packages ("my-lib-master.zip", etc.), preventing the lib to be recognised for its true name. If this is the case, just rename the folder after downloading it.
 
 ### Contents and syntax of the .olib file
 

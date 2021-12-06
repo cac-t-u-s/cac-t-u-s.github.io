@@ -23,12 +23,12 @@ Recursion consists in calling a function in the body of this same function. It p
 In OM#, visual programs can be recursive as well, as long as they are set as **[global abstractions](abstraction#global-abstraction)**. Global (or "external") abstractions are stored on the disk and referenced in the document manager, and therefore can be used from anywhere (not only locally in the patch where they have been placed — this is the case for "local", or [internal abstractions](abstraction#internal-abstraction)), including inside themselves.
 
 
-> &rarr; Insert a global absttaction in itself as you would insert another global abstraction, that is, using one of the following options:
+> &rarr; Insert a global abstraction in itself as you would insert another global abstraction, that is, using one of the following options:
 > - Using the menu "Boxes / Add box... / External abstraction", then selecting the current file on the disk.
 > - Using the <kbd>p</kbd> shortcut and typing the name of the current patch
 > - Dragging the current patch file icon from the Finder / file explorer.  
 >
-> See more on ["how to use global/external abtractions"](abstraction#global-abstraction).
+> See more on ["how to use global/external abstractions"](abstraction#global-abstraction).
 
 <img src="recursion_img/rec-make.png"> 
 <img src="recursion_img/rec-factorial.png">

@@ -11,7 +11,7 @@ OM# includes a whole Lisp programming interface, and there exist several ways to
 > OM# is a Lisp environment, that is, it embeds the whole Common Lisp language and interpreter. Visual programs created in OM# are just compiled into Lisp functions before to execute, and can therefore seamlessly call and interact with pure Lisp program components.
 
 > <img src="lisp_img/lisp-in-patch.png" align="right"> 
- Any function that is defined in Lisp can be instanciated as a "box" in OM# visual program. Just type its name (prefixed by its Lisp _package_ name if not in the **:om** package).    
+ Any function that is defined in Lisp can be instantiated as a "box" in OM# visual program. Just type its name (prefixed by its Lisp _package_ name if not in the **:om** package).    
 
 
 > See [how to write functions and classes for OM#](write-code).
@@ -36,7 +36,7 @@ In addition to standard text-editing commands, the OM# Lisp-buffer editor offers
 - "Eval Region" / <kbd>Ctrl/⌘</kbd>+<kbd>E</kbd> evaluates the selected region (should be a complete Lisp expression) or the Lisp form before the previous closing parenthesis. (Note: you can also use <kbd>ctrl</kbd>+<kbd>xe</kbd> for this).
 
 
-- "Eval All" / <kbd>Ctrl/⌘</kbd>+<kbd>Y</kbd> evaluates the whole contents of the Lisp buffer, sequencially
+- "Eval All" / <kbd>Ctrl/⌘</kbd>+<kbd>Y</kbd> evaluates the whole contents of the Lisp buffer, sequentially
 
 - "Load File" loads the current file (if saved on disk) using the Lisp **load** command.
 
@@ -62,9 +62,9 @@ The Lisp files in this folder are loaded at starting the session.
 
 ### "Find Definition" in Visual Programs
 
-The equivalent of the previous "Find Definition" command is also available in viusal programs, from the menu "Help/Find source" or using the short-cut <kbd>Ctrl/⌘</kbd>+<kbd>shift</kbd>+<kbd>E</kbd> when a box is selected. 
+The equivalent of the previous "Find Definition" command is also available in visual programs, from the menu "Help/Find source" or using the short-cut <kbd>Ctrl/⌘</kbd>+<kbd>shift</kbd>+<kbd>E</kbd> when a box is selected. 
 
-This command will take you the Lisp source of the visual program component (if it can be found). You can eventuyally edit it, re-evaluate it from there, and modify its behaviour (be careful!). 
+This command will take you the Lisp source of the visual program component (if it can be found). You can eventually edit it, re-evaluate it from there, and modify its behaviour (be careful!). 
 
 <img src="lisp_img/find-definition.png">
 

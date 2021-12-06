@@ -4,7 +4,7 @@ layout: docpage
 
 # Store and Collect
 
-[Value boxes](value-box) are convienent for displaying and storing small and / or atomic data in visual programs.
+[Value boxes](value-box) are convenient for displaying and storing small and / or atomic data in visual programs.
 
 Two other containers are proposed for larger list of values or objects
 
