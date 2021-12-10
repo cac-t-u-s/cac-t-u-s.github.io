@@ -4,7 +4,7 @@ layout: docpage
 
 # Box inputs
 
-Box inputs allow to enter arguments/attribute/parameters to OM# boxes.
+Box inputs allow entering arguments/attribute/parameters to OM# boxes.
 
 These values can be set "by hand" by just clicking on the input and typing a simple value, or through a [connection](patch#connections) to another box's output.
 

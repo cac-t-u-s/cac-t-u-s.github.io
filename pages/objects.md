@@ -4,7 +4,7 @@ layout: docpage
 
 # Object Box
 
-_Object_, or _"Class" Boxes_ allow to generate and process data structures in OM# visual programs.
+_Object_, or _"Class" Boxes_ generate and process data structures in OM# visual programs.
 
 > In **object-oriented programming** (OOP), a _class_ is a template structure defining a **type** of data, its attributes (also called _slots_) and behaviours. From a defined class are be derived _instances_ of this class.
 > An object box in OM can actually refer to the OOP concept of "factory": its main role is to produce (and additionally, to store/display/edit) instances of a given class.
@@ -23,7 +23,7 @@ In order to create an object box, select the corresponding _class_ from the "Box
 
 The object box generally has several inputs and the same number of outputs.
 
-* **Inputs are arguments of the constructors**: they are the attributes or parameters that allow to build an instance of the class.
+* **Inputs are arguments of the constructors**: they are the attributes or parameters used to build an instance of the class.
 
 * **Outputs are accessors** to read or access these attributes.
 
@@ -31,7 +31,7 @@ The object box generally has several inputs and the same number of outputs.
 _The BPF class has 2 main constructor arguments. `x-points` and `y-points`._
 
 > ### The "self" input/output
-> The first input/output of an object box, generally labeled ***"self"***, is a special one. It corresponds to the actual instance that is created, and allows to access it as such (_self_ output), or to create it by copying or conversion from an other object (when such conversion is possible). See examples below.
+> The first input/output of an object box, generally labeled ***"self"***, is a special one. It corresponds to the actual instance that is created, and allows accesssing it as such (_self_ output), or creating it by copying or conversion from an other object (when such conversion is possible). See examples below.
 >
 > The function `x-transfer` uses a `BPF` object as its first argument: we can get it using the **self** output of a `BPF` box:
 >
@@ -69,7 +69,7 @@ The name can be set and changed in the [inspector view](inspector). It can also 
 
 Most in-built OM# classes have an associated editor, which opens by double-clicking the box.
 
-The editor allows to visualize, and generally, to edit/modify the current value.
+The editor allows visualizing, and generally, to editing/modifying the current value.
 
 <img src="objects_img/bpf-editor.png">
 
@@ -93,7 +93,7 @@ _– `decimals` is an optional additional argument of the BPF constructor._
 
 Box "attributes" are related to the box or editor display or behaviour, independently of the constructed value.
 
-> &rarr; In addition to the constructor arguments this menu can also contain **"box attributes"**, which will allow to set/or transfer some general visualization or editing parameters of the editor through the box inputs/output.
+> &rarr; In addition to the constructor arguments, this menu can also contain **"box attributes"**, which will set or transfer some general visualization or editing parameters of the editor through the box inputs/output.
 
 <img src="objects_img/obj-box-key-list.png">
 

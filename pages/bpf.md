@@ -55,7 +55,7 @@ The `display-min` / `display-max` parameters change the vertical range that is d
 
 The BPF box editor is constituted by a BPF-editing view (on the left) and a general property editing panel (on the right).
 
-General parameters on the right allow to manually set most parameters that could otherwise be set from the BPF box optional inputs (see [above](#other-attributes) — more will also be discussed below).
+General parameters on the right allow setting most parameters that could otherwise be set from the BPF box optional inputs (see [above](#other-attributes) — more will also be discussed below).
 
 <img src="bpf_img/bpf-editor.png"> 
 
@@ -63,14 +63,14 @@ General parameters on the right allow to manually set most parameters that could
 ### BPF Editing
 
 The main view on the left displays the BPF, and offers zoom/scroll utilities through two (vertical and horizontal) rulers, and standard corresponding mouse interactions.  
-The editor options at the bottom allow to show/hide a grid in the background, display point indices and other visualisation options described below.
+The editor options at the bottom allow showing/hiding a grid in the background, displaying point indices, and other visualisation options described below.
 
 <img src="bpf_img/bpf-editor-grid.png"> 
 
 
 ### View Modes 
 
-The "Display" chooser allows to switch between several visualizations of the BPF:
+The "Display" chooser allows switching between several visualizations of the BPF:
 
 - **"Default"** (points connected by straight lines)    
 
@@ -112,7 +112,7 @@ The "Display" chooser allows to switch between several visualizations of the BPF
   - Move within the view without editing. 
   - Double-click to zoom out completely
 
-> In standard or "Draw" modes, double-clicking on a point allows to set its precise X and Y values in a dialog box.
+> In standard or "Draw" modes, double-clicking on a point allows setting its precise X and Y values in a dialog box.
 >
 > <img src="bpf_img/bpf-editor-set-point.png"> 
 
@@ -140,7 +140,7 @@ A `BPF` in also a [`time-sequence`](time-sequence): the x-axis can be considered
 
 <img src="bpf_img/bpf-editor-timeline.png"> 
 
-The "times" check-box in the visualization options allows to display the time in millisecond if each point in the BPF.
+The "times" check-box in the visualization options allows displaying the time in millisecond if each point in the BPF.
 
 ### Play
 

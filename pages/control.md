@@ -4,7 +4,7 @@ layout: docpage
 
 # Control Boxes
 
-The operators in the "Kernel/Control" package allow to control how data is processed can transmitted in OM# visual programs.
+The operators in the "Kernel/Control" package control how data is processed can transmitted in OM# visual programs.
 
 List of main "Control" boxes: 
 

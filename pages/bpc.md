@@ -5,7 +5,7 @@ layout: docpage
 # `BPC` – Break-Point Curve
 
 The `BPC` [object](objects) is a variant of the [`BPF`](bpf) where x-coordinates are not ordered. 
-It allows to draw free curves (shapes, trajectories) as a succession of 2D-points.
+It allows drawing free curves (shapes, trajectories) as a succession of 2D-points.
 
 
 ## Construction 

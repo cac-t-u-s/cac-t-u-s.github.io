@@ -42,7 +42,7 @@ Viewpoint short-cuts:
 ## Rotation
 
 Rotate the data using the slider on the editor GUI, or use the mouse "click-and-drag" + <kbd>shift</kbd> or <kbd>alt</kbd> key pressed.
-The editor GUI allow to configure the rotation axes according to the <kbd>shift</kbd> / <kbd>alt</kbd> keys.
+The editor GUI allows configuring the rotation axes according to the <kbd>shift</kbd> / <kbd>alt</kbd> keys.
 
 Click-drag or double-click on the _center-x_ and _center-y_ frames to set the center of the rotation.
 
@@ -52,7 +52,7 @@ Rotation short-cuts:
 - <kbd>shift</kbd> + <kbd>O</kbd> : Reinitialize rotation center
 
 
-## How to use it...
+## Hints / How to use it
 
 - Use additional inputs of the `3D-MODEL` box to set the rotation values, some scaling factor(s) and/or grid parameters from the OM patch.
 
@@ -62,8 +62,6 @@ Rotation short-cuts:
 
 > **Note:** Press _Space_ in the editor to activate a [reactive notification](reactive) in the box. 
 This will output transformed data out in the patch and update downstream reactive connected boxes.
-
-<center>
-<img src="3d-model_img/3d-model-boxes.png" width="400" align="middle">
-</center>
+> 
+> <center><img src="3d-model_img/3d-model-boxes.png" width="400" align="middle"></center>
 

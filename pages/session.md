@@ -45,7 +45,7 @@ In this tab are listed all the "packages" in-built in the environment.
 <img src="session_img/session-packages.png">
 
 Open/browse packages using the triangle icons on the left, in order to see the list of functions and classes they contain.
-Click on an item to display its quick-documentation on the right.
+Click on an item to display its documentation on the right.
 
 > **Hint:** Double-click on an item if you want to use it in an open patch, then just click somewhere in the patch window to create the corresponding box.
 

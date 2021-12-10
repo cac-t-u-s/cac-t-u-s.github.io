@@ -37,7 +37,7 @@ Timed items can be translated in time using mouse drag operations, or using the 
 
 _The order of the timed items can not be changed_, and translation will always be blocked at the immediate proximity of surrounding timed items.
 
-The timeline editor also allows to add timed-items (whatever they are!) using <kbd>Ctrl/⌘</kbd> + click, to remove them using the <kbd>backspace</kbd> key.
+The timeline editor also allows adding timed-items (whatever they are!) using <kbd>Ctrl/⌘</kbd> + click, or removing them using the <kbd>backspace</kbd> key.
 
 ## Timing
 

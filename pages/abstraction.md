@@ -6,7 +6,7 @@ layout: docpage
 
 > Abstraction is a fundamental concept in computer programming, which can have different meanings and facets. In our case, making an abstraction consists in using parts of visual programs as functions (or _procedures_, _sub-routines_, etc.) in order to single out a specific behaviour or sequence of operations, which can be labeled with a name and eventually used/re-used in a larger-scale program. 
 There can be arbitrary numbers of levels of abstraction and encapsulation of patches within one another.     
-Abstraction allows to structure a program by establishing levels of complexity, reuse components, and focus on certain levels of details when programming.
+Abstraction allows structuring a program by establishing levels of complexity, reuse components, and focus on certain levels of details when programming.
 It quickly becomes an essential part of writing consistent programs in any language.
 
 **In OM# (and similar visual programming languages), abstractions are generally [patches](patch-box) embedded inside other higher-level patches.**

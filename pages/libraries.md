@@ -36,7 +36,7 @@ Patches created with objects or functions from an external library will need thi
 
 Under certain condition (depending on how the library is, and which tools of the library are used -- see [How to write an external library](write-library)) the patch components can "remember" which library they depend on.  If this is the case and the required library is installed/detected but not loaded at opening a patch, a prompt will open proposing you to load it.
 
-> The "Auto load" option in the Libraries preferences (see screen above) allows to load the required libraries silently as soon as the are needed. 
+> The "Auto load" option in the Libraries preferences (see screen above) makes for required libraries be silently loaded as soon as the are needed. 
 
 <img src="libraries_img/dead-boxes.png" align="right" hspace="20">
 

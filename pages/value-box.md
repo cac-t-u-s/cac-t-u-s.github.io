@@ -34,7 +34,7 @@ _This section contains links top the online edition of [Common Lisp the Language
 
 - Numbers without decimals are called _[integers](https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node17.html#SECTION00611000000000000000)_ (e.g. 1)
 - Numbers with decimals are called _[floats](https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node19.html#SECTION00613000000000000000)_ (e.g. 1.0).    
-- Specific notation allow to force the interpretation into more specific types (e.g. 1.0d0 for "double-floats").
+- Specific notation can be used to force the interpretation into more specific types (e.g. 1.0d0 for "double-floats").
 
 ### Characters and Strings
 

@@ -47,7 +47,7 @@ The boxes have a number of "active" areas, changing their appearance or the mous
 - Add/remove input buttons (when available) — see below.
 
 > <img src="box_img/input-set-value.png" align="right"> 
-Box **inputs** allow to enter arguments/attribute/parameters to OM# boxes. 
+Box **inputs** allow entering arguments/attribute/parameters to OM# boxes. 
 Their value can be set "by hand" by just clicking on the input and typing a simple value, or through [connections](connections) to other boxes.
 >
 > <img src="box_img/list-box-optional.png" align="right"> 

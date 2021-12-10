@@ -58,7 +58,7 @@ However, only a subset of specific/documented functions declared in OM packages 
 
 
 <img src="patch_img/input-set-value.png" align="right">
-**Box inputs** allow to enter arguments/attribute/parameters to OM# boxes.
+**Box inputs** allow entering arguments/attribute/parameters to OM# boxes.
 Their value can be set "by hand" by just clicking on the input and typing a simple value, or through connections to other boxes (see below).
 
 **Documentation:**

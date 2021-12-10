@@ -72,7 +72,7 @@ Any `collect` input receiving a reactive notification simulates the evaluation o
 
 ### `accum`
 
-`accum` is a generalization of `collect` that allows to perform user-defined collection strategies.
+`accum` is a generalization of `collect` which performs user-defined collection strategies.
 The main difference with `collect`is the second input, which here must receive an accumulation function able to process a combination of the input (_data-in_) with the current content of the memory.
 
 Possible functions are for instance `+`, in order to sum up the inputs (supposedly numbers), `max` to maximize the values, or any other function or patch processing one input value and the current state of the memory.  
