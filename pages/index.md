@@ -90,11 +90,9 @@ The geometrical and temporal layout of its contents are programmable and determi
 
 - [Break-Point Function – `BPF`](bpf)
 - [Break-Point Curve – `BPC`](bpc)
-- 3D Curve – `3DC`
 - Arrays – `2D-ARRAY` / `CLASS-ARRAY`
 - Text Buffer
 - `DATA-STREAM`
-- [3D objects and `3D-MODEL`](3d-model)
 
 > &rarr; Explore the "Basic Tools" [package](session#the-packages-library-tab), for instance from the "Function and Classes Reference" (menu "Help"), to discover hundreds of functions dedicated to the processing of lists, and other structured data in this package using arithmetic, combinatorial, and other mathematical or algorithmic methods.
 
@@ -134,6 +132,14 @@ Audio programming in Common Lisp is fun, and can even perform pretty well. OM# p
 - [Audio Settings](audio-settings)
 - [Sound Processing](sound-processing)
 - [Analysis/Synthesis Libraries](sound-libs)
+
+
+## Space / 3D
+
+- 3D Curve – `3DC`
+- Background elements (BPF/BPC/3DC)
+- [3D objects and `3D-MODEL`](3d-model)
+
 
 ## OSC
 
