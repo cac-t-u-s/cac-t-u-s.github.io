@@ -136,8 +136,10 @@ Audio programming in Common Lisp is fun, and can even perform pretty well. OM# p
 
 ## Space / 3D
 
-- 3D Curve – `3DC`
-- Background elements (BPF/BPC/3DC)
+The tools in the 3D package extend the basic tools with data structures, editors and other utilities dediacted to the representation and processing of spatial structures (e.g. trajectories for sound spatialization, or positioning and movements of other objects).
+
+- [3D Curve – `3DC`](3dc)
+- [Background elements (BPF/BPC/3DC)](background-element)
 - [3D objects and `3D-MODEL`](3d-model)
 
 
