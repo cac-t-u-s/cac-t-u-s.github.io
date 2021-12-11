@@ -4,28 +4,24 @@ layout: docpage
 
 # `3D-MODEL`
 
-`3D-MODEL` is an object allowing for the visualization and editing of a set of 3D-objects.
+`3D-MODEL` allows visualizing and editing 3D-objects.
+
+> **Note:** For the simple visualization of 3D trajectories, the [`3DC`](3dc) object (eventually in a[`COLLECTION`](store-collect#collection) object) might be an easier choice.
 
 
 ## Construction 
 
-Currently-supported 3D objects are: `3D-LINES`, `3D-CUBE` and `3D-SPHERE`.
-
-- `3D-CUBE` and `3D-SPHERE` can be constructed as "standard" [objects](objects) in OM patches: 
+Different types of 3D objects are supported: `3D-LINES`, `3D-CUBE` and `3D-SPHERE`.
+These can be constructed as "standard" [objects](objects) in OM patches: 
 
 <img src="3d-model_img/3d-model-cubes.png">
 
-- `3D-LINES` shall just be specified as list of values. Their colour is assigned randomly. 
+- `3D-LINES` can also be specified as a simple list of values. In this case the color is assigned randomly. 
 
 <img src="3d-model_img/3d-model-lines.png">
 
 
-> **Note:** The `3D-LINES` object will be fully functional in the coming OM# update. In the meantime, it is also possible to create `3D-LINES` from your own Lisp code or functions, in which case the colour, and other aspects of rendering are also accessible. 
-
-The main editing consists in 3D-rotations along different combinations of axes.
-
-> **Note:** For the simple visualization of 3D trajectories, the `[3DC](3dc)` object (eventually in a `[COLLECTION](store-collect#collection)` object) might be easier to use.
-
+The main features the `3D-MODEL` editor are 3D-rotations along different combinations of axes.
 
 
 <img src="3d-model_img/3d-model.png" width="500" align="right">
@@ -52,6 +48,8 @@ Rotation short-cuts:
 - <kbd>shift</kbd> + <kbd>O</kbd> : Reinitialize rotation center
 
 
+<img src="3d-model_img/3d-model-boxes.png" width="400" align="right">
+
 ## Hints / How to use it
 
 - Use additional inputs of the `3D-MODEL` box to set the rotation values, some scaling factor(s) and/or grid parameters from the OM patch.
@@ -62,6 +60,4 @@ Rotation short-cuts:
 
 > **Note:** Press _Space_ in the editor to activate a [reactive notification](reactive) in the box. 
 This will output transformed data out in the patch and update downstream reactive connected boxes.
-> 
-> <center><img src="3d-model_img/3d-model-boxes.png" width="400" align="middle"></center>
 
