@@ -34,7 +34,7 @@ The BPC box has additional [optional inputs](objects#additionaloptional-inputsou
 
 ### Box Attributes 
 
-The `BPC` box also has the same [box attributes inputs](objects#box-attributes-inputs) as the [`BPF`](bpf#box-attributes).
+The `BPC` box has the same ["box attribute" inputs](objects#box-attribute-inputs) as the [`BPF`](bpf#box-attributes).
 
 
 ## Editor

@@ -89,7 +89,7 @@ When a class has numerous slots/attributes and/or when all of them are not funda
 _– `decimals` is an optional additional argument of the BPF constructor._
 
 
-## Box attributes inputs
+## Box attribute inputs
 
 Box "attributes" are related to the box or editor display or behaviour, independently of the constructed value.
 

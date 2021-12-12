@@ -45,7 +45,7 @@ Other parameters can be set from [optional inputs](objects#additionaloptional-in
 
 ### Box Attributes 
 
-Some additional display parameters can be set directly on the `BPF` box through [box attributes inputs](objects#box-attributes-inputs).
+Some additional display parameters can be set directly on the `BPF` box through ["box attribute" inputs](objects#box-attribute-inputs).
 The `display-min` / `display-max` parameters change the vertical range that is displayed on the box.
 
 <img src="bpf_img/bpf-display-max.png"> 
@@ -175,7 +175,7 @@ Several actions are available by default:
 
 ### Interpolation
 
-An interpolation value can be set from the [box attributes inputs](objects#box-attributes-inputs) or from the general properties panel of the BPF editor.
+An interpolation value can be set from the [box attribute inputs](objects#box-attribute-inputs) or from the general properties panel of the BPF editor.
 
 The interpolation is an interval specified in milliseconds.
 When activated, the it generates intermediate points separated by this ti,e interval between each point of the BPF, and performs the selected action at the corresponding times.
