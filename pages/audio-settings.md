@@ -10,7 +10,7 @@ The "Audio" tab of the OM# preferences allows setting the audio output, as well 
 
 # Audio Output
 
-The **Devices** and **Settings** sections allow choosing a device of driver for the general audio output, and setting its parameters (number of channels, sample rate;, buffer size).
+The **Devices** and **Settings** sections allow choosing a device of driver for the general audio output, and setting its parameters (number of channels, sample rate, buffer size).
 
 > With the **"buffer channel routing"** field, a list of output channels can be provided to route the outputs of sound buffers to specific channels of the output device. For instance, `(5 - 1 2)` would route the channel 1 to the 5th channel of the device, mute channel 2 ("-"), and route channels 3 and 4 to the first and second channels of the device.    
 &rarr; **Important note:** This applies only for those `SOUND` objects that are not [read from disk](sound#parameters).
