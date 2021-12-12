@@ -24,7 +24,7 @@ A MIDI file can be loaded by just connecting a **[pathname](file-io)** to `self`
 ## Editor
 
 The editor of `MIDI-TRACK` displays and allows editing of the internal `MIDI-NOTE`s as a "piano-roll" representation. 
-Transpositions, time and duration edits, note addition or removal are allowed and performed with the usual commands, as well as playback, zoom-in and -out, and (timeline-editor) modifications.
+Transpositions, time and duration edits, note addition or removal are allowed and performed with the usual commands, as well as playback, zoom-in and -out, and other time modifications using the [timeline](time-sequence) editor option.
 
 <img src="midi-track_img/midi-track-editor.png"> 
 
