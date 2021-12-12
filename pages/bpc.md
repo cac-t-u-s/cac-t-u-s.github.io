@@ -68,5 +68,8 @@ Times can be visualized and edited using the "times" visualization option and/or
 >
 > <img src="bpc_img/bpc-editor-play.png"> 
 
+## Collections
 
+The `BPC` editor supports integration in the [`COLLECTION`](store-collect#collection) editor, where several `BPC` objects can be jointly visualized and edited.
 
+<img src="store-collect_img/collection-editor-showall-bpc.png">

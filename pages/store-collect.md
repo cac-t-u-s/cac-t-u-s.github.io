@@ -49,7 +49,7 @@ If the type of collected object has a graphical editor, `COLLECTION` will provid
 
 When available for the type of object, the "Show all" option enables simultaneous display of all the objects in the collection, while still editing the "Current" object at the front.     
    
-<img src="store-collect_img/collection-editor-showall-1.png"> <img src="store-collect_img/collection-editor-showall-2.png">
+<img src="store-collect_img/collection-editor-showall-bpf.png"> <img src="store-collect_img/collection-editor-showall-sound.png">
 
 > **Compatibility note:** `COLLECTION` corresponds to all the objects of type `_xxx_-LIB` from OpenMusic (e.g. `BPF-Lib`, `BPC-Lib`, etc.). In general the conversion is done automatically when importing OpenMusic patches to OM#.
 

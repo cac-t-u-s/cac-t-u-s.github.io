@@ -47,3 +47,10 @@ Marker labels can be edited from the sound editor:
 
 > **Note/Reminder:** Markers (and labels) can also be set and accessed through [the `:markers` slot of the `SOUND` box](sound#other-attributes).
 
+
+
+## Collections
+
+The `SOUND` editor supports integration in the [`COLLECTION`](store-collect#collection) editor, where several `SOUND` objects can be visualized and played. 
+
+<img src="store-collect_img/collection-editor-showall-sound.png">

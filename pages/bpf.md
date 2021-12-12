@@ -183,3 +183,8 @@ When activated, the it generates intermediate points separated by this ti,e inte
 <img src="bpf_img/bpf-editor-interpole.png">
 
 
+## Collections
+
+The `BPF` editor supports integration in the [`COLLECTION`](store-collect#collection) editor, where several `BPF` objects can be jointly visualized and edited.
+
+<img src="store-collect_img/collection-editor-showall-bpf.png">
