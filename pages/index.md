@@ -72,10 +72,11 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Meta-visual programming](meta)
 
 
-## Player and Time Structures
+## Player and Temporal Structures
 
-- [Time-Sequences and Timeline editors](time-sequence)
-- [Player](player)
+- [Time-sequences and Timeline Editor](time-sequence)
+- [Player and Playable Objects](player)
+- `DATA-STREAM`
 
 ## Sequencer
 
@@ -91,8 +92,7 @@ The geometrical and temporal layout of its contents are programmable and determi
 - [Break-Point Function – `BPF`](bpf)
 - [Break-Point Curve – `BPC`](bpc)
 - Arrays – `2D-ARRAY` / `CLASS-ARRAY`
-- Text Buffer
-- `DATA-STREAM`
+- Text - `TEXTBUFFER`
 
 > &rarr; Explore the "Basic Tools" [package](session#the-packages-library-tab), for instance from the "Function and Classes Reference" (menu "Help"), to discover hundreds of functions dedicated to the processing of lists, and other structured data in this package using arithmetic, combinatorial, and other mathematical or algorithmic methods.
 

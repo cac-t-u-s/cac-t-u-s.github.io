@@ -2,7 +2,7 @@
 layout: docpage
 ---
 
-# Time Sequences
+# Time-sequences
 
 
 Most "playable" objects in OM# implement the notion of "time sequence": they can be considered as a sequence of "timed item" (i.e., anything that has a position in time, and eventually a duration).
@@ -22,7 +22,7 @@ Time sequences can generally be edited thanks to a "timeline editor" included in
 <img src="time-sequence_img/bpc-timeline.png">
 _A BPC editor and its "time-line" view._
 
-## Timeline editor
+# Timeline Editor
 
 The timeline editor is a simple view representing the timed items as circles on a horizontal line representing time.
 
