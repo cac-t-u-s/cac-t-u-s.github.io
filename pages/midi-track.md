@@ -15,6 +15,12 @@ A MIDI file can be loaded by just connecting a **[pathname](file-io)** to `self`
 
 <img src="midi-track_img/midi-track-init.png"> 
 
+> ### Compatibility
+> 
+> `MIDI-TRACK` corresponds, and extends the features of the **MIDIFILE** class in OM. The difference from a MIDIFILE, is that the `MIDI-TRACK` is not attached to a file and actually contains/internally stores the list of MIDI events.
+> 
+> Loading an OM patch containing a **MIDIFILE** will automatically convert it into a `MIDI-TRACK`, however, the `self` input might need to be set to **:choose-file** and/or the file contents reloaded to obtain the exact same configuration.
+
 ## Editor
 
 The editor of `MIDI-TRACK` displays and allows editing of the internal `MIDI-NOTE`s as a "piano-roll" representation. 
@@ -27,13 +33,3 @@ Transpositions, time and duration edits, note addition or removal are allowed an
 The `MIDI-TRACK` editor supports integration in the [`COLLECTION`](store-collect#collection) editor, where several `MIDI-TRACK` objects can be visualized and played.
 
 <img src="store-collect_img/collection-editor-showall-midi-track.png">
-
-
-> ### Compatibility
-> 
-> `MIDI-TRACK` corresponds, and extends the features of the **MIDIFILE** class in OM. The difference from a MIDIFILE, is that the `MIDI-TRACK` is not attached to a file and actually contains/internally stores the list of MIDI events.
-> 
-> Loading an OM patch containing a **MIDIFILE** will automatically convert it into a `MIDI-TRACK`, however, the `self` input might need to be set to **:choose-file** and/or the file contents reloaded to obtain the exact same configuration.
-
-
-
