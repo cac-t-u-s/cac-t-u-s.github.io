@@ -76,7 +76,7 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 
 - [Time-sequences and Timeline Editor](time-sequence)
 - [Player and Playable Objects](player)
-- `DATA-STREAM`
+- [`DATA-STREAM`](data-stream)
 
 ## Sequencer
 
