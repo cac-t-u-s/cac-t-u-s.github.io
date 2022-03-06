@@ -91,7 +91,7 @@ The geometrical and temporal layout of its contents are programmable and determi
 
 - [Break-Point Function – `BPF`](bpf)
 - [Break-Point Curve – `BPC`](bpc)
-- [Arrays – `2D-ARRAY` / `CLASS-ARRAY`](arrays)
+- Arrays: [`2D-ARRAY`](2d-array) – [`CLASS-ARRAY`](class-array)
 - [Text - `TEXTBUFFER`](textbuffer)
 
 > &rarr; Explore the "Basic Tools" [package](session#the-packages-library-tab), for instance from the "Function and Classes Reference" (menu "Help"), to discover hundreds of functions dedicated to the processing of lists, and other structured data in this package using arithmetic, combinatorial, and other mathematical or algorithmic methods.
@@ -163,5 +163,3 @@ See also the [odot external for OM#](https://github.com/cac-t-u-s/o.OM).
 
 - [How to write classes and functions](write-code)
 - [How to create/adapt an external library](write-library)
-
-
