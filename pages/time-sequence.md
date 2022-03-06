@@ -37,6 +37,8 @@ Timed items can be translated in time using mouse drag operations, or using the 
 
 _The order of the timed items can not be changed_, and translation will always be blocked at the immediate proximity of surrounding timed items.
 
+&rarr; When one item is selected, use the <kbd>shift</kbd> + <kbd>T</kbd> key to set its time precisely from a popup dialog.
+
 The timeline editor also allows adding timed-items (whatever they are!) using <kbd>Ctrl/⌘</kbd> + click, or removing them using the <kbd>backspace</kbd> key.
 
 ## Timing
@@ -54,6 +56,8 @@ Un-timed items are represented by an empty circle. They get a time as soon as th
 
 <img src="time-sequence_img/timeline-untimed-items.png">
 
+&rarr; Use the <kbd>T</kbd> key to set/unset the time for the selected points of the timeline editor.
+
 
 ### "Master" timed items
 
@@ -61,9 +65,8 @@ Some items in a time sequence can be set to a status of "master" items, and disp
 
 <img src="time-sequence_img/timeline-master-points.png">
 
-Use the <kbd>M</kbd> key ti set/unset this status.
+&rarr; Use the <kbd>M</kbd> key to set/unset this status for the selected points of the timeline editor.
 
 Moving a _master_ point (using mouse drag operations, or using the <kbd>&larr;</kbd> / <kbd>&rarr;</kbd> keys) stretches/compresses all the timed items situated between this point and its neighbouring master points.
 
 > **Note:** The first and last items of a sequence are always considered as "master" points.
-
