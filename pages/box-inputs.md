@@ -51,3 +51,9 @@ Once the name of the keyword input is selected, it's value can be set either by 
 
 
 > **Note:** Alternative shortcuts for adding/removing keyword inputs are <kbd>K</kbd> and <kbd>shift</kbd> + <kbd>K</kbd>.
+
+### Input menus
+
+Some (non-keyword) box inputs also provide a menu allowing to choose between different options. Just click on the input to pop the menu up, and select one item.
+
+<img src="box-inputs_img/input-menu.png"> 
