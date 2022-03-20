@@ -114,14 +114,17 @@ OM# provides an extensive set of tools for the manipulation of musical structure
 
 ## MIDI
 
-[MIDI (Musical Instrument Digital Interface)](https://www.midi.org/) is a standard protocol and file format designed for musical software and device to communicate and exchange control data for synthesizers. It includes the high level notions of notes, continuous controllers (volume, pitch bend, panning, etc.)
-The MIDI protocol is used in OM# to "play" musical structures: a synthesizer must be connected to receive and render the data into sound.
-OM# also provides a set of tools and function to import, process or generate MIDI-encoded data.
+[MIDI (Musical Instrument Digital Interface)](https://www.midi.org/) is a standard protocol and file format designed for musical software and device to communicate and exchange control data.
+The MIDI protocol is used in OM# to "play" musical structures: a synthesizer must be connected to receive and render scores and other musical data.
+OM# also provides a set of tools and function to import, process or generate MIDI data.
 
 - [MIDI Settings](midi-settings)
+- [Important MIDI Concepts](midi-basics)
+- [Sending MIDI](midi-out)
+- [MIDI Events](midi-events)
 - [`MIDI-TRACK`](midi-track)
-- MIDI tools
-
+- [Continuous Controllers](midi-cc)
+- [Saving as MIDI](midi-save)
 
 ## Audio
 
