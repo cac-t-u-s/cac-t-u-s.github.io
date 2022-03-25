@@ -71,9 +71,8 @@ Data transferred through reactive program updates can be filtered and route by t
 
 <img src="reactive_img/reactive-example-osc.png" align="right">
 
-Data received from external applications through UDP/OSC or MIDI update and trigger computing in OM# visual programs.
+Data received from external applications through UDP/OSC or [MIDI](midi-in) can update and trigger computing in OM# visual programs.
 
 The box `osc-receive` starts an UDP server thread when activated with <kbd>R</kbd>. This also turns it reactive, so that any incoming OSC message can be sent through a chain of reactive updates. Similar to `route`, the `osc-route` box can be used to parse OSC addresses and orient the received data in visual programs (see the [OSC](osc) section of this manual for more on OSC message processing). 
 
 > **Note:** `osc-receive` needs to be turned off and on again if an error occurs during the propagation of an incoming event.
-

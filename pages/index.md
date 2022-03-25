@@ -125,6 +125,7 @@ OM# also provides a set of tools and function to import, process or generate MID
 - [`MIDI-TRACK`](midi-track)
 - [Continuous Controllers](midi-cc)
 - [MIDI Mix Console](midi-mix-console)
+- [Receiving and Recording MIDI](midi-in)
 - [Saving as MIDI](midi-save)
 
 ## Audio
