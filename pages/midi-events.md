@@ -8,7 +8,7 @@ It is possible to ignore most of the underlying [MIDI infrastructure and concept
 
 ## The class `MIDIEVENT`
 
-The class `MIDIEVENT` represents a simple MIDI message. It can be parameterized and sent out to a MIDI port, or processed and grouped along with other events to consitute musical sequences, typically in a [`DATA-STREAM`](data-stream), a [`MIDI-TRACK`](midi-track) container, or in a [Sequencer](sequencer).
+The class `MIDIEVENT` represents a simple MIDI message. It can be parameterized and sent out to a MIDI port, or processed and grouped along with other events to consitute musical sequences, typically in a [`DATA-TRACK`](data-track), a [`MIDI-TRACK`](midi-track) container, or in a [Sequencer](sequencer).
 
 <img src="midi-events_img/midi-event.png" align="right">
 

@@ -11,7 +11,7 @@ All playable objects can be rendered from the containing object box using the <k
 Playing has a different effect depending on the objects:
 
 - [`SOUND`](sound), [`MIDI-TRACK`](midi-track), and all score objects have specific audio / MIDI rendering.
-- [`DATA-STREAM`](data-stream) has specific actions depending on the contained data: `MIDI-EVENT` also plays as MIDI, `OSC-BUNDLE` sends OSC data...
+- [`DATA-TRACK`](data-track) has specific actions depending on the contained data: `MIDI-EVENT` also plays as MIDI, `OSC-BUNDLE` sends OSC data...
 - Other playable objects (like [`BPF`](bpf), [`BPC`](bpc), [`3DC`](3DC)...) have [customizable actions](bpf#actions).
 
 > The [Sequencer](sequencer) allows arranging and playing all types of objects together.
