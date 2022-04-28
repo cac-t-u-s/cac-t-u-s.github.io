@@ -152,8 +152,9 @@ The tools in the 3D package extend the basic tools with data structures, editors
 
 [OSC (OpenSoundControl)](http://opensoundcontrol.org/) is a common data transport specification (or encoding) for realtime message communication among audio, music, or multimedia applications and hardware.
 
-- Sending / Receiving OSC
-- OSC data structures
+- [OSC Messages and Bundles](osc)
+- [Sending OSC](osc-send) 
+- [Receiving OSC](osc-receive)
 
 See also the [odot external for OM#](https://github.com/cac-t-u-s/o.OM).
 

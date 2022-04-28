@@ -43,8 +43,8 @@ The environment is based on [Common Lisp](http://www.gigamonkeys.com/book/introd
 - Versatile [containers](pages/store-collect) handling the storage, visualization and editing of collection of objects.
 - A [time-based model](pages/time-sequence) for "executable" objects, including dynamic function execution and data send/transfer possibility.
 - Dynamic-memory allocated [audio buffers](pages/sound).
-- Tools and editors for the representation and manipulation of musical objects (score, sounds, [MIDI tracks](pages/midi-track), temporal data streams...)
-- A framework for handling **OSC** data and bundles
+- Tools and editors for the representation and manipulation of musical objects (score, [sounds](pages/sound), [MIDI tracks](pages/midi-track), ...)
+- A framework for handling [OSC structures and communication](pages/osc)
 - ...
 
 &rarr; See also this <a href="https://hal.archives-ouvertes.fr/hal-01567619" target="_blank">ICMC paper</a> (2017) for a quick overview.
@@ -237,4 +237,3 @@ Design and development: J. Bresson, with contributions by D. Bouche, J. Garcia, 
 This project uses code and features from the [OpenMusic](https://github.com/openmusic-project/openmusic/) project by IRCAM - STMS lab.
 
 Contact: [https://j-bresson.github.io](https://j-bresson.github.io)
-
