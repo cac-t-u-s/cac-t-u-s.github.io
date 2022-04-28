@@ -69,6 +69,10 @@ A patch can also include inputs and outputs (to receive arguments or return valu
 - [Reading/Writing Files](file-io)
 - [Meta-visual programming](meta)
 
+## Lisp Programming
+
+- [How to write classes and functions](write-code)
+- [How to create/adapt an external library](write-library)
 
 ## Player and Temporal Structures
 
@@ -162,7 +166,3 @@ See also the [odot external for OM#](https://github.com/cac-t-u-s/o.OM).
 - The `SDIFFILE` box
 - SDIF tools
 
-## Programming
-
-- [How to write classes and functions](write-code)
-- [How to create/adapt an external library](write-library)
