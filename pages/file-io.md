@@ -65,4 +65,4 @@ The stream should finally be closed using `close-file-stream`, so the file is fr
 <img src="file-io_img/file-stream.png">
 
 
-> **Note:** A similar set of functions is available for manipulating (reading/writing) SDIF data using `open-sdif-stream`/ `close-sdif-stream`. See more in the [SDIF](sdif) section.
+> **Note:** A similar set of functions is available for manipulating (reading/writing) SDIF data using `open-sdif-stream`/ `close-sdif-stream`. See more [in the SDIF section](sdif-write#incrementally-using-a-file-stream).

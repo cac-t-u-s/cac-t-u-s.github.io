@@ -161,8 +161,12 @@ See also the [odot external for OM#](https://github.com/cac-t-u-s/o.OM).
 
 ## SDIF
 
-[SDIF (Sound Description Interchange Format)](http://sdif.sourceforge.net/) is a standard for the representation, storage and interchange of a variety of sound descriptions including time-domain, spectral, or sinusoidal models. SDIF consists of a basic data format framework and an extensible set of standard sound descriptions.
+[SDIF (Sound Description Interchange Format)](http://sdif.sourceforge.net/) is a standard for the representation, storage and interchange of a variety of sound descriptions including time-domain, spectral, or sinusoidal models. It is used to store, import and export results of sound analyses or sound synthesis parameters.    
+The tools in the SDIF package will help you to extract and convert the SDIF data in OM# visual programs, and help you to create your own SDIF files starting from data generated in OM#.
 
-- The `SDIFFILE` box
-- SDIF tools
-
+- [Introduction to SDIF](sdif-intro)
+- [The `SDIFFILE` object](sdiffile)
+- [SDIF structures](sdif-classes)
+- [Reading SDIF meta-data](sdif-read-metadata)
+- [Reading SDIF data](sdif-read)
+- [Writing SDIF files](sdif-write)
