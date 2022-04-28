@@ -62,7 +62,7 @@ Targeted `receive` boxes notify and update downstream reactive boxes.
 
 Data transferred through reactive program updates can be filtered and routed by the `route` box.
 
-`route` has unlimited [optional inputs](box-inputs#optional) which can be connected to different _tests_ (a function or patch box in [lambda mode](lambda), or just a function name to apply, ). Received data will only be propagated if they comply with the test.
+`route` has unlimited [optional inputs](box-inputs#optional) which also create a corresponding new ouputs on the box, and can be connected to different _tests_ (a test is a function or patch box in [lambda mode](lambda), or just a function name to apply). The data received on the first input will be propagated through the corresponding output if they comply with the test.
 
 <img src="reactive_img/reactive-example-send-2.png">  <img src="reactive_img/reactive-example-route.png"> 
 
@@ -71,8 +71,8 @@ Data transferred through reactive program updates can be filtered and routed by 
 
 <img src="reactive_img/reactive-example-osc.png" align="right">
 
-Data received from external applications through UDP/OSC or [MIDI](midi-in) can update and trigger computing in OM# visual programs.
+Data received from external applications through UDP/OSC or MIDI can update and trigger computing in OM# visual programs.
 
-The box `osc-receive` starts an UDP server thread when activated with <kbd>R</kbd>. This also turns it reactive, so that any incoming OSC message can be sent through a chain of reactive updates. Similar to `route`, the `osc-route` box can be used to parse OSC addresses and orient the received data in visual programs (see the [OSC](osc) section of this manual for more on OSC message processing). 
+The `osc-receive` or `midi-in` boxe start a receiving server thread when activated with <kbd>R</kbd> (or with context menu, "Start receive"). This also turns these boxes reactive, so that incoming messages can be sent through a chain of reactive updates, and processed in visual programs. 
 
-> **Note:** `osc-receive` needs to be turned off and on again if an error occurs during the propagation of an incoming event.
+> See [Receiving MIDI](midi-in) / [Receiving OSC](osc-receive).
