@@ -56,7 +56,7 @@ Click on an item to display its documentation on the right.
 This tab lists all external libraries that are detected by the environment. 
 Notice the different icons for libraries that are loaded (brown, with a green label), and not loaded (grey/disabled). 
 
-=> Double click on a library to load it, and brows its contents just like in the previous tab.
+&rarr; Double click on a library to load it, and brows its contents just like in the previous tab.
 
 <img src="session_img/session-libs.png">
 

@@ -6,6 +6,7 @@ layout: docpage
 
 The main documents handled in OM# are **[patches](patch)** (visual programs). Other documents include [sequencers](sequencer), and [Lisp-functions](lisp).
 
+OM# does not require setting up and maintaining a **workspace**. 
 Documents are essentially managed as in standard desktop applications, as files that you can freely store and organise on the computer hard drive(s).
 An internal document manager handles a list of open documents and their mutual dependencies.
 
@@ -17,7 +18,7 @@ Documents displayed in red have no pathname (either don't have one, or point to 
 
 <img src="doc-management_img/session-documents.png">
 
-=> **Double-clicking on an item opens the document, or brings its window to the front.**
+&rarr; **Double-clicking on an item opens the document, or brings its window to the front.**
 
 > Note that only _open_ documents are listed. When a document window is closed (and if it is not used inside another document) it is removed from the list. 
 Closed documents may remain in the list if they are still used somewhere, inside other documents (see [Abstraction](abstraction)). 
@@ -68,5 +69,3 @@ It is therefore possible to edit a document by hand (or even, to generate it by 
 > See and edit the text-version of an OM# patch using the "File / Open as Text..." menu.
 
 <img src="doc-management_img/patch-as-text.png">
-
-

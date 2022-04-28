@@ -6,14 +6,17 @@ layout: docpage
 
 ## Getting MIDI events in visual programs
 
-`midi-in` is a specal "receive box": when set [reactive](reactive) (with <kbd>R</kbd> or using the right/<kbd>Ctrl</kbd>-click context menu) it starts running a receiving process on a MIDI port set or connected to it's first input, and delivers received messages as [`MIDIEVENT`](midi-events) objects on its output. 
+`midi-in` is a special "receiver box": when set [reactive](reactive) (with <kbd>R</kbd> or using the right/<kbd>Ctrl</kbd>-click context menu) it starts running a receiving process on a MIDI port set or connected to it's first input, and delivers received messages as [`MIDIEVENT`](midi-events) objects on its output. 
 &rarr; The box frame gets colored while the receiving process is running.
 
 If connected to other boxes, the received `MIDIEVENTs` can therefore be dynamically transferred down a [reactive OM# program](reactive).
 
 <img src="midi-in_img/midi-in-menu.png">   <img src="midi-in_img/midi-in.png">
 
-&rarr; Use the same <kbd>R</kbd> short cut or context ,menu to stop the receive process.
+&rarr; Use the same <kbd>R</kbd> shortcut or context menu to stop the receive process.
+
+> **Note:** `midi-in` needs to be turned off and on again if an error occurs during the propagation of an incoming event, in order to reset the receiving process.
+
 
 #### Pre-processing incoming events
 
@@ -37,17 +40,13 @@ A [reactive connection](reactive) can be set to the `midi-in` output to process 
 <img src="midi-in_img/midi-in-to-note.png">
 
 
-#### Collecting events
+#### Collecting
 
 The events pushed through reactive processes by `midi-in` can be collected using the [`collect`](memory#collect)/[`tcollect`](memory#tcollect) utilities.
 
 > &rarr; See [Memory](memory).
 
 <img src="midi-in_img/midi-in-tcollect.png">
-
-
-
-> **Note:** `midi-in` needs to be turned off and on again if an error occurs during the propagation of an incoming event, in order to reset the receiving process.
 
 
 --------

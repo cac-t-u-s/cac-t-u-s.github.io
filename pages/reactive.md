@@ -60,7 +60,7 @@ Targeted `receive` boxes notify and update downstream reactive boxes.
 
 #### Routing data
 
-Data transferred through reactive program updates can be filtered and route by the `route` box.
+Data transferred through reactive program updates can be filtered and routed by the `route` box.
 
 `route` has unlimited [optional inputs](box-inputs#optional) which can be connected to different _tests_ (a function or patch box in [lambda mode](lambda), or just a function name to apply, ). Received data will only be propagated if they comply with the test.
 

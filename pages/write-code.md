@@ -4,7 +4,7 @@ layout: docpage
 
 # Writing classes and functions
 
-Any Lisp function or class can be used in OM# graphical programs. However, a specific syntax allows specifing some specific behaviours.
+Any Lisp function or class can be used in OM# graphical programs. However, some specific syntax enables additional features.
 
 > OM# inherits from [OpenMusic](https://openmusic-project.github.io/openmusic/dev/codeforom) the syntax of function and class definitions that follow, so that any code written for OpenMusic can also be loaded and used in OM#.
 
@@ -64,5 +64,3 @@ The `defmethod!`-specific attributes in these definitions are:
    ...
  )
 ```
-
-

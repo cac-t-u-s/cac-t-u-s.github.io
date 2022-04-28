@@ -45,5 +45,3 @@ Use <kbd>Esc</kbd> to collapse the time-interval selection.
 > The _loop_ toggle sets the player on loop mode, and repeats playback over the time interval selection (if any) or over the total duration of the played object.
 >
 > <img src="player_img/play-loop.png"> 
-
-

@@ -8,9 +8,7 @@ layout: docpage
 
 ## Environment
 
-OM# does not require setting up and maintaining a **workspace**. All documents can be just be opened, copied and shared independently.
-
-The state and settings of the working environment are controlled from the "Session" and "Preferences" windows.
+The main state and settings of the working environment in OM# are controlled from the "Session" and "Preferences" windows.
 
 - [Session window](session)
 - [Preferences](preferences)
@@ -95,7 +93,6 @@ The geometrical and temporal layout of its contents are programmable and determi
 - [Text - `TEXTBUFFER`](textbuffer)
 
 > &rarr; Explore the "Basic Tools" [package](session#the-packages-library-tab), for instance from the "Function and Classes Reference" (menu "Help"), to discover hundreds of functions dedicated to the processing of lists, and other structured data in this package using arithmetic, combinatorial, and other mathematical or algorithmic methods.
-
 
 ## Score
 
