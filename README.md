@@ -29,7 +29,7 @@ The environment is based on [Common Lisp](http://www.gigamonkeys.com/book/introd
 <img src="./images/spat-offline.png" height="180px">
 
 
-**OM#** includes a new generation of tools and features in your computer-assisted composition environment:
+**OM#** brings a bunch of new of tools and features in your computer-assisted composition environment:
 
 - [Patching interfaces and environment](pages/patch) with easier box inspection / display control / automatic alignment / connections / etc.
 - [No workspace](pages/doc-management) to set-up: open your documents and simply organize them in your usual file-system.
@@ -54,8 +54,7 @@ The environment is based on [Common Lisp](http://www.gigamonkeys.com/book/introd
 
 ### Help | Bug reports | Community
 
-**See the [`om-sharp-users`](https://github.com/cac-t-u-s/om-sharp-users) repository.**     
-&rarr; Use the [Issue Tracker](https://github.com/cac-t-u-s/om-sharp-users/issues) to report problems, suggest features or enhancements, or just discuss about the project !
+&rarr; Use [Discussions](https://github.com/cac-t-u-s/om-sharp/discussions) to report problems, suggest features or enhancements, or just discuss about the project!
 
 
 ------
